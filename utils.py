@@ -9,8 +9,8 @@ API_TOKEN = ""
 
 def setup():
     global API_TOKEN  # Dichiara che stai modificando la variabile globale
-    TOKEN = os.getenv('API_KEY')
-    print("token: " + TOKEN)
+    API_KEY = os.getenv('API_KEY')
+
     # Define the URL and headers
     url = 'https://iam.cloud.ibm.com/identity/token'
     headers = {'Content-Type': 'application/x-www-form-urlencoded'}
@@ -18,7 +18,7 @@ def setup():
     # Define the data payload
     data = {
         'grant_type': 'urn:ibm:params:oauth:grant-type:apikey',
-        'apikey': TOKEN
+        'apikey': API_KEY
     }
 
     # Send the POST request

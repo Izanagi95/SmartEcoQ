@@ -204,6 +204,11 @@ def main():
                 items = identified_items
                 context = json.dumps(recycling_data)
                 recycling_advice = get_recycling_advice(context, items)
+
+                # generate a lore for the object
+
+                # animate the object
+
                 
                 st.write("### Recycling Instructions:")
                 items = recycling_advice.split('\n\n')
