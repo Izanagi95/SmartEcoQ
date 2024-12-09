@@ -1,0 +1,6 @@
+[out:json];
+area["name"="Lucca"]->.searchArea;
+(
+  node["amenity"="public_bath"](around:2000,43.843,10.508);           // Bagni pubblici
+);
+out body;

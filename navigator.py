@@ -2,18 +2,28 @@ import streamlit as st
 import os
 import json
 import pandas as pd
-import networkx as nx
 from geopy.distance import geodesic
 import folium
 from folium.plugins import Draw
-from streamlit_folium import st_folium  # Aggiungi questa importazione
-import utils
+from streamlit_folium import st_folium
 
 def main():
     st.title("🌍 Navigator")
 
-    # Carica il file GeoJSON
-    geojson_file_path = os.path.join('data', 'Milano_Trash_and_Recycling_Collection_Points.geojson')
+    # Sidebar per la selezione del dataset
+    st.sidebar.title("Filtri")
+    dataset_options = {
+        "Ecopunti": "ecopunti_lucca.geojson",
+        "Ristoranti": "ristoranti_lucca.geojson",
+        "Servizi Pubblici": "servizi_pubblici_lucca.geojson"
+    }
+    selected_dataset = st.sidebar.selectbox(
+        "Seleziona le categorie",
+        options=list(dataset_options.keys())
+    )
+
+    # Carica il file GeoJSON selezionato
+    geojson_file_path = os.path.join('data', dataset_options[selected_dataset])
     with open(geojson_file_path, 'r') as f:
         geojson_data = json.load(f)
 
@@ -25,55 +35,80 @@ def main():
         data.append({
             "latitude": coordinates[1],  # Latitudine
             "longitude": coordinates[0],  # Longitudine
-            "properties": properties  # Aggiungi le proprietà
+            "properties": properties
         })
 
     # Converti i dati in un DataFrame
     df = pd.DataFrame(data)
 
-    # Impostiamo start a una posizione specifica (45.463647, 9.1882373)
-    start = (45.463647, 9.1882373)
+    amenities = df["properties"].apply(lambda x: x.get("amenity", "Sconosciuto")).unique()
+    selected_amenities = st.sidebar.multiselect(
+        "Seleziona le tipologie",
+        options=amenities,
+        default=amenities
+    )
+
+    # Filtra i dati in base alla selezione
+    filtered_df = df[df["properties"].apply(lambda x: x.get("amenity", "Sconosciuto") in selected_amenities)]
+
+    # Impostiamo start a una posizione specifica
+    start = (43.843, 10.508)
 
     # Crea la mappa con Folium
     map_center = [df["latitude"].mean(), df["longitude"].mean()]
-    m = folium.Map(location=map_center, zoom_start=12, control_scale=True)
+    m = folium.Map(location=map_center, zoom_start=15, control_scale=True)
 
-    # Aggiungi marker per i primi 20 punti e imposta l'evento di click per selezionare end
-    for _, point in df.head(20).iterrows():
-        try:
-            marker = folium.Marker(
-                location=[point["latitude"], point["longitude"]],
-                popup=point["properties"].get("amenity", "Info point"),
-                icon=folium.Icon(color='blue')
-            )
-            # Aggiungi evento di click per impostare il punto di destinazione
-            marker.add_to(m)
-            marker.add_child(folium.Popup(f"Seleziona come destinazione"))
-        except Exception as e:
-            st.error(f"Errore durante l'aggiunta del marker: {e}")
+    # Aggiungi un marker per lo starting point
+    folium.Marker(
+        location=start,
+        popup="Tu sei qui",
+        icon=folium.Icon(color="red", icon="info-sign")
+    ).add_to(m)
+
+    # Aggiungi marker per i punti filtrati
+    for _, point in filtered_df.iterrows():
+        folium.Marker(
+            location=[point["latitude"], point["longitude"]],
+            popup=point["properties"].get("amenity", "Info point"),
+            icon=folium.Icon(color='blue')
+        ).add_to(m)
+
+    # Aggiungi il plugin Draw per selezionare un punto
+    draw = Draw(export=True)
+    draw.add_to(m)
 
     # Mostra la mappa in Streamlit
-    map_html = st_folium(m, width=700)  # Impostiamo una larghezza per la mappa
+    map_html = st_folium(m, width=700)
 
-    # Bottone per calcolare il percorso
-    if st.button("Calcola percorso"):
-        end = get_end_point(map_html)
-        if end:
-            route = calculate_route(start, end)
-            st.write(f"Percorso calcolato: {route} km")
-        else:
-            st.write("Per favore, seleziona un punto di destinazione cliccando su un marker.")
+    # Cattura le informazioni sul disegno
+    if map_html.get("last_object"):
+        last_object = map_html.get("last_object")
+        if 'geometry' in last_object and last_object['geometry']['type'] == 'Point':
+            # Recupera le coordinate del punto disegnato
+            end = tuple(last_object['geometry']['coordinates'])
+            st.write(f"Punto selezionato: {end}")
 
-def get_end_point(map_html):
-    # Questo è il punto in cui dovresti ottenere la posizione del marker selezionato dal click sulla mappa
-    # Streamlit Folium non supporta direttamente il click sui marker, ma puoi prendere la latitudine e longitudine
-    # da una variabile esterna o un altro meccanismo che salvi il click.
-    
-    # For now, just use a placeholder or logic to get the `end` point manually or as an input.
-    # Simulate end point selection, e.g., (for testing purposes)
-    end = (45.4501284, 9.237563)  # Just an example, replace with actual click handler logic
-    return end
+            # Aggiungi un marker per il punto selezionato
+            folium.Marker(
+                location=end,
+                popup="Destinazione",
+                icon=folium.Icon(color="green", icon="info-sign")
+            ).add_to(m)
+
+            # Ricalcola la mappa con il nuovo marker
+            map_html = st_folium(m, width=700)
+
+            # Calcolo della distanza
+            if st.button("Calcola percorso"):
+                route = calculate_route(start, end)
+                st.write(f"Percorso calcolato: {route} km")
+
+    else:
+        st.write("Per favore, seleziona un punto di destinazione cliccando sulla mappa.")
 
 def calculate_route(start, end):
     # Calcola la distanza tra i punti utilizzando geodesic
     return geodesic(start, end).km
+
+if __name__ == "__main__":
+    main()

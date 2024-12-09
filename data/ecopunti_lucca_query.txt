@@ -1,0 +1,14 @@
+[out:json];
+area["name"="Lucca"]->.searchArea;
+(
+  node["amenity"="waste_disposal"](around:2000,43.843,10.508);      
+  node["amenity"="waste_basket"](around:2000,43.843,10.508);        
+  node["amenity"="recycling"](around:2000,43.843,10.508);           
+  node["container"="refuse"](around:2000,43.843,10.508);             
+  node["container"="recycling"](around:2000,43.843,10.508);            
+  node["amenity"="waste_transfer_station"](around:2000,43.843,10.508);      
+);
+out body;
+
+
+Fonte: https://overpass-turbo.eu/

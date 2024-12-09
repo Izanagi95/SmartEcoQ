@@ -1,0 +1,14 @@
+[out:json];
+area["name"="Lucca"]->.searchArea;
+(
+  node["amenity"="restaurant"](around:1500,43.843,10.508);       // Ristoranti
+  node["amenity"="fast_food"](around:1500,43.843,10.508);        // Fast food
+  node["amenity"="cafe"](around:1500,43.843,10.508);             // Caffetterie
+  node["amenity"="bar"](around:1500,43.843,10.508);              // Bar
+  node["amenity"="pub"](around:1500,43.843,10.508);              // Pub
+  node["amenity"="ice_cream"](around:1500,43.843,10.508);        // Gelaterie
+  node["amenity"="food_court"](around:1500,43.843,10.508);       // Aree ristoro
+);
+out body;
+
+Fonte: https://overpass-turbo.eu/

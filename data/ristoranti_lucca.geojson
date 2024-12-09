@@ -1,0 +1,5240 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-12-09T22:58:40Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1431031261",
+        "amenity": "restaurant",
+        "name": "Pizzeria da Ninni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5035293,
+          43.8360719
+        ]
+      },
+      "id": "node/1431031261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1431060801",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Le Mura"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5174647,
+          43.8442066
+        ]
+      },
+      "id": "node/1431060801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1431076757",
+        "amenity": "restaurant",
+        "name": "Pizzeria Anema"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5191291,
+          43.8452106
+        ]
+      },
+      "id": "node/1431076757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1463767489",
+        "amenity": "cafe",
+        "name": "Caffé T"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5040669,
+          43.8383343
+        ]
+      },
+      "id": "node/1463767489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1463854159",
+        "addr:city": "Lucca",
+        "addr:housenumber": "12",
+        "addr:street": "Via Buia",
+        "amenity": "fast_food",
+        "check_date": "2024-10-18",
+        "cuisine": "pizza",
+        "name": "Pizza da Felice",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5034661,
+          43.8438595
+        ]
+      },
+      "id": "node/1463854159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1896816059",
+        "addr:city": "Lucca",
+        "addr:street": "Via Vittorio Emanuele secondo",
+        "amenity": "cafe",
+        "changing_table": "no",
+        "level": "0",
+        "name": "Bar Teani SNC",
+        "outdoor_seating": "no",
+        "phone": "+39 0583 587931",
+        "smoking": "no",
+        "source": "GPS",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5002239,
+          43.8420664
+        ]
+      },
+      "id": "node/1896816059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1935617385",
+        "addr:city": "Lucca",
+        "addr:housenumber": "8",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza San Michele",
+        "amenity": "cafe",
+        "check_date": "2024-10-27",
+        "name": "Caffetteria Turandot",
+        "phone": "+39 0583 469139",
+        "wheelchair": "yes",
+        "wheelchair:description": "Not sure if accessible toilet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5023331,
+          43.8434389
+        ]
+      },
+      "id": "node/1935617385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1948679522",
+        "addr:city": "Lucca",
+        "addr:housenumber": "74",
+        "addr:postcode": "55100",
+        "addr:street": "Via Vittorio Veneto",
+        "amenity": "cafe",
+        "cuisine": "ice_cream",
+        "name": "Gelateria Veneta",
+        "operator": "Gelateria Veneta SRL",
+        "phone": "+39 0583 467037",
+        "website": "https://www.gelateriaveneta.net/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5016938,
+          43.8396284
+        ]
+      },
+      "id": "node/1948679522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1948949391",
+        "addr:city": "Lucca",
+        "addr:country": "IT",
+        "addr:housenumber": "9",
+        "addr:postcode": "55100",
+        "addr:street": "Via Anfiteatro",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "email": "info@osteriabaralla.it",
+        "internet_access": "wlan",
+        "name": "Osteria Baralla",
+        "phone": "+39 0583 440240",
+        "smoking": "no",
+        "start_date": "1860",
+        "website": "https://www.osteriabaralla.it/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5062414,
+          43.8457616
+        ]
+      },
+      "id": "node/1948949391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1984554026",
+        "addr:city": "Lucca",
+        "addr:housenumber": "3",
+        "addr:postcode": "55100",
+        "addr:street": "Via della Cervia",
+        "amenity": "restaurant",
+        "name": "Buca di Sant'Antonio",
+        "phone": "+39 0583 55881",
+        "website": "http://www.bucadisantantonio.it",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5015972,
+          43.8426777
+        ]
+      },
+      "id": "node/1984554026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1987005332",
+        "addr:city": "Lucca",
+        "addr:country": "IT",
+        "addr:housenumber": "38",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Anfiteatro",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "indoor_seating": "yes",
+        "name": "Osteria del Tortellino",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5064365,
+          43.8451193
+        ]
+      },
+      "id": "node/1987005332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1987005335",
+        "amenity": "cafe",
+        "cuisine": "ice_cream"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5056736,
+          43.8452712
+        ]
+      },
+      "id": "node/1987005335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2173402819",
+        "amenity": "bar",
+        "name": "La Mimosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5092678,
+          43.8542606
+        ]
+      },
+      "id": "node/2173402819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2241788287",
+        "addr:housenumber": "259",
+        "addr:postcode": "55100",
+        "addr:street": "Viale Regina Margherita",
+        "amenity": "restaurant",
+        "name": "Pizzeria La Tana dell'Orco",
+        "phone": "+39 389 0233234"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5039329,
+          43.8383383
+        ]
+      },
+      "id": "node/2241788287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2420779484",
+        "amenity": "bar",
+        "check_date": "2024-10-31",
+        "name": "Bar Cupido",
+        "opening_hours": "Mo-Sa 06:30-01:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5076376,
+          43.8381294
+        ]
+      },
+      "id": "node/2420779484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2420779485",
+        "addr:city": "Lucca",
+        "addr:country": "IT",
+        "addr:housenumber": "135",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Curtatone",
+        "amenity": "pub",
+        "check_date": "2024-10-31",
+        "name": "McCulloughs Irish Pub",
+        "wifi": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5074738,
+          43.8381333
+        ]
+      },
+      "id": "node/2420779485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2432453289",
+        "addr:city": "Lucca",
+        "addr:housenumber": "10",
+        "addr:postcode": "55060",
+        "addr:street": "Baluardo San Colombano",
+        "amenity": "cafe",
+        "check_date": "2023-04-13",
+        "name": "Caffetteria San Colombano",
+        "phone": "+39 0583 464641",
+        "toilets:wheelchair": "yes",
+        "website": "http://www.caffetteriasancolombano.it",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5071808,
+          43.8392931
+        ]
+      },
+      "id": "node/2432453289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2666072945",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizzeria KEBAB Cleopatra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5111858,
+          43.8558017
+        ]
+      },
+      "id": "node/2666072945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2810116854",
+        "addr:city": "Lucca",
+        "addr:country": "IT",
+        "addr:housenumber": "20",
+        "addr:postcode": "55100",
+        "addr:street": "Via Michele Rosi",
+        "amenity": "pub",
+        "brewery": "Brutòn;Toccalamatto;Petrognola;Lambrate;Rurale;ELAV;Birrificio del Forte;Birroir;Birrificio Italiano;Extraomnes;Foglie d'erba;Menaresta;Birrificio del Ducato;Brewfist;Birra del Borgo;Baladin",
+        "drink": "italian craft beer",
+        "food": "no",
+        "indoor_seating": "no",
+        "name": "De Cervesia",
+        "opening_hours": "Tu-Su 17:00-22:00 off",
+        "outdoor_seating": "yes",
+        "phone": "+39 0583 492620",
+        "smoking": "outside",
+        "website": "http://www.decervesia.it"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5081794,
+          43.8468933
+        ]
+      },
+      "id": "node/2810116854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2810121348",
+        "addr:city": "Lucca",
+        "addr:housenumber": "92",
+        "addr:postcode": "55100",
+        "addr:street": "Via Fillungo",
+        "amenity": "pub",
+        "brewery": "various",
+        "drive_through": "no",
+        "microbrewery": "no",
+        "name": "De Cervesia",
+        "opening_hours": "Tu-Su 10:30-13:00,15:30-19:30; Mo off",
+        "phone": "+39 0583 493081",
+        "website": "http://www.decervesia.it"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5046129,
+          43.8450465
+        ]
+      },
+      "id": "node/2810121348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2811529455",
+        "addr:city": "Lucca",
+        "addr:housenumber": "7",
+        "addr:postcode": "55100",
+        "addr:street": "Via Michele Rosi",
+        "amenity": "bar",
+        "name": "Ciclo DiVino",
+        "phone": "+39 0583 471869",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5079607,
+          43.8469719
+        ]
+      },
+      "id": "node/2811529455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2833569190",
+        "amenity": "cafe",
+        "name": "Nelli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4943497,
+          43.8353776
+        ]
+      },
+      "id": "node/2833569190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2837898251",
+        "addr:housenumber": "42",
+        "amenity": "restaurant",
+        "email": "info@trattoriagostoemea.it",
+        "name": "Trattoria Gosto e Mea",
+        "opening_hours": "Tu-Sa 11:30-14:30,19:00-24:00; Su 19:00-24:00; Mo closed",
+        "operator": "Gosto e Mea s.r.l.",
+        "phone": "+39 0583 1805200",
+        "restaurant:type:it": "trattoria",
+        "website": "www.trattoriagostoemea.it",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5071245,
+          43.849439
+        ]
+      },
+      "id": "node/2837898251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2839273296",
+        "amenity": "ice_cream",
+        "check_date": "2023-09-20",
+        "name": "Gelateria Veneta",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5059829,
+          43.8458267
+        ]
+      },
+      "id": "node/2839273296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2839273297",
+        "addr:housenumber": "37",
+        "addr:street": "Piazza San Michele",
+        "amenity": "pub",
+        "check_date": "2023-09-18",
+        "indoor_seating": "yes",
+        "name": "La Tana del Boia",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5031856,
+          43.8428649
+        ]
+      },
+      "id": "node/2839273297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2839273299",
+        "addr:city": "Luca",
+        "addr:country": "IT",
+        "addr:housenumber": "16",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Anfiteatro",
+        "amenity": "pub",
+        "name": "Old Charlie",
+        "operator": "Bianchi Eugenio & C. s.a.s.",
+        "phone": "+39 0583 1892544"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5061496,
+          43.8455959
+        ]
+      },
+      "id": "node/2839273299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2839276301",
+        "amenity": "cafe",
+        "check_date": "2023-09-19",
+        "name": "Gabry Caffè",
+        "outdoor_seating": "yes",
+        "tobacco": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5026002,
+          43.8439155
+        ]
+      },
+      "id": "node/2839276301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2969988634",
+        "addr:housenumber": "18",
+        "addr:street": "Via Francesco Carrara",
+        "amenity": "bar",
+        "cuisine": "japanese;sushi;coffee_shop;italian",
+        "name": "Lelemento",
+        "name:de": "Origami",
+        "name:en": "Origami",
+        "name:it": "Origami"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5025195,
+          43.8394595
+        ]
+      },
+      "id": "node/2969988634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2976112985",
+        "amenity": "cafe",
+        "check_date": "2024-10-31",
+        "contact:housenumber": "161",
+        "contact:street": "Piazzale Bettino Ricasoli",
+        "name": "Bar Tabacchi",
+        "operator": "Racaniello e Rocco srl",
+        "ref:vatin": "IT00240370502",
+        "sells:tobacco": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:unisex": "yes",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5058672,
+          43.8373991
+        ]
+      },
+      "id": "node/2976112985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993594810",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Antica locanda dell'angelo",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5032781,
+          43.8423137
+        ]
+      },
+      "id": "node/2993594810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993594813",
+        "addr:city": "Lucca",
+        "addr:country": "IT",
+        "addr:housenumber": "45",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Anfiteatro",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Bollicina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5057691,
+          43.8452108
+        ]
+      },
+      "id": "node/2993594813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993594814",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Buralli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5019079,
+          43.845083
+        ]
+      },
+      "id": "node/2993594814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993594816",
+        "addr:city": "Lucca",
+        "addr:country": "IT",
+        "addr:housenumber": "9",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Anfiteatro",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Da Gherardo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5058318,
+          43.8455711
+        ]
+      },
+      "id": "node/2993594816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993594817",
+        "addr:housenumber": "67",
+        "addr:postcode": "55100",
+        "addr:street": "Via dell'Anfiteatro",
+        "amenity": "restaurant",
+        "check_date": "2023-09-19",
+        "contact:facebook": "https://www.facebook.com/trattoriadaubaldo",
+        "contact:instagram": "trattoriadaubaldo.official",
+        "contact:tripadvisor": "https://www.tripadvisor.it/Restaurant_Review-g187898-d6615503-Reviews-Trattoria_da_Ubaldo-Lucca_Province_of_Lucca_Tuscany.html",
+        "cuisine": "italian",
+        "mobile": "+39 347 500 4848;+39 345 592 5491",
+        "name": "Da Ubaldo",
+        "outdoor_seating": "yes",
+        "phone": "+39 0583 153 2164"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5068045,
+          43.8451377
+        ]
+      },
+      "id": "node/2993594817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993594822",
+        "amenity": "restaurant",
+        "name": "cacio@pepe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5059444,
+          43.8456005
+        ]
+      },
+      "id": "node/2993594822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993594823",
+        "addr:city": "Lucca",
+        "addr:country": "IT",
+        "addr:housenumber": "51",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Anfiteatro",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "L'angolo tondo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.505662,
+          43.8452992
+        ]
+      },
+      "id": "node/2993594823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993594824",
+        "addr:city": "Lucca",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "L'oste di Lucca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5049325,
+          43.8451827
+        ]
+      },
+      "id": "node/2993594824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993594826",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Locanda di Bacco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5030006,
+          43.8448577
+        ]
+      },
+      "id": "node/2993594826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993594830",
+        "amenity": "restaurant",
+        "check_date": "2023-09-19",
+        "name": "Surreale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5069547,
+          43.8455376
+        ]
+      },
+      "id": "node/2993594830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993594831",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Pane e vino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5066333,
+          43.8453
+        ]
+      },
+      "id": "node/2993594831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993594832",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pellegrini"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5032712,
+          43.8432822
+        ]
+      },
+      "id": "node/2993594832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993598933",
+        "amenity": "restaurant",
+        "cuisine": "italian;pizza",
+        "indoor_seating": "yes",
+        "name": "Piccolo Mondo",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5019269,
+          43.8427151
+        ]
+      },
+      "id": "node/2993598933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993598934",
+        "addr:housenumber": "32",
+        "addr:street": "Via San Paolino",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Rusticanella 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5010035,
+          43.8429309
+        ]
+      },
+      "id": "node/2993598934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993598936",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Tre Merli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5064883,
+          43.8457048
+        ]
+      },
+      "id": "node/2993598936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993598940",
+        "amenity": "cafe",
+        "indoor_seating": "yes",
+        "outdoor_seating": "yes",
+        "shop": "tobacco",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5031524,
+          43.8426972
+        ]
+      },
+      "id": "node/2993598940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993598944",
+        "amenity": "pub",
+        "check_date": "2023-09-19",
+        "name": "St. Bartholomeo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5066467,
+          43.8456218
+        ]
+      },
+      "id": "node/2993598944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993598945",
+        "alt_name": "Sunflower Bistrot",
+        "amenity": "cafe",
+        "indoor_seating": "yes",
+        "name": "Sunflower",
+        "outdoor_seating": "no",
+        "tobacco": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5056666,
+          43.8456947
+        ]
+      },
+      "id": "node/2993598945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993609213",
+        "amenity": "cafe",
+        "name": "Astra",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5034554,
+          43.8407804
+        ]
+      },
+      "id": "node/2993609213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993609214",
+        "amenity": "restaurant",
+        "check_date": "2024-08-24",
+        "cuisine": "italian",
+        "name": "Bastian contrario"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.499265,
+          43.8430604
+        ]
+      },
+      "id": "node/2993609214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993609215",
+        "amenity": "cafe",
+        "name": "Caffè del mercato"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5028029,
+          43.8434062
+        ]
+      },
+      "id": "node/2993609215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993609216",
+        "addr:city": "Lucca",
+        "addr:housenumber": "16",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Napoleone",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Fuori di piazza",
+        "opening_hours": "Mo-Sa",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5030161,
+          43.8415483
+        ]
+      },
+      "id": "node/2993609216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993609218",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Il Tabarro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5034186,
+          43.8405888
+        ]
+      },
+      "id": "node/2993609218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993609219",
+        "amenity": "restaurant",
+        "check_date": "2023-09-20",
+        "cuisine": "italian;pizza",
+        "name": "Pizzeria K2",
+        "opening_hours": "Mo-Sa 11:30-15:00, Mo-Su 19:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5054019,
+          43.8452336
+        ]
+      },
+      "id": "node/2993609219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993609221",
+        "amenity": "fast_food",
+        "check_date": "2023-09-20",
+        "cuisine": "pizza",
+        "name": "La brusketta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5061561,
+          43.8451043
+        ]
+      },
+      "id": "node/2993609221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993609222",
+        "amenity": "cafe",
+        "name": "Moka",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5041813,
+          43.8445393
+        ]
+      },
+      "id": "node/2993609222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993609225",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Ristorante del teatro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5029264,
+          43.841235
+        ]
+      },
+      "id": "node/2993609225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993609226",
+        "amenity": "restaurant",
+        "check_date": "2023-09-18",
+        "cuisine": "italian",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Soup in town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5039311,
+          43.8419704
+        ]
+      },
+      "id": "node/2993609226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993609231",
+        "amenity": "fast_food",
+        "cuisine": "kebab",
+        "name": "Bangla Tanduri 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5001508,
+          43.8429776
+        ]
+      },
+      "id": "node/2993609231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993639010",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Giglio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5032726,
+          43.8411035
+        ]
+      },
+      "id": "node/2993639010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993639012",
+        "addr:housenumber": "134",
+        "amenity": "cafe",
+        "indoor_seating": "yes",
+        "name": "L'Emiliana",
+        "operator": "Silvio Rossana",
+        "outdoor_seating": "no",
+        "phone": "+39 0583 496767",
+        "tobacco": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.505876,
+          43.8457614
+        ]
+      },
+      "id": "node/2993639012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993639014",
+        "amenity": "pub",
+        "name": "Lucca drento"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5052493,
+          43.8458608
+        ]
+      },
+      "id": "node/2993639014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993639017",
+        "addr:city": "Lucca",
+        "addr:housenumber": "6",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Cittadella",
+        "amenity": "pub",
+        "name": "Paris Boheme"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5011723,
+          43.8431076
+        ]
+      },
+      "id": "node/2993639017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993639018",
+        "amenity": "bar",
+        "check_date": "2023-04-13",
+        "name": "Pult",
+        "opening_hours": "Tu-Su 08:00-00:00",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5041584,
+          43.8437406
+        ]
+      },
+      "id": "node/2993639018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3002573387",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "bar": "yes",
+        "cuisine": "italian",
+        "level": "0",
+        "name": "RistoCaffè Colombo",
+        "reservation": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5068351,
+          43.8492374
+        ]
+      },
+      "id": "node/3002573387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3002573390",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Peperoncino",
+        "opening_hours": "Tu-Su 18:30-22:00",
+        "takeaway": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5068408,
+          43.8493212
+        ]
+      },
+      "id": "node/3002573390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3004987353",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4993854,
+          43.8451613
+        ]
+      },
+      "id": "node/3004987353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3109248290",
+        "amenity": "restaurant",
+        "check_date": "2024-08-24",
+        "cuisine": "italian",
+        "indoor_seating": "yes",
+        "name": "Lucca in tavola",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.498217,
+          43.843162
+        ]
+      },
+      "id": "node/3109248290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3109248291",
+        "addr:city": "Lucca",
+        "addr:housenumber": "7",
+        "addr:street": "Via Papa Giovanni XXIII",
+        "amenity": "cafe",
+        "check_date": "2023-06-29",
+        "currency:XBT": "yes",
+        "email": "info@pasticceriareginalucca.it",
+        "name": "Pasticceria Regina",
+        "payment:bancomat": "yes",
+        "payment:lightning": "yes",
+        "payment:mastercard": "yes",
+        "payment:onchain": "yes",
+        "payment:visa": "yes",
+        "phone": "+390583954475",
+        "shop": "pastry",
+        "survey:date": "2023-08-16",
+        "website": "https://www.pasticceriareginalucca.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5237788,
+          43.8486025
+        ]
+      },
+      "id": "node/3109248291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3109248293",
+        "addr:city": "Lucca",
+        "addr:housenumber": "1",
+        "addr:postcode": "55100",
+        "addr:street": "Corte San Lorenzo",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/Schiaffino-109845458058377",
+        "name": "Schiaffino",
+        "opening_hours": "We-Mo 19:30-22:30",
+        "phone": "+39 0583 995127"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5014027,
+          43.8433121
+        ]
+      },
+      "id": "node/3109248293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3143430552",
+        "addr:housenumber": "28",
+        "addr:street": "Via Beccheria",
+        "amenity": "bar",
+        "craft": "confectionery",
+        "name": "Pasticceri Pinelli",
+        "phone": "+39 0583 496119",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5029454,
+          43.8420687
+        ]
+      },
+      "id": "node/3143430552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3212517248",
+        "addr:city": "Lucca",
+        "addr:country": "IT",
+        "addr:housenumber": "8",
+        "addr:postcode": "55100",
+        "addr:street": "Via San Giorgio",
+        "amenity": "cafe",
+        "name": "Caffè Ristretto",
+        "opening_hours": "Mo-Sa 09:00-22:00; Su 15:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5040903,
+          43.8447589
+        ]
+      },
+      "id": "node/3212517248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3216100783",
+        "amenity": "cafe",
+        "name": "Celide",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5146935,
+          43.8403331
+        ]
+      },
+      "id": "node/3216100783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3216100789",
+        "amenity": "pub",
+        "name": "Ottavo Nano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5161849,
+          43.8406078
+        ]
+      },
+      "id": "node/3216100789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3232647368",
+        "addr:city": "Lucca",
+        "addr:housenumber": "45",
+        "addr:street": "Via delle Conce",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Trattoria da Giulio",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4977407,
+          43.8454938
+        ]
+      },
+      "id": "node/3232647368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3383011365",
+        "amenity": "pub",
+        "name": "Amami Alfredo",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5041543,
+          43.8497447
+        ]
+      },
+      "id": "node/3383011365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3426857479",
+        "addr:city": "Lucca",
+        "addr:housenumber": "7",
+        "addr:street": "Via degli Angeli",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "L'isola che non c'era",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5041124,
+          43.844947
+        ]
+      },
+      "id": "node/3426857479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3426857480",
+        "addr:city": "Lucca",
+        "addr:housenumber": "13",
+        "addr:street": "Via degli Angeli",
+        "amenity": "restaurant",
+        "name": "Antico Sigillo",
+        "phone": "+39 0583 91042",
+        "website": "https://www.anticosigillo.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5039167,
+          43.8450291
+        ]
+      },
+      "id": "node/3426857480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3501640389",
+        "addr:housenumber": "7",
+        "addr:street": "Piazza del Carmine",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Trattoria da Gigi",
+        "operator": "Bigusto srl",
+        "outdoor_seating": "yes",
+        "ref:vatin": "IT02051810469"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5053401,
+          43.8442822
+        ]
+      },
+      "id": "node/3501640389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3574732794",
+        "addr:city": "Lucca",
+        "addr:housenumber": "10",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Napoleone",
+        "amenity": "restaurant",
+        "name": "Da Ciacco",
+        "phone": "+39 0583 153 6854"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5025507,
+          43.8418537
+        ]
+      },
+      "id": "node/3574732794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3574740295",
+        "addr:city": "Lucca",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza San Michele",
+        "amenity": "restaurant",
+        "indoor_seating": "yes",
+        "name": "La Tana del Boia",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5032301,
+          43.8430193
+        ]
+      },
+      "id": "node/3574740295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3574750302",
+        "addr:city": "Lucca",
+        "addr:housenumber": "16",
+        "addr:postcode": "55100",
+        "addr:street": "Via San Frediano",
+        "amenity": "restaurant",
+        "check_date:opening_hours": "2024-08-11",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "La Bottega di Anna e Leo",
+        "opening_hours": "Mo-Su 12:00-14:00,19:30-22:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5043565,
+          43.8459353
+        ]
+      },
+      "id": "node/3574750302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3629759143",
+        "addr:city": "Lucca",
+        "addr:housenumber": "155",
+        "addr:postcode": "55100",
+        "addr:street": "Viale San Concordio",
+        "amenity": "cafe",
+        "name": "Pasticceria La Soave di Lazzari Antonella"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5003088,
+          43.8364254
+        ]
+      },
+      "id": "node/3629759143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3629759144",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5000437,
+          43.8358386
+        ]
+      },
+      "id": "node/3629759144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3632055505",
+        "addr:city": "Lucca",
+        "addr:housenumber": "1",
+        "addr:street": "Via Tegrimi",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Trattoria da \"Leo\"",
+        "operator": "F.lli Buralli",
+        "phone": "+39 0583 492236"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5023602,
+          43.8443194
+        ]
+      },
+      "id": "node/3632055505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3645635885",
+        "amenity": "restaurant",
+        "name": "Mai-Mai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5254002,
+          43.8479439
+        ]
+      },
+      "id": "node/3645635885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3731750820",
+        "addr:housenumber": "7",
+        "addr:postcode": "55100",
+        "addr:street": "Via Elisa",
+        "amenity": "restaurant",
+        "cuisine": "italian_pizza",
+        "email": "anticadrogherialucca@gmail.com",
+        "name": "Antica Drogheria",
+        "opening_hours": "Mo-Th 07:30-23:00; Fr-Su 07:30-01:00",
+        "phone": "+39 0583 467732",
+        "website": "https://www.anticadrogherialucca.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5100963,
+          43.8427683
+        ]
+      },
+      "id": "node/3731750820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3731752876",
+        "addr:city": "Lucca",
+        "addr:housenumber": "1",
+        "addr:street": "Piazza San Michele",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "San Michele",
+        "outdoor_seating": "yes",
+        "phone": "+39 0583 55387"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5021269,
+          43.8428579
+        ]
+      },
+      "id": "node/3731752876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3731753242",
+        "addr:housenumber": "9",
+        "addr:street": "Via del Gallo",
+        "amenity": "bar",
+        "name": "Bar Montecatini",
+        "phone": "+39 0583 493071"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5052087,
+          43.8425483
+        ]
+      },
+      "id": "node/3731753242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3731753245",
+        "amenity": "cafe",
+        "name": "Tessieri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5051953,
+          43.8426219
+        ]
+      },
+      "id": "node/3731753245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3739428689",
+        "amenity": "fast_food",
+        "cuisine": "regional",
+        "name": "Specialità da Piero",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5070748,
+          43.8482817
+        ]
+      },
+      "id": "node/3739428689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3757618890",
+        "addr:housenumber": "483",
+        "addr:street": "Viale San Concordio",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Funiculì"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.499495,
+          43.8334059
+        ]
+      },
+      "id": "node/3757618890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3784528429",
+        "addr:city": "Lucca",
+        "addr:housenumber": "37",
+        "addr:street": "Via Della Fratta",
+        "amenity": "cafe",
+        "name": "Caffetteria la Piazzetta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5095365,
+          43.8452221
+        ]
+      },
+      "id": "node/3784528429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3784534427",
+        "addr:city": "Lucca",
+        "addr:housenumber": "94",
+        "addr:postcode": "55100",
+        "addr:street": "Via del Fosso",
+        "amenity": "restaurant",
+        "changing_table": "no",
+        "cuisine": "italian",
+        "level": "0",
+        "name": "Il Mecenate a Lucca",
+        "outdoor_seating": "yes",
+        "phone": "+39 0583 511861",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.ristorantemecenate.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5099867,
+          43.845482
+        ]
+      },
+      "id": "node/3784534427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3813802842",
+        "addr:city": "Lucca",
+        "addr:housenumber": "17",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza San Francesco",
+        "amenity": "restaurant",
+        "check_date": "2024-11-29",
+        "check_date:currency:XBT": "2024-11-29",
+        "contact:facebook": "https://www.facebook.com/pizzerie.marameo",
+        "contact:instagram": "https://www.instagram.com/marameopizzerie/",
+        "cuisine": "italian",
+        "currency:XBT": "yes",
+        "email": "prenota@marameo.lucca.it",
+        "name": "Mara Meo San Francesco",
+        "opening_hours": "Mo-Th 12:00-15:00; 18:00-23:00; Sa-Su 12:00-15:00; 18:00-24:00",
+        "outdoor_seating": "yes",
+        "payment:lightning": "no",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "yes",
+        "phone": "+39 0583 467084",
+        "website": "https://www.marameo-lucca.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5106394,
+          43.8455129
+        ]
+      },
+      "id": "node/3813802842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3813810461",
+        "addr:city": "Lucca",
+        "addr:postcode": "55100",
+        "addr:street": "Via Vittorio Veneto",
+        "amenity": "restaurant",
+        "name": "lo Skianto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5016985,
+          43.8394964
+        ]
+      },
+      "id": "node/3813810461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3813816986",
+        "addr:city": "Lucca",
+        "addr:postcode": "55100",
+        "amenity": "bar",
+        "name": "ale‘s bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5033241,
+          43.8415372
+        ]
+      },
+      "id": "node/3813816986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3813846123",
+        "addr:city": "Lucca",
+        "addr:housenumber": "8",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Cittadella",
+        "amenity": "restaurant",
+        "name": "Osteria Tosca",
+        "phone": "+39 0583 316038"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5011804,
+          43.8431521
+        ]
+      },
+      "id": "node/3813846123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3813849153",
+        "addr:city": "Lucca",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Cittadella",
+        "amenity": "bar",
+        "name": "Manon Lescaut",
+        "opening_hours": "Mo-Fr 08:30-21:00; Sa,Su 09:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5014795,
+          43.8429494
+        ]
+      },
+      "id": "node/3813849153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3813849154",
+        "addr:city": "Lucca",
+        "addr:housenumber": "9",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Cittadella",
+        "amenity": "restaurant",
+        "name": "Madame Butterfly"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5015197,
+          43.8431351
+        ]
+      },
+      "id": "node/3813849154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3954107225",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4913584,
+          43.8436302
+        ]
+      },
+      "id": "node/3954107225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4177750204",
+        "amenity": "restaurant",
+        "check_date": "2024-10-18",
+        "cuisine": "italian",
+        "name": "Da Rosolo",
+        "website": "http://www.osteriadarosolo.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5018576,
+          43.8423901
+        ]
+      },
+      "id": "node/4177750204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4254352490",
+        "addr:housenumber": "8",
+        "addr:street": "Piazza San Giusto",
+        "amenity": "bar",
+        "check_date": "2023-09-18",
+        "name": "blend"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5039441,
+          43.8417669
+        ]
+      },
+      "id": "node/4254352490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4263153490",
+        "addr:housenumber": "147",
+        "addr:street": "Via Fillungo",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizzería Sbragia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5054324,
+          43.8455523
+        ]
+      },
+      "id": "node/4263153490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4274007889",
+        "addr:housenumber": "36",
+        "addr:street": "Corso Giuseppe Garibaldi",
+        "amenity": "restaurant",
+        "name": "Shaker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5022632,
+          43.8398928
+        ]
+      },
+      "id": "node/4274007889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4275521090",
+        "addr:housenumber": "19",
+        "addr:street": "Via degli Asili",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Flamingo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5023471,
+          43.8439049
+        ]
+      },
+      "id": "node/4275521090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4286607293",
+        "addr:postcode": "55100",
+        "amenity": "restaurant",
+        "name": "Gli Orti di via Elisa",
+        "outdoor_seating": "yes",
+        "website": "https://www.ristorantegliorti.it"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5106908,
+          43.8428251
+        ]
+      },
+      "id": "node/4286607293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4291180489",
+        "addr:street": "Via del Battistero",
+        "amenity": "restaurant",
+        "check_date": "2023-09-18",
+        "name": "vino & sputino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5039449,
+          43.8416669
+        ]
+      },
+      "id": "node/4291180489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4322804789",
+        "amenity": "cafe",
+        "contact:facebook": "RistoroLaCasermettaSanSalvatore",
+        "indoor_seating": "yes",
+        "name": "Casermetta San Salvatore",
+        "opening_hours": "Mo off",
+        "outdoor_seating": "yes",
+        "phone": "+39 389 7669769",
+        "toilets:wheelchair": "yes",
+        "website": "https://lacasermettasansalvatore.thefork.rest/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5149606,
+          43.845017
+        ]
+      },
+      "id": "node/4322804789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4352320128",
+        "addr:housenumber": "10",
+        "addr:street": "Via Calderia",
+        "amenity": "fast_food",
+        "brand": "La Piadineria",
+        "brand:wikidata": "Q108195414",
+        "cuisine": "piadina",
+        "delivery": "yes",
+        "name": "La Piadineria",
+        "outdoor_seating": "yes",
+        "phone": "+39 0583 392081",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5023873,
+          43.8437063
+        ]
+      },
+      "id": "node/4352320128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4352320129",
+        "addr:housenumber": "13",
+        "addr:street": "Corte Portici",
+        "amenity": "restaurant",
+        "check_date:opening_hours": "2023-07-07",
+        "cuisine": "italian_pizza;italian",
+        "name": "Ristorante Da Francesco",
+        "opening_hours:signed": "no",
+        "phone": "+39 0583 418049"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5019984,
+          43.8437856
+        ]
+      },
+      "id": "node/4352320129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4378820191",
+        "addr:city": "Lucca",
+        "addr:housenumber": "9",
+        "addr:street": "Piazza Venti Settembre",
+        "amenity": "fast_food",
+        "contact:facebook": "https://www.facebook.com/nandaslucca/",
+        "cuisine": "burger;cake",
+        "diet:vegan": "only",
+        "name": "Nanda’s Vegan Burgers & Cakes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.503198,
+          43.8415521
+        ]
+      },
+      "id": "node/4378820191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4410520074",
+        "addr:city": "Lucca",
+        "addr:housenumber": "5",
+        "addr:street": "Piazza San Giovanni",
+        "amenity": "cafe",
+        "contact:phone": "+39 335 520 4298",
+        "contact:website": "https://www.facebook.com/people/Caffe-Del-Duomo/100054597094187/",
+        "name": "Caffè del Duomo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.504301,
+          43.8409404
+        ]
+      },
+      "id": "node/4410520074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4458447789",
+        "amenity": "restaurant",
+        "check_date": "2023-09-20",
+        "cuisine": "seafood",
+        "name": "L'Anciüa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5081164,
+          43.8446551
+        ]
+      },
+      "id": "node/4458447789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4511697774",
+        "amenity": "ice_cream"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5034876,
+          43.8346177
+        ]
+      },
+      "id": "node/4511697774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4550639990",
+        "addr:housenumber": "16",
+        "addr:street": "Via Vittorio Emanuele secondo",
+        "amenity": "cafe",
+        "name": "Il Merendero",
+        "name:it": "Il Merendero"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5016417,
+          43.8419336
+        ]
+      },
+      "id": "node/4550639990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4550639991",
+        "addr:housenumber": "26",
+        "addr:street": "Via San Giorgio",
+        "amenity": "restaurant",
+        "name": "Osteria San Giorgio",
+        "name:it": "Osteria San Giorgio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.503689,
+          43.8448696
+        ]
+      },
+      "id": "node/4550639991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4562423344",
+        "addr:city": "Lucca",
+        "addr:housenumber": "284",
+        "addr:postcode": "55100",
+        "addr:street": "Via Borgo Giannotti",
+        "all_you_can_eat": "yes",
+        "amenity": "restaurant",
+        "cuisine": "chinese;japanese;sushi",
+        "microbrewery": "no",
+        "name": "King Oriente",
+        "phone": "+39 0583 342237",
+        "website": "https://www.kingoriente.it/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5073366,
+          43.8516118
+        ]
+      },
+      "id": "node/4562423344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4564224802",
+        "amenity": "restaurant",
+        "name": "Al Viale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4985109,
+          43.8332237
+        ]
+      },
+      "id": "node/4564224802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4592875390",
+        "amenity": "restaurant",
+        "name": "De Rosolo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5018582,
+          43.842369
+        ]
+      },
+      "id": "node/4592875390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4657611994",
+        "amenity": "restaurant",
+        "check_date": "2023-09-20",
+        "contact:facebook": "bistropiqui",
+        "cuisine": "regional",
+        "name": "Bistro PIQUI",
+        "not:website": "http://www.bistropiqui.it",
+        "note": "website was available according to WHOIS",
+        "phone": "+39 0583 1974320"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5073893,
+          43.8436117
+        ]
+      },
+      "id": "node/4657611994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4898058248",
+        "addr:city": "Lucca",
+        "addr:country": "IT",
+        "addr:housenumber": "1",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Anfiteatro",
+        "amenity": "restaurant",
+        "name": "Sottosotto",
+        "website": "https://www.instagram.com/sottosotto_ristorantino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5056642,
+          43.8453432
+        ]
+      },
+      "id": "node/4898058248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4898172756",
+        "addr:city": "Luca",
+        "addr:country": "IT",
+        "addr:housenumber": "19",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Anfiteatro",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Toscana Tipica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5064033,
+          43.8455403
+        ]
+      },
+      "id": "node/4898172756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4898172757",
+        "addr:city": "Luca",
+        "addr:country": "IT",
+        "addr:housenumber": "18",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Anfiteatro",
+        "amenity": "ice_cream",
+        "name": "Gelateria Anfiteatro",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5063388,
+          43.8455633
+        ]
+      },
+      "id": "node/4898172757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4898187969",
+        "addr:city": "Luca",
+        "addr:country": "IT",
+        "addr:housenumber": "4",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Anfiteatro",
+        "amenity": "restaurant",
+        "name": "Peperosa",
+        "opening_hours": "We off",
+        "website": "https://www.peperosaristorantebistro.it"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5056588,
+          43.8453926
+        ]
+      },
+      "id": "node/4898187969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5011278344",
+        "addr:city": "Lucca",
+        "addr:housenumber": "269",
+        "addr:postcode": "55100",
+        "addr:street": "Viale Castruccio Castracani",
+        "amenity": "ice_cream",
+        "check_date": "2022-10-01",
+        "contact:facebook": "https://www.facebook.com/lebonta",
+        "contact:instagram": "https://www.instagram.com/le_bonta_lucca/",
+        "contact:whatsapp": "+39 345 3636450",
+        "email": "lebontalucca@gmail.com",
+        "name": "Le Bontá",
+        "payment:bancomat": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+39 345 3636450",
+        "ref:vatin": "IT01754100467",
+        "website": "https://www.le-bonta.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5183291,
+          43.8450927
+        ]
+      },
+      "id": "node/5011278344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5111835655",
+        "addr:city": "Lucca",
+        "addr:housenumber": "10",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Napoleone",
+        "amenity": "cafe",
+        "name": "Gelateria il Pinguino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5024107,
+          43.841864
+        ]
+      },
+      "id": "node/5111835655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5542246621",
+        "addr:city": "Lucca",
+        "addr:country": "IT",
+        "addr:housenumber": "18",
+        "addr:postcode": "55100",
+        "addr:street": "Via Giuseppe Giovannetti",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizzeria Vecchia rotonda",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5192056,
+          43.8487089
+        ]
+      },
+      "id": "node/5542246621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5656293422",
+        "addr:housenumber": "25",
+        "addr:street": "Via Santa Croce",
+        "amenity": "cafe",
+        "name": "i Gelati di Piero",
+        "opening_hours": "Mo-Su 11:30-00:00",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5038667,
+          43.8427158
+        ]
+      },
+      "id": "node/5656293422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696946042",
+        "addr:city": "Lucca",
+        "addr:housenumber": "354",
+        "addr:postcode": "55100",
+        "addr:street": "Via Jacopo della Quercia",
+        "amenity": "restaurant",
+        "capacity": "0",
+        "cuisine": "italian;regional",
+        "delivery": "yes",
+        "description": "Ristorante da asporto con cucina mediterranea e regionale toscana. Aperto dal Lunedì al Venerdì dalle 9,30 alle 14,30 e la Domenica dalle 10,00 alle 14,00. Possibile prenotare.",
+        "name": "Marco Pollo Ristolab",
+        "opening_hours": "Mo-Fr 09:30-14:30; Su 10:00-14:00",
+        "phone": "+39 0583467229",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5132827,
+          43.8528612
+        ]
+      },
+      "id": "node/5696946042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5838770408",
+        "addr:city": "Lucca",
+        "addr:housenumber": "123",
+        "addr:postcode": "55100",
+        "addr:street": "Via Giovanni Guidiccioni",
+        "amenity": "bar",
+        "name": "Bar Ristoro da Sean",
+        "phone": "+39 0583 080938"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5017167,
+          43.8363555
+        ]
+      },
+      "id": "node/5838770408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5838770410",
+        "amenity": "restaurant",
+        "name": "Lucullo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5024899,
+          43.836152
+        ]
+      },
+      "id": "node/5838770410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5838770421",
+        "amenity": "restaurant",
+        "cuisine": "pizza;italian",
+        "name": "Pizzeria Dal Ciaccia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5021994,
+          43.8361535
+        ]
+      },
+      "id": "node/5838770421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5851278432",
+        "addr:street": "Via del Gonfalone",
+        "amenity": "bar",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Bio Room"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5075152,
+          43.847216
+        ]
+      },
+      "id": "node/5851278432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5884203182",
+        "addr:housenumber": "7",
+        "addr:street": "Via della Fratta",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Il Grammofono",
+        "phone": "+39 0583 051564"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5086086,
+          43.8451246
+        ]
+      },
+      "id": "node/5884203182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5884203183",
+        "addr:housenumber": "11",
+        "addr:street": "Via della Fratta",
+        "amenity": "ice_cream",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Momo Gelati",
+        "outdoor_seating": "yes",
+        "phone": "+39 0583 152 5194",
+        "smoking": "no",
+        "takeaway": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5087394,
+          43.8451266
+        ]
+      },
+      "id": "node/5884203183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5884205687",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Ristorante La Norma",
+        "phone": "+39 0583 1681166"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5092289,
+          43.8444205
+        ]
+      },
+      "id": "node/5884205687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5884205693",
+        "addr:housenumber": "90",
+        "addr:street": "Via Santa Croce",
+        "amenity": "restaurant",
+        "contact:website": "https://osteriavispateresalucca.it/",
+        "name": "Osteria Vispa Teresa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.509137,
+          43.8425663
+        ]
+      },
+      "id": "node/5884205693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5884205695",
+        "amenity": "restaurant",
+        "check_date": "2023-09-19",
+        "name": "Caffeteria La Colonna",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5082465,
+          43.842354
+        ]
+      },
+      "id": "node/5884205695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5884205696",
+        "addr:street": "Via della Rosa",
+        "amenity": "restaurant",
+        "check_date": "2023-09-18",
+        "cuisine": "italian",
+        "delivery": "no",
+        "level": "0",
+        "name": "Trattoria Nonna Chiara",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5080192,
+          43.8424981
+        ]
+      },
+      "id": "node/5884205696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5884205713",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Mara Meo",
+        "smoking": "no",
+        "takeaway": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5065694,
+          43.8424608
+        ]
+      },
+      "id": "node/5884205713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5884205723",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5163595,
+          43.8467147
+        ]
+      },
+      "id": "node/5884205723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5884452393",
+        "addr:street": "Via Elisa",
+        "amenity": "bar",
+        "cuisine": "pizza",
+        "name": "Cibus e Pizza",
+        "opening_hours": "12:00-15:30; 19:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5120289,
+          43.8429966
+        ]
+      },
+      "id": "node/5884452393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5884452398",
+        "addr:housenumber": "1",
+        "addr:street": "Piazza San Ponziano",
+        "amenity": "bar",
+        "name": "Pasticceria Elisa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5122638,
+          43.8430081
+        ]
+      },
+      "id": "node/5884452398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5884452400",
+        "addr:housenumber": "49",
+        "addr:street": "Via Elisa",
+        "amenity": "bar",
+        "name": "La Piccola Soave",
+        "operator": "Federica Cecchi",
+        "phone": "+39 333 594 7194"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5117837,
+          43.8429541
+        ]
+      },
+      "id": "node/5884452400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5884452405",
+        "addr:housenumber": "31",
+        "addr:street": "Via Elisa",
+        "amenity": "fast_food",
+        "cuisine": "kebab",
+        "name": "Ali Baba",
+        "opening_hours": "10:30-12:00",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5113263,
+          43.8429009
+        ]
+      },
+      "id": "node/5884452405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5884593088",
+        "addr:housenumber": "120",
+        "addr:street": "Via del Fosso",
+        "amenity": "restaurant",
+        "name": "Port Ellen Clan",
+        "opening_hours": "We-Mo 09:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5095021,
+          43.8449709
+        ]
+      },
+      "id": "node/5884593088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5884593089",
+        "amenity": "ice_cream",
+        "name": "Gustevole Lucca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5035695,
+          43.8438721
+        ]
+      },
+      "id": "node/5884593089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5887404297",
+        "addr:housenumber": "50",
+        "addr:street": "Corso Giuseppe Garibaldi",
+        "amenity": "restaurant",
+        "image": "https://scontent-mxp1-1.cdninstagram.com/vp/52f810ba7d3c0a04babd048d38645259/5C20189E/t51.2885-15/e35/17495340_254665698331270_5834642239015354368_n.jpg",
+        "name": "In Pasta - Cibo e Convivio",
+        "opening_hours": "Mo-Fr 12:30-15:00,19:00-22:00;Sa-Su 12:00-15:00,19:00-22:00",
+        "phone": "+39 0583 082966",
+        "website": "https://www.in-pasta.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5026118,
+          43.839883
+        ]
+      },
+      "id": "node/5887404297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5916701511",
+        "addr:housenumber": "436",
+        "addr:street": "Via Castruccio Buonamici",
+        "amenity": "cafe",
+        "delivery": "no",
+        "internet_access": "no",
+        "internet_access:fee": "no",
+        "name": "open24cafe",
+        "opening_hours": "24/7",
+        "smoking": "no",
+        "takeaway": "only",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4899934,
+          43.8433933
+        ]
+      },
+      "id": "node/5916701511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5918974635",
+        "addr:street": "Via Francesco Carrara",
+        "amenity": "cafe",
+        "name": "Caffè Giurlani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5025284,
+          43.8397024
+        ]
+      },
+      "id": "node/5918974635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5918974639",
+        "addr:housenumber": "28",
+        "addr:street": "Via S. Girolamo",
+        "amenity": "ice_cream",
+        "contact:facebook": "https://www.facebook.com/gelateriapaniko",
+        "contact:phone": "+39 0583 057606",
+        "contact:tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g187898-d10258461-Reviews-Gelateria_Paniko-Lucca_Province_of_Lucca_Tuscany.html",
+        "name": "Gelateria Paniko",
+        "opening_hours": "Mo-Su 11:00-23:30",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5024189,
+          43.8397643
+        ]
+      },
+      "id": "node/5918974639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6030021676",
+        "addr:housenumber": "21",
+        "addr:street": "Viale Carlo Del Prete",
+        "amenity": "restaurant",
+        "cuisine": "german",
+        "name": "Löwengrube",
+        "opening_date": "2015-1-1",
+        "opening_hours": "Tu 00:00-01:00,19:30-01:00; We,Fr 19:30-02:00; Th,Sa 12:00-15:00,18:00-02:00; Su 12:00-15:00,18:00-24:00; Nov 05-09 off",
+        "operator": "Lowen-com srl",
+        "phone": "+39 058355216",
+        "website": "https://lowengrube.it/birrerie/lucca/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.495107,
+          43.8451295
+        ]
+      },
+      "id": "node/6030021676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6039745573",
+        "addr:city": "Lucca",
+        "addr:country": "IT",
+        "addr:housenumber": "44",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Anfiteatro",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Parlascio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5060215,
+          43.8451089
+        ]
+      },
+      "id": "node/6039745573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6080088012",
+        "addr:housenumber": "29",
+        "addr:street": "Via della Cavallerizza",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Bella 'Mbriana",
+        "opening_hours": "11:00-14:30,18:00-23:00; Tu off",
+        "phone": "+39 0583 495565",
+        "takeaway": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5053514,
+          43.8463612
+        ]
+      },
+      "id": "node/6080088012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6159257142",
+        "amenity": "cafe",
+        "name": "Brothers Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.491761,
+          43.8430417
+        ]
+      },
+      "id": "node/6159257142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6432697916",
+        "addr:housenumber": "26",
+        "addr:street": "Via Michele Rosi",
+        "amenity": "fast_food",
+        "cuisine": "kebab",
+        "name": "Ali Baba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5084561,
+          43.8470977
+        ]
+      },
+      "id": "node/6432697916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6432702388",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizzeria in Santa Maria",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5067931,
+          43.8473285
+        ]
+      },
+      "id": "node/6432702388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6432702390",
+        "amenity": "cafe",
+        "indoor_seating": "yes",
+        "name": "Bar Martini",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5083346,
+          43.8472609
+        ]
+      },
+      "id": "node/6432702390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6489285825",
+        "amenity": "cafe",
+        "name": "Gelato Mania"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5054815,
+          43.8338507
+        ]
+      },
+      "id": "node/6489285825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6541604476",
+        "addr:city": "Lucca",
+        "addr:housenumber": "28",
+        "addr:postcode": "55100",
+        "addr:street": "Via Cesare Battisti",
+        "amenity": "restaurant",
+        "check_date:opening_hours": "2024-08-11",
+        "cuisine": "italian",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "name": "Osteria dal manzo",
+        "opening_hours": "Mo-Sa 19:30-22:30",
+        "phone": "+390583490649"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5033309,
+          43.8453354
+        ]
+      },
+      "id": "node/6541604476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6621815585",
+        "addr:housenumber": "59",
+        "addr:street": "Piazza dell'Anfiteatro",
+        "amenity": "restaurant",
+        "name": "Artespressa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5068479,
+          43.8452052
+        ]
+      },
+      "id": "node/6621815585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6646333686",
+        "addr:housenumber": "37",
+        "addr:street": "Via Elisa",
+        "amenity": "bar",
+        "name": "StraVinSky"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5114169,
+          43.8429101
+        ]
+      },
+      "id": "node/6646333686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6689738686",
+        "amenity": "fast_food",
+        "name": "L’Hamburgheria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.503886,
+          43.8443615
+        ]
+      },
+      "id": "node/6689738686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6765104664",
+        "amenity": "cafe",
+        "name": "La Cafetteria Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5151995,
+          43.8400731
+        ]
+      },
+      "id": "node/6765104664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6782582388",
+        "addr:housenumber": "28",
+        "addr:street": "Via Vittorio Emanuele secondo",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "La Linea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5009773,
+          43.841987
+        ]
+      },
+      "id": "node/6782582388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6782605385",
+        "addr:street": "Via Cenami",
+        "amenity": "restaurant",
+        "cuisine": "local;diner;pizza",
+        "name": "L’Oste di’ Lucca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5039672,
+          43.8423388
+        ]
+      },
+      "id": "node/6782605385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6835396286",
+        "addr:housenumber": "3",
+        "addr:street": "Corte Campana",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name:en": "Osteria da Rosolo",
+        "opening_hours": "Mo-Su 13:00-21:45",
+        "website": "http://www.osteriadarosolo.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.502007,
+          43.8424885
+        ]
+      },
+      "id": "node/6835396286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6866972006",
+        "addr:housenumber": "1",
+        "addr:street": "Piazza Cittadella",
+        "amenity": "ice_cream",
+        "name": "Gelateria Santini",
+        "opening_hours": "Mo-Su 10:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5011373,
+          43.8429601
+        ]
+      },
+      "id": "node/6866972006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7316053679",
+        "amenity": "cafe",
+        "name": "Piccolo bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5166851,
+          43.8319371
+        ]
+      },
+      "id": "node/7316053679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7438644829",
+        "amenity": "ice_cream"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5027561,
+          43.8439038
+        ]
+      },
+      "id": "node/7438644829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7450576237",
+        "addr:city": "Lucca",
+        "addr:housenumber": "91",
+        "addr:postcode": "55100",
+        "addr:street": "Via dei Cavalletti",
+        "amenity": "cafe",
+        "name": "Decanter Bistrò Coffee & Wine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4940238,
+          43.8452239
+        ]
+      },
+      "id": "node/7450576237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7473046983",
+        "addr:city": "Lucca",
+        "addr:housenumber": "17",
+        "addr:postcode": "55100",
+        "addr:street": "Via dei Bacchettoni",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/MixiGastropub/",
+        "contact:instagram": "https://instagram.com/mixigastropub",
+        "name": "Mixi Gastropub",
+        "opening_hours": "Tu-Su 19:00-23:00",
+        "phone": "+39 0583 496005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5138256,
+          43.8454464
+        ]
+      },
+      "id": "node/7473046983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7677039377",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5056454,
+          43.8413167
+        ]
+      },
+      "id": "node/7677039377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7730447885",
+        "addr:housenumber": "247",
+        "addr:postcode": "55100",
+        "addr:street": "Via Fillungo",
+        "amenity": "restaurant",
+        "name": "La Cranceria",
+        "name:it": "La Cranceria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5075488,
+          43.847004
+        ]
+      },
+      "id": "node/7730447885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7745329985",
+        "addr:housenumber": "129",
+        "addr:postcode": "55100",
+        "addr:street": "Corso Giuseppe Garibaldi",
+        "amenity": "restaurant",
+        "cuisine": "burger;chicken;fish;fish_and_chips;friture;hotdog;italian",
+        "indoor_seating": "yes",
+        "name": "Go.Do",
+        "name:it": "Go.Do. Burger bar and bistrot",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5040979,
+          43.839989
+        ]
+      },
+      "id": "node/7745329985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7849592219",
+        "addr:housenumber": "614",
+        "addr:street": "Viale S. Concordio",
+        "amenity": "ice_cream",
+        "name": "Le Piccole Bontà",
+        "opening_hours": "Th-Su 08:30-00:00; Mo 14:00-22:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4981751,
+          43.8324659
+        ]
+      },
+      "id": "node/7849592219"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7868502185",
+        "addr:street": "Via Pescheria",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Osteria del Neni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5025506,
+          43.8423002
+        ]
+      },
+      "id": "node/7868502185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7935156985",
+        "addr:housenumber": "14",
+        "addr:postcode": "55100",
+        "addr:street": "Via Canuleia",
+        "amenity": "restaurant",
+        "check_date": "2023-09-19",
+        "name": "Canuleia Trattoria",
+        "opening_hours": "Tu-Su 12:30-15:00,19:30-22:00",
+        "website": "https://www.canuleiatrattoria.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.506836,
+          43.845052
+        ]
+      },
+      "id": "node/7935156985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7938211185",
+        "addr:postcode": "55100",
+        "amenity": "restaurant",
+        "check_date": "2023-09-18",
+        "name": "Capitolo 1 Ristorante",
+        "phone": "+3905831384623",
+        "website": "https://www.capitolo-1.thefork.rest/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5051807,
+          43.8424831
+        ]
+      },
+      "id": "node/7938211185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7946055885",
+        "addr:housenumber": "87",
+        "addr:postcode": "55100",
+        "addr:street": "Via Santa Croce",
+        "amenity": "ice_cream",
+        "name": "La Bottega del Gelato",
+        "opening_hours": "Mo-Su 13:30-20:30",
+        "phone": "+39 0583 495261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5086113,
+          43.8425906
+        ]
+      },
+      "id": "node/7946055885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7966895370",
+        "amenity": "restaurant",
+        "name": "Contantoamore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5165061,
+          43.8467408
+        ]
+      },
+      "id": "node/7966895370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7996982085",
+        "addr:housenumber": "4",
+        "addr:street": "Piazza San Frediano",
+        "amenity": "cafe",
+        "cuisine": "cake;coffee_shop;tea",
+        "name": "Caffè Biscotteria Santa Zita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5052928,
+          43.8458337
+        ]
+      },
+      "id": "node/7996982085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8004625585",
+        "addr:housenumber": "23",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Santa Maria",
+        "amenity": "cafe",
+        "cuisine": "cake;coffee_shop;italian;local;tea",
+        "name": "Pasticceria Momus Cafe",
+        "opening_hours": "Mo, We-Su 07:00-23:00; Tu 07:00-20:00",
+        "phone": "+39 0583 496470"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5075891,
+          43.8472043
+        ]
+      },
+      "id": "node/8004625585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8308912294",
+        "amenity": "cafe",
+        "name": "Il BarOmetro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.507179,
+          43.8500969
+        ]
+      },
+      "id": "node/8308912294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8308985557",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Ichimi Asian Fusion Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5071528,
+          43.8497185
+        ]
+      },
+      "id": "node/8308985557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8308987005",
+        "amenity": "cafe",
+        "name": "Zebar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5011605,
+          43.8498728
+        ]
+      },
+      "id": "node/8308987005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8309008512",
+        "amenity": "cafe",
+        "name": "Samy Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5047922,
+          43.8485071
+        ]
+      },
+      "id": "node/8309008512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8309063915",
+        "amenity": "restaurant",
+        "name": "Baobab"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5018056,
+          43.8363377
+        ]
+      },
+      "id": "node/8309063915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8309108300",
+        "addr:housenumber": "192",
+        "amenity": "restaurant",
+        "name": "Sushi Home",
+        "phone": "+393485211404"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.502601,
+          43.8361481
+        ]
+      },
+      "id": "node/8309108300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8309172425",
+        "amenity": "restaurant",
+        "name": "Trattoria Pizzeria da Francesco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5033079,
+          43.8375019
+        ]
+      },
+      "id": "node/8309172425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8309180647",
+        "addr:housenumber": "26",
+        "amenity": "cafe",
+        "name": "Bar Tabacchi La Passerella"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5039523,
+          43.8365637
+        ]
+      },
+      "id": "node/8309180647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8312439947",
+        "amenity": "cafe",
+        "name": "Caffé de la Paix",
+        "opening_hours": "Mo-Sa 06:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4966678,
+          43.8487578
+        ]
+      },
+      "id": "node/8312439947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8429209266",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "facebook": "https://www.facebook.com/LUNA-Pizzeria-111624576922651/",
+        "name": "Luna Pizzeria",
+        "phone": "+39 0583 923456"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4969392,
+          43.8363115
+        ]
+      },
+      "id": "node/8429209266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8572113318",
+        "amenity": "bar",
+        "name": "Atlantic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4985864,
+          43.8318704
+        ]
+      },
+      "id": "node/8572113318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9122381086",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "L‘Aurora",
+        "opening_hours": "Tu-Su 07:30-22:00+",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5076654,
+          43.8470908
+        ]
+      },
+      "id": "node/9122381086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9122381087",
+        "amenity": "restaurant",
+        "name": "Trattoria da Vasco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5074362,
+          43.847228
+        ]
+      },
+      "id": "node/9122381087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9122439845",
+        "amenity": "bar",
+        "name": "S. Frediano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5050569,
+          43.8459339
+        ]
+      },
+      "id": "node/9122439845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9122965602",
+        "amenity": "restaurant",
+        "cuisine": "burger",
+        "name": "Del Borgo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5068533,
+          43.8493993
+        ]
+      },
+      "id": "node/9122965602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9122996906",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Da Fabio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5074211,
+          43.8523739
+        ]
+      },
+      "id": "node/9122996906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9122996909",
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "name": "Il Grillo Parlante"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.50717,
+          43.851883
+        ]
+      },
+      "id": "node/9122996909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9122996911",
+        "addr:city": "Lucca",
+        "addr:housenumber": "10",
+        "addr:postcode": "55100",
+        "addr:street": "Via del Brennero",
+        "amenity": "restaurant",
+        "contact:facebook": "vegrano.lucca",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "name": "Vegrano",
+        "opening_hours": "Mo-Tu, Th-Fr 18:30-21:30; Sa-Su 12:00-14:30, 18:30-22:00",
+        "phone": "+39 0583 391159"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5076731,
+          43.8529803
+        ]
+      },
+      "id": "node/9122996911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9123914602",
+        "amenity": "cafe",
+        "check_date": "2023-09-20",
+        "name": "Disimpegno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5063689,
+          43.8449322
+        ]
+      },
+      "id": "node/9123914602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9123933804",
+        "addr:housenumber": "178",
+        "addr:street": "Via Fillungo",
+        "amenity": "ice_cream",
+        "name": "La Crema Matta",
+        "opening_hours": "Su-Th 11:00-24:00, Fr,Sa 11:00-00:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5069221,
+          43.8462832
+        ]
+      },
+      "id": "node/9123933804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9123939041",
+        "amenity": "restaurant",
+        "check_date": "2023-09-19",
+        "name": "St. Bartholomeo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.506818,
+          43.8455503
+        ]
+      },
+      "id": "node/9123939041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9124038834",
+        "amenity": "fast_food",
+        "cuisine": "bubble_tea",
+        "name": "Baba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5031364,
+          43.8415635
+        ]
+      },
+      "id": "node/9124038834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9124038836",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "da Franchino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5028194,
+          43.8418285
+        ]
+      },
+      "id": "node/9124038836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9124110680",
+        "amenity": "bar",
+        "name": "Il Mago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5008554,
+          43.8420032
+        ]
+      },
+      "id": "node/9124110680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9124848271",
+        "amenity": "ice_cream",
+        "name": "Cremeria Opera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.508161,
+          43.8497117
+        ]
+      },
+      "id": "node/9124848271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9124848273",
+        "amenity": "restaurant",
+        "name": "600 Grammi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5081775,
+          43.8499605
+        ]
+      },
+      "id": "node/9124848273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9129146534",
+        "addr:housenumber": "28",
+        "addr:street": "Via Antonio Mordini",
+        "amenity": "bar",
+        "name": "Bar del Sole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5058426,
+          43.8445768
+        ]
+      },
+      "id": "node/9129146534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9130024158",
+        "amenity": "bar",
+        "name": "Franklin 33"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5021814,
+          43.8448756
+        ]
+      },
+      "id": "node/9130024158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9130085195",
+        "amenity": "bar",
+        "name": "L‘Antico Borgo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5068223,
+          43.8516461
+        ]
+      },
+      "id": "node/9130085195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9131656351",
+        "amenity": "restaurant",
+        "name": "Trattoria La Pergola",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.507428,
+          43.8538794
+        ]
+      },
+      "id": "node/9131656351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9131670034",
+        "addr:housenumber": "508",
+        "addr:street": "Via Borgo Giannotti",
+        "amenity": "restaurant",
+        "name": "Alloggio Buatino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5075801,
+          43.8535709
+        ]
+      },
+      "id": "node/9131670034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9131761254",
+        "amenity": "restaurant",
+        "name": "L‘Osteria al Borgo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5062395,
+          43.8513749
+        ]
+      },
+      "id": "node/9131761254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9131797693",
+        "amenity": "fast_food",
+        "name": "Chiosco Il Gatto Nero"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5075582,
+          43.8476351
+        ]
+      },
+      "id": "node/9131797693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9132045742",
+        "amenity": "cafe",
+        "name": "Da Sara & Co"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.50052,
+          43.8429553
+        ]
+      },
+      "id": "node/9132045742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9132045849",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Lucy Sushi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4989107,
+          43.8430998
+        ]
+      },
+      "id": "node/9132045849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9132181609",
+        "addr:housenumber": "22",
+        "addr:street": "Via San Paolino",
+        "amenity": "fast_food",
+        "brand": "Alice",
+        "brand:wikidata": "Q113973272",
+        "cuisine": "pizza",
+        "name": "Alice",
+        "outdoor_seating": "yes",
+        "phone": "+39 0583 572712",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5017197,
+          43.8428836
+        ]
+      },
+      "id": "node/9132181609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9132215821",
+        "amenity": "ice_cream",
+        "name": "De‘ Coltelli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5019939,
+          43.8428641
+        ]
+      },
+      "id": "node/9132215821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9132278579",
+        "amenity": "bar",
+        "check_date": "2023-09-18",
+        "name": "des Arts"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5039405,
+          43.8417225
+        ]
+      },
+      "id": "node/9132278579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9132354382",
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Bar Mara Meo",
+        "outdoor_seating": "yes",
+        "shop": "tobacco",
+        "smoking": "outside",
+        "toilets": "yes",
+        "toilets:access": "customers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5107243,
+          43.8451935
+        ]
+      },
+      "id": "node/9132354382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9133156448",
+        "amenity": "restaurant",
+        "name": "La Grotta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5060693,
+          43.8455977
+        ]
+      },
+      "id": "node/9133156448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9134940868",
+        "amenity": "restaurant",
+        "name": "Surfer Joe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5042472,
+          43.8396257
+        ]
+      },
+      "id": "node/9134940868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9134958336",
+        "amenity": "fast_food",
+        "name": "Pan di Strada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5021624,
+          43.8398869
+        ]
+      },
+      "id": "node/9134958336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9134958339",
+        "amenity": "cafe",
+        "name": "Caffè Monica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5019363,
+          43.8399011
+        ]
+      },
+      "id": "node/9134958339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9134958341",
+        "amenity": "bar",
+        "name": "km0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5020293,
+          43.8398924
+        ]
+      },
+      "id": "node/9134958341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9134975187",
+        "amenity": "bar",
+        "name": "Old City Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5018082,
+          43.8401256
+        ]
+      },
+      "id": "node/9134975187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9134975189",
+        "amenity": "restaurant",
+        "cuisine": "focaccia",
+        "level": "0",
+        "name": "Il Nicchio",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated",
+        "toilets:wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5032618,
+          43.8418147
+        ]
+      },
+      "id": "node/9134975189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9318339835",
+        "addr:city": "Lucca",
+        "addr:housenumber": "2",
+        "addr:postcode": "55100",
+        "addr:street": "Via Buia",
+        "amenity": "fast_food",
+        "check_date": "2023-09-19",
+        "contact:mobile": "+39 339 2673799",
+        "cuisine": "sandwich",
+        "email": "strabuono.lucca@gmail.com",
+        "internet_access": "wlan",
+        "name": "Strabuono",
+        "operator": "Sema 70 Srl",
+        "ref:vatin": "IT02992150595"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5030714,
+          43.8438532
+        ]
+      },
+      "id": "node/9318339835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9561008560",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5185689,
+          43.8415187
+        ]
+      },
+      "id": "node/9561008560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9585847917",
+        "addr:housenumber": "2",
+        "addr:street": "Via Buia",
+        "amenity": "fast_food",
+        "name": "Strabuono"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5029567,
+          43.8438519
+        ]
+      },
+      "id": "node/9585847917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9820179448",
+        "amenity": "ice_cream",
+        "name": "Gelateria Veneta",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5068101,
+          43.8381503
+        ]
+      },
+      "id": "node/9820179448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9820179462",
+        "addr:housenumber": "94",
+        "addr:street": "Via Santa Croce",
+        "amenity": "bar",
+        "check_date": "2023-09-19",
+        "cuisine": "regional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5093159,
+          43.8425845
+        ]
+      },
+      "id": "node/9820179462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9820179465",
+        "amenity": "restaurant",
+        "changing_table": "no",
+        "check_date": "2023-09-18",
+        "cuisine": "italian",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "-1",
+        "name": "Osteria Cantine Bernardini",
+        "outdoor_seating": "yes",
+        "phone": "+39 0583 494336",
+        "self_service": "no",
+        "smoking": "outside",
+        "takeaway": "no",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated",
+        "toilets:wheelchair": "no",
+        "website": "https://www.cantinebernardini.com/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5055449,
+          43.8427688
+        ]
+      },
+      "id": "node/9820179465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9820179473",
+        "amenity": "restaurant",
+        "name": "La pecora nera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5121553,
+          43.8456986
+        ]
+      },
+      "id": "node/9820179473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9820179478",
+        "amenity": "fast_food",
+        "changing_table": "no",
+        "check_date": "2023-09-18",
+        "cuisine": "pizza",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "level": "0",
+        "name": "Dante & Gentucca",
+        "opening_hours": "We-Mo 12:00-21:30",
+        "outdoor_seating": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5040089,
+          43.8428528
+        ]
+      },
+      "id": "node/9820179478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9820179481",
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Caffè del teatro",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5024499,
+          43.8403869
+        ]
+      },
+      "id": "node/9820179481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9820179482",
+        "amenity": "fast_food",
+        "check_date": "2024-10-31",
+        "name": "Fish Poké"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5069026,
+          43.8381541
+        ]
+      },
+      "id": "node/9820179482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9820179487",
+        "amenity": "pub",
+        "name": "The little folk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5024325,
+          43.8403305
+        ]
+      },
+      "id": "node/9820179487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9827755149",
+        "amenity": "restaurant",
+        "check_date": "2024-10-31",
+        "cuisine": "italian;pizza",
+        "name": "Bar Stazione"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5056647,
+          43.8376774
+        ]
+      },
+      "id": "node/9827755149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9827755150",
+        "amenity": "restaurant",
+        "name": "Gigliola",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4996153,
+          43.84025
+        ]
+      },
+      "id": "node/9827755150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9827755153",
+        "amenity": "restaurant",
+        "name": "Bonny Pizza",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5101054,
+          43.8452996
+        ]
+      },
+      "id": "node/9827755153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9827755154",
+        "amenity": "restaurant",
+        "name": "Osteria Miranda",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5061249,
+          43.8472327
+        ]
+      },
+      "id": "node/9827755154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9827755156",
+        "addr:housenumber": "2",
+        "addr:street": "Via del Crocifisso",
+        "amenity": "cafe",
+        "changing_table": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "0",
+        "name": "Bar Caffè Nero",
+        "opening_hours": "Mo-Th 07:00-20:00; Fr 07:00-20:30; Sa 08:00-20:30",
+        "outdoor_seating": "no",
+        "phone": "+395831890153",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4983136,
+          43.8423738
+        ]
+      },
+      "id": "node/9827755156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9827755158",
+        "amenity": "restaurant",
+        "check_date": "2023-09-20",
+        "cuisine": "italian",
+        "level": "0",
+        "name": "Osteria pane e sale",
+        "outdoor_seating": "yes",
+        "toilets": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5056101,
+          43.844721
+        ]
+      },
+      "id": "node/9827755158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9880594895",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizzeria Masaniello"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5182054,
+          43.8375955
+        ]
+      },
+      "id": "node/9880594895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9916751210",
+        "amenity": "restaurant",
+        "name": "Itaco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4998932,
+          43.8430231
+        ]
+      },
+      "id": "node/9916751210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10082685462",
+        "addr:city": "Lucca",
+        "addr:housenumber": "44-46",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza San Francesco",
+        "amenity": "bar",
+        "brewery": "yes",
+        "name": "Bar Osteria dello Stellario",
+        "outdoor_seating": "yes",
+        "website": "https://www.facebook.com/osterialostellario"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5098064,
+          43.8450642
+        ]
+      },
+      "id": "node/10082685462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10693203454",
+        "addr:housenumber": "478",
+        "addr:street": "Via San Marco",
+        "amenity": "restaurant",
+        "check_date": "2023-02-25",
+        "cuisine": "pizza",
+        "name": "Pizzeria La Rotella",
+        "phone": "+39 351 781 9307"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5135569,
+          43.8529548
+        ]
+      },
+      "id": "node/10693203454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10752367106",
+        "addr:housenumber": "24",
+        "addr:postcode": "55100",
+        "addr:street": "Piazza Napoleone",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Da Umberto La pizzeria contemporanea",
+        "opening_hours": "We-Mo 19:00-23:30",
+        "phone": "05831383552",
+        "website": "https://daumbertopizzeriacontemporanea.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5029257,
+          43.8412687
+        ]
+      },
+      "id": "node/10752367106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10752371205",
+        "addr:housenumber": "8",
+        "addr:postcode": "55100",
+        "addr:street": "Via del Moro",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "email": "sassicaia@hotmail.com",
+        "name": "Osteria Da Pasquilino Gubitosa",
+        "opening_hours": "We-Mo 19:00-22:30; Tu 00:00-24:00",
+        "website": "http://dapasquala-lucca.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5033576,
+          43.8441891
+        ]
+      },
+      "id": "node/10752371205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10804688252",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5006319,
+          43.8308162
+        ]
+      },
+      "id": "node/10804688252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10865597607",
+        "amenity": "restaurant",
+        "name:en": "Pasquelino Gubitosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5033517,
+          43.8442157
+        ]
+      },
+      "id": "node/10865597607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10896050729",
+        "amenity": "restaurant",
+        "name": "La Corte de Limon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4985592,
+          43.8434866
+        ]
+      },
+      "id": "node/10896050729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10896460928",
+        "amenity": "cafe",
+        "name": "Caffè Santa Zita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5053752,
+          43.8460449
+        ]
+      },
+      "id": "node/10896460928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11088889928",
+        "addr:city": "Lucca",
+        "addr:housenumber": "160",
+        "addr:postcode": "55100",
+        "addr:street": "Via Romana",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizzeria Scugnizzi",
+        "opening_hours": "Tu-Su 18:00-00:00",
+        "phone": "+39 0583493302"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.520626,
+          43.8440691
+        ]
+      },
+      "id": "node/11088889928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200735748",
+        "addr:housenumber": "5",
+        "addr:street": "Piazza San Giusto",
+        "amenity": "bar",
+        "check_date": "2023-09-18",
+        "name": "San Giusto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5039192,
+          43.8419956
+        ]
+      },
+      "id": "node/11200735748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11200754104",
+        "addr:housenumber": "55",
+        "addr:street": "Via Santa Croce",
+        "amenity": "restaurant",
+        "check_date": "2023-09-18",
+        "indoor_seating": "yes",
+        "name": "Antica Osteria",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5068514,
+          43.8424909
+        ]
+      },
+      "id": "node/11200754104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11202334121",
+        "addr:housenumber": "90",
+        "addr:street": "Via Santa Croce",
+        "amenity": "restaurant",
+        "check_date": "2023-09-19",
+        "name": "Millenium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.509269,
+          43.8425872
+        ]
+      },
+      "id": "node/11202334121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11203155941",
+        "addr:housenumber": "1",
+        "addr:street": "Piazza San quirico",
+        "amenity": "restaurant",
+        "check_date": "2023-09-19",
+        "name": "All'Olivo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5050379,
+          43.8431071
+        ]
+      },
+      "id": "node/11203155941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11210507537",
+        "amenity": "ice_cream",
+        "name": "Dea Nocciola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5072467,
+          43.8526342
+        ]
+      },
+      "id": "node/11210507537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11506535529",
+        "amenity": "bar",
+        "name": "Blanco Ristocaffé",
+        "opening_hours": "Mo-We 12:00-15:00; Th-Fr 12:00-15:00,18:00-01:00, Sa 18:00-01:00, Su off"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4949391,
+          43.8334281
+        ]
+      },
+      "id": "node/11506535529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11599168469",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name:en": "De Cervesia Beer&Food",
+        "opening_hours": "We-Sa 17:30-00:00; Su 12:00-17:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5034074,
+          43.8406098
+        ]
+      },
+      "id": "node/11599168469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11850021369",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Nida",
+        "website": "https://www.serendepico.com/nida/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5190649,
+          43.8484108
+        ]
+      },
+      "id": "node/11850021369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12113071033",
+        "addr:city": "Lucca",
+        "addr:housenumber": "31",
+        "addr:place": "Lucca",
+        "addr:street": "Piazza Santa Maria",
+        "amenity": "restaurant",
+        "internet_access": "no",
+        "name": "PokèFlash",
+        "website": "https://www.pokeflash.it"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5071896,
+          43.8472951
+        ]
+      },
+      "id": "node/12113071033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12300991241",
+        "amenity": "fast_food",
+        "check_date": "2024-10-31",
+        "name": "Yes Poke Bubble Tea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5056828,
+          43.8379264
+        ]
+      },
+      "id": "node/12300991241"
+    }
+  ]
+}
