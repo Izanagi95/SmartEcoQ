@@ -1,0 +1,567 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-12-08T17:31:16Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/378456782",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.502254,
+          43.844303
+        ]
+      },
+      "id": "node/378456782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/374563912",
+        "amenity": "recycling",
+        "name": "Centro Riciclo Lucca",
+        "recycling_type": "centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.510403,
+          43.846119
+        ]
+      },
+      "id": "node/374563912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/374891244",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.502813,
+          43.841213
+        ]
+      },
+      "id": "node/374891244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/378912453",
+        "amenity": "recycling",
+        "name": "EcoService Lucca",
+        "recycling_type": "centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.498713,
+          43.847052
+        ]
+      },
+      "id": "node/378912453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/379123456",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.503614,
+          43.843017
+        ]
+      },
+      "id": "node/379123456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/379654321",
+        "amenity": "recycling",
+        "name": "Centro Ambientale Lucca Nord",
+        "recycling_type": "centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.511456,
+          43.849756
+        ]
+      },
+      "id": "node/379654321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/379789123",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.499812,
+          43.845612
+        ]
+      },
+      "id": "node/379789123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/379987654",
+        "amenity": "recycling",
+        "name": "Punto Verde Lucca Sud",
+        "recycling_type": "drop_off"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.497128,
+          43.842879
+        ]
+      },
+      "id": "node/379987654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/380456987",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.506214,
+          43.847513
+        ]
+      },
+      "id": "node/380456987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/380654789",
+        "amenity": "recycling",
+        "name": "Isola Ecologica Porta Elisa",
+        "recycling_type": "centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.512314,
+          43.844912
+        ]
+      },
+      "id": "node/380654789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/380789654",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.500214,
+          43.842313
+        ]
+      },
+      "id": "node/380789654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/380987321",
+        "amenity": "recycling",
+        "name": "Ricicleria Sant'Anna",
+        "recycling_type": "drop_off"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.488712,
+          43.843912
+        ]
+      },
+      "id": "node/380987321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/382123456",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.505312,
+          43.840712
+        ]
+      },
+      "id": "node/382123456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/382234567",
+        "amenity": "recycling",
+        "name": "Ricicleria Piazza San Francesco",
+        "recycling_type": "drop_off"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.507412,
+          43.841912
+        ]
+      },
+      "id": "node/382234567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/382345678",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.506812,
+          43.839612
+        ]
+      },
+      "id": "node/382345678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/382456789",
+        "amenity": "recycling",
+        "name": "Eco Point Via del Fosso",
+        "recycling_type": "centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.508912,
+          43.841212
+        ]
+      },
+      "id": "node/382456789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/382567890",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.506512,
+          43.842312
+        ]
+      },
+      "id": "node/382567890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/382678901",
+        "amenity": "recycling",
+        "name": "Centro Raccolta Piazza Anfiteatro",
+        "recycling_type": "drop_off"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.505912,
+          43.842812
+        ]
+      },
+      "id": "node/382678901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/382789012",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.508312,
+          43.840112
+        ]
+      },
+      "id": "node/382789012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/382890123",
+        "amenity": "recycling",
+        "name": "Isola Ecologica Porta San Gervasio",
+        "recycling_type": "centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.509612,
+          43.839812
+        ]
+      },
+      "id": "node/382890123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/383123456",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.502700,
+          43.844300
+        ]
+      },
+      "id": "node/383123456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/383234567",
+        "amenity": "recycling",
+        "name": "Eco Point Piazza Napoleone",
+        "recycling_type": "drop_off"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.504800,
+          43.843200
+        ]
+      },
+      "id": "node/383234567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/383345678",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.506300,
+          43.841800
+        ]
+      },
+      "id": "node/383345678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/383456789",
+        "amenity": "recycling",
+        "name": "Centro Riciclo Porta Elisa",
+        "recycling_type": "centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.508200,
+          43.842300
+        ]
+      },
+      "id": "node/383456789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/383567890",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.503900,
+          43.841000
+        ]
+      },
+      "id": "node/383567890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/383678901",
+        "amenity": "recycling",
+        "name": "Ricicleria Via Fillungo",
+        "recycling_type": "drop_off"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.502500,
+          43.843800
+        ]
+      },
+      "id": "node/383678901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/383789012",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.506700,
+          43.844100
+        ]
+      },
+      "id": "node/383789012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/383890123",
+        "amenity": "recycling",
+        "name": "Isola Ecologica Piazza San Michele",
+        "recycling_type": "centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.504300,
+          43.842500
+        ]
+      },
+      "id": "node/383890123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/384123456",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.508600,
+          43.841200
+        ]
+      },
+      "id": "node/384123456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/384234567",
+        "amenity": "recycling",
+        "name": "Eco Stop Via Santa Croce",
+        "recycling_type": "drop_off"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.503300,
+          43.840500
+        ]
+      },
+      "id": "node/384234567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/385123456",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.503245,
+          43.844302
+        ]
+      },
+      "id": "node/385123456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/385234567",
+        "amenity": "recycling",
+        "name": "Eco Point Piazza Anfiteatro - Nord",
+        "recycling_type": "drop_off"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.503345,
+          43.844432
+        ]
+      },
+      "id": "node/385234567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/385345678",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.503445,
+          43.844102
+        ]
+      },
+      "id": "node/385345678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/385456789",
+        "amenity": "recycling",
+        "name": "Isola Ecologica Piazza Anfiteatro - Sud",
+        "recycling_type": "centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.503245,
+          43.844012
+        ]
+      },
+      "id": "node/385456789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/385567890",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.503145,
+          43.844202
+        ]
+      },
+      "id": "node/385567890"
+    }
+  ]
+}

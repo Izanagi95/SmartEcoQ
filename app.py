@@ -8,8 +8,8 @@ from utils import setup
 # Streamlit UI
 def main():
     # Configura il titolo della scheda
-    st.set_page_config(page_title="EcoQ")
-    st.sidebar.title("🌱 EcoQ")
+    st.set_page_config(page_title="SmartEcoQ")
+    st.sidebar.title("🌱 SmartEcoQ")
     page = st.sidebar.radio("Seleziona una pagina:", ["Event Assistant", "Recycling Assistant", "Navigator"])
     setup()
 

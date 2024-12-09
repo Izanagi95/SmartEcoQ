@@ -13,7 +13,7 @@ def main():
     st.title("🌍 Navigator")
 
     # Carica il file GeoJSON
-    geojson_file_path = os.path.join('data', 'Trash_and_Recycling_Collection_Points.geojson')
+    geojson_file_path = os.path.join('data', 'Milano_Trash_and_Recycling_Collection_Points.geojson')
     with open(geojson_file_path, 'r') as f:
         geojson_data = json.load(f)
 
