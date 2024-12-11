@@ -7,7 +7,10 @@ import folium
 from streamlit_folium import st_folium
 import requests
 import polyline
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 
 def page1():
     st.title("🌍 Navigator")
@@ -97,58 +100,110 @@ def page1():
 
 
 def page2():
-    # Cattura le informazioni sul disegno
+    # Set start location
     st.session_state.start = (43.843, 10.508)
 
-    last_object = st.session_state.map_html["last_object_clicked"]
-    if 'lat' in last_object and 'lng' in last_object:
-        # Recupera le coordinate del punto disegnato
-        st.session_state.end = tuple((last_object['lat'], last_object['lng']))
-        map_center = [(st.session_state.start[0] + st.session_state.end[0])/2, (st.session_state.start[1] + st.session_state.end[1])/2]
-        m = folium.Map(location=map_center, zoom_start=15, control_scale=True)
-        st.write(f"Selected point: {st.session_state.end}")
+    # Retrieve last clicked object on the map
+    last_object = st.session_state.map_html.get("last_object_clicked", {})
 
-        # Aggiungi un marker per il punto selezionato
+    if 'lat' in last_object and 'lng' in last_object:
+        # Get coordinates of the selected point
+        st.session_state.end = (last_object['lat'], last_object['lng'])
+
+        # Calculate the map center for display
+        map_center = [
+            (st.session_state.start[0] + st.session_state.end[0]) / 2,
+            (st.session_state.start[1] + st.session_state.end[1]) / 2
+        ]
+
+        # Initialize map
+        m = folium.Map(location=map_center, zoom_start=17, control_scale=True)
+
+        # Calcola i confini del bounding box
+        min_lat = min(st.session_state.start[0], st.session_state.end[0]) - 0.001
+        max_lat = max(st.session_state.start[0], st.session_state.end[0]) + 0.001
+        min_lon = min(st.session_state.start[1], st.session_state.end[1]) - 0.001
+        max_lon = max(st.session_state.start[1], st.session_state.end[1]) + 0.001
+        # Adatta la mappa ai confini calcolati
+        m.fit_bounds([[min_lat, min_lon], [max_lat, max_lon]])
+
+        # Add markers for the start and end points
         folium.Marker(
             location=st.session_state.start,
-            popup="Destinazione",
+            popup="Start",
             icon=folium.Icon(color="red", icon="circle")
         ).add_to(m)
 
-        # Aggiungi un marker per il punto selezionato
         folium.Marker(
             location=st.session_state.end,
-            popup="Destinazione",
+            popup="Destination",
             icon=folium.Icon(color="green", icon="flag")
         ).add_to(m)
 
-        # Calcolare il percorso usando OSRM
-        url = f'http://router.project-osrm.org/route/v1/walking/{st.session_state.start[1]},{st.session_state.start[0]};{st.session_state.end[1]},{st.session_state.end[0]}?overview=full&continue_straight=true&alternatives=true'
-        response = requests.get(url)
-        data = response.json()
-        print(data)
-        # Estrarre la geometria e decodificarla
-        encoded_polyline = data['routes'][0]['geometry']
-        decoded_route = polyline.decode(encoded_polyline)
+        # Use GraphHopper API to calculate the route
+        graphhopper_api_key = os.getenv("GRAPHHOPPER_API_KEY")
+        url = (
+            f'https://graphhopper.com/api/1/route?'
+            f'point={st.session_state.start[0]},{st.session_state.start[1]}&'
+            f'point={st.session_state.end[0]},{st.session_state.end[1]}&'
+            f'type=json&locale=en&vehicle=foot&key={graphhopper_api_key}'
+        )
 
-        # Tracciare il percorso sulla mappa
-        folium.PolyLine(locations=decoded_route, color='blue', weight=5, opacity=0.7).add_to(m)
+        try:
+            response = requests.get(url)
+            response.raise_for_status()
+            data = response.json()
 
-        # Ricalcola la mappa con il nuovo marker
-        map_html = st_folium(m, width=700)
+            # Decode the route geometry
+            encoded_polyline = data['paths'][0]['points']
+            decoded_route = polyline.decode(encoded_polyline)
 
-        # # Calcolo della distanza
-        distance = data['routes'][0]['distance'] / 1000  # in chilometri
-        duration = data['routes'][0]['duration'] / 60  # in minuti
-        st.write(f"Distance calculated: {round(distance, 2)} km")
-        st.write(f"Estimated time: {round(duration, 2) * 5} minutes")
-        route = calculate_route(st.session_state.start, st.session_state.end)
-        st.write(f"Distance calculated: {round(route, 2)} km")
-        st.write(f"Estimated time: {round(estimate_time(route), 2)} minutes")
+            # Draw the route on the map
+            folium.PolyLine(
+                locations=decoded_route,
+                color='blue',
+                weight=5,
+                opacity=0.7
+            ).add_to(m)
 
+            # Ricalcola la mappa con il nuovo marker
+            st_folium(m, width=700)
+
+            # Display selected point information
+            st.write(f"Destination: {st.session_state.end}")
+
+            # Mostrare le istruzioni
+            instructions = data['paths'][0].get('instructions', [])
+            st.write("### Directions")
+            for idx, instruction in enumerate(instructions):
+                distance = instruction.get('distance', 0) / 1000  # Convertire in chilometri
+                time = instruction.get('time', 0) / 1000 / 60  # Convertire in minuti
+                text = instruction.get('text', "")
+                if "destination" in text.lower():
+                    st.write(f"{idx + 1}. {text}")
+                else:
+                    st.write(f"{idx + 1}. {text} ({round(distance, 2)} km, {round(time, 2)} min)")
+
+            # Calcolo della distanza complessiva
+            total_distance = data['paths'][0]['distance'] / 1000  # in chilometri
+            total_duration = data['paths'][0]['time'] / 1000 / 60  # in minuti
+            st.write(f"### Summary")
+            st.write(f"Total Distance: {round(total_distance, 2)} km")
+            st.write(f"Estimated Total Time: {round(total_duration, 2)} minutes")
+        except requests.exceptions.RequestException as e:
+            st.error(f"Failed to retrieve route data: {e}")
+        except KeyError:
+            st.error("Unexpected response structure from the API.")
+
+
+    else:
+        st.warning("Please click on the map to select a destination.")
+
+    # Back button for navigation
     if st.button("Back to map"):
         st.session_state["page"] = 1
         st.rerun()
+
 
 def main():
     if "page" not in st.session_state:
@@ -157,17 +212,6 @@ def main():
         page1()
     elif st.session_state["page"] == 2:
         page2()
-
-   
-
-def calculate_route(start, end):
-    # Calcola la distanza tra i punti utilizzando geodesic
-    return geodesic(start, end).km
-
-def estimate_time(distance_km):
-    walking_speed_kmh = 5  # Velocità media a piedi in km/h
-    time_hours = distance_km / walking_speed_kmh
-    return time_hours * 60  # Converti in minuti
 
 if __name__ == "__main__":
     main()
