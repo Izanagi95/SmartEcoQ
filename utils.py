@@ -26,9 +26,9 @@ def setup():
 
     # Check the response status
     if response.status_code == 200:
-        print("Token response:")
-        print(response.json())
+        # print("Token response:")
+        # print(response.json())
         API_TOKEN = response.json()['access_token']
     else:
         print(f"Failed to retrieve token. Status code: {response.status_code}")
-        print(response.text)
+        # print(response.text)
