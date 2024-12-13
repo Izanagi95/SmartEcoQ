@@ -4,6 +4,7 @@ import base64
 import requests
 import os
 import utils
+from streamlit_card import card
 
 # Function to load the recycling data
 def load_recycling_data():
@@ -82,20 +83,36 @@ def get_recycling_advice(context, items):
 
     You are a recycling expert assistant. Using the provided recycling guidelines, analyze these items: {items} Context (recycling guidelines):
     {context}
+
     For each item, provide a structured analysis:
-    1. Item Name:
+    - Item Name: [name1]
     - Correct Bin: [Specify the exact bin color/type]
     - Preparation Required: [List any cleaning/preparation steps]
     - Reason: [Explain why this bin is correct]
     - Special Notes: [Any warnings, alternatives, or important details]
+    ---------
+    - Item Name: [name2]
+    - Correct Bin: [Specify the exact bin color/type]
+    - Preparation Required: [List any cleaning/preparation steps]
+    - Reason: [Explain why this bin is correct]
+    - Special Notes: [Any warnings, alternatives, or important details]
+    ---------
+    - Item Name: [name3]
+    - Correct Bin: [Specify the exact bin color/type]
+    - Preparation Required: [List any cleaning/preparation steps]
+    - Reason: [Explain why this bin is correct]
+    - Special Notes: [Any warnings, alternatives, or important details]
+
     Guidelines for your response:
-    - Separate each item with a blank line
+    - Separate each item with the separator ---------
+    - Remove empty lines
     - Be specific about bin colors and types
     - If an item isn't in the guidelines, recommend the safest disposal method
     - Mention if items need to be clean, disassembled, or specially prepared
     - Include any relevant warnings about contamination or hazardous materials
     - If an item has multiple components, explain how to separate them
-    Please format your response clearly and concisely for each item.
+    - Answer only with the structure described
+    - Please format your response clearly and concisely for each item and do not use <|eom_id|>.
     """
 
     url = "https://eu-de.ml.cloud.ibm.com/ml/v1/text/generation?version=2023-05-29"
@@ -201,34 +218,63 @@ def main():
                 context = json.dumps(recycling_data)
                 recycling_advice = get_recycling_advice(context, items)
 
+                print(recycling_advice)
                 # generate a lore for the object
 
                 # animate the object
 
                 st.write("### Recycling Instructions:")
-                items = recycling_advice.split('\n\n')
+                recycling_advice_items = recycling_advice.split('---------')
 
-                for item in items:
+                for recycling_advice_item in recycling_advice_items:
+                    recycling_advice = {}
+                    print("recycling_advice_item", recycling_advice_item)
+                    for line in recycling_advice_item.splitlines():
+                        line = line.strip()  # Rimuovi spazi iniziali e finali
+                        if line:  # Salta le righe vuote
+                            if ": " in line:  # Assicurati che ci sia un delimitatore valido
+                                key, value = line.split(": ", 1)  # Dividi al primo ": "
+                                recycling_advice[key.lstrip("- ")] = value.strip()
+                    col1, col2 = st.columns([3, 1])
+                    with col1:
+                        card(
+                        title=recycling_advice['Item Name'],
+                        text=[recycling_advice['Reason'], recycling_advice['Special Notes']],
+                        styles={
+                        "card": {
+                            "width": "100%",
+                            "height": "300px",
+                            "border": "1px solid black",
+                            "padding": "10px",
+                            "margin": "0px",
+                        },
+                        "filter": {
+                            "background-color": "gray"
+                        },
+                        "text": {
+                            "color": "white",
+                            "font-weight": "lighter",
+                        }
+                        }
+                        )
 
-                    if item.strip():
-                        col1, col2 = st.columns([3, 1])
-                        with col1:
-                            st.write(item)
-                        with col2:
-                            # Map waste types to their corresponding images
-                            if "unsorted waste" in item.lower() or "grey" in item.lower():
-                                st.image(get_bin_image("grey"), width=200)
-                            elif "organic" in item.lower() or "food waste" in item.lower() or "brown" in item.lower():
-                                st.image(get_bin_image("brown"), width=200)
-                            elif "plastic" in item.lower() or "metal" in item.lower() or "yellow" in item.lower():
-                                st.image(get_bin_image("yellow"), width=200)
-                            elif "paper" in item.lower() or "blue" in item.lower():
-                                st.image(get_bin_image("blue"), width=200)
-                            elif "collection centers" in item.lower() or "electronic" in item.lower() or "red" in item.lower():
-                                st.image(get_bin_image("red"), width=200)
-                            elif "oil" in item.lower():
-                                st.image(get_bin_image("oil_symbol"),width=200)
-                            elif "battery" in item.lower():
-                                st.image(get_bin_image("battery_symbol"),width=200),
-                            elif "farmacy" in item.lower():
-                                st.image(get_bin_image("farmacie"), width=200)
+                    with col2:
+                        # Map waste types to their corresponding images
+                        if "unsorted waste" in recycling_advice_item.lower() or "grey" in recycling_advice_item.lower():
+                            st.image(get_bin_image("grey"), width=200)
+                        elif "organic" in recycling_advice_item.lower() or "food waste" in recycling_advice_item.lower() or "brown" in recycling_advice_item.lower():
+                            st.image(get_bin_image("brown"), width=200)
+                        elif "plastic" in recycling_advice_item.lower() or "metal" in recycling_advice_item.lower() or "yellow" in recycling_advice_item.lower():
+                            st.image(get_bin_image("yellow"), width=200)
+                        elif "paper" in recycling_advice_item.lower() or "blue" in recycling_advice_item.lower():
+                            st.image(get_bin_image("blue"), width=200)
+                        elif "collection centers" in recycling_advice_item.lower() or "electronic" in recycling_advice_item.lower() or "red" in recycling_advice_item.lower():
+                            st.image(get_bin_image("red"), width=200)
+                        elif "oil" in recycling_advice_item.lower():
+                            st.image(get_bin_image("oil_symbol"),width=200)
+                        elif "battery" in recycling_advice_item.lower():
+                            st.image(get_bin_image("battery_symbol"),width=200),
+                        elif "farmacy" in recycling_advice_item.lower():
+                            st.image(get_bin_image("farmacie"), width=200)
+                        st.write("<p style='text-align: center;'>" + recycling_advice["Correct Bin"] + " bin</p>", unsafe_allow_html=True)
+

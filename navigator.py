@@ -16,26 +16,26 @@ def page1():
     st.title("🌍 Navigator")
 
     # Sidebar per la selezione del dataset
-    st.sidebar.title("Filtri")
+    st.sidebar.title("Filters")
     dataset_options = {
-        "Ecopunti": {
+        "Ecopoint": {
             "dataset": "ecopunti_lucca.geojson",
             "icon": "trash",
             "color": "green"
         },
-        "Ristoranti": {
+        "Restoration": {
             "dataset": "ristoranti_lucca.geojson",
             "icon": "cutlery",
             "color": "blue"
         },
-        "Servizi Pubblici": {
+        "Public Toilets": {
             "dataset": "servizi_pubblici_lucca.geojson",
             "icon": "bath",
             "color": "yellow"
         }
     }
     selected_dataset = st.sidebar.selectbox(
-        "Seleziona le categorie",
+        "Select the category",
         options=list(dataset_options.keys())
     )
 
@@ -60,7 +60,7 @@ def page1():
 
     amenities = df["properties"].apply(lambda x: x.get("amenity", "Sconosciuto")).unique()
     selected_amenities = st.sidebar.multiselect(
-        "Seleziona le tipologie",
+        "Select the typology",
         options=amenities,
         default=amenities
     )
