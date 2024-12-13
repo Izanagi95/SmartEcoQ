@@ -104,7 +104,7 @@ def get_recycling_advice(context, items):
         "input": prompt,
         "parameters": {
             "decoding_method": "greedy",
-            "max_new_tokens": 200,
+            "max_new_tokens": 500,
             "min_new_tokens": 0,
             "repetition_penalty": 1
         },
