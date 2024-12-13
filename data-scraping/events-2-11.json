@@ -1,0 +1,2362 @@
+[
+    {
+        "date": "02/11/2024",
+        "title": "Accampamento Medievale Permanente",
+        "location": "#TheCitadel",
+        "start_time": "09:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Area Demo Associazioni @IMT Library",
+        "location": "#IMTLibrary-GameScience",
+        "start_time": "09:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Area Pikmin",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "09:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Esposizione e didattica Armi d’Assedio",
+        "location": "#TheCitadel",
+        "start_time": "09:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Calendario Lords for Fantasy - Antonello Venditti",
+        "location": "#AreaPerformance",
+        "start_time": "09:00",
+        "end_time": "10:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Game Science @IMT Library",
+        "location": "#IMTLibrary-GameScience",
+        "start_time": "09:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Laboratori COOP",
+        "location": "#JuniorRealCollegio",
+        "start_time": "09:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "LARP Aston Crown",
+        "location": "#TheCitadel",
+        "start_time": "09:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Presidio permanente Feudalesimo e Libertà",
+        "location": "#TheCitadel",
+        "start_time": "09:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Scopri City Pets a Lucca junior!",
+        "location": "#JuniorRealCollegio",
+        "start_time": "09:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Scopri G.A.M.E. UPI - MOVING4FUTURE a Lucca Junior!",
+        "location": "#JuniorRealCollegio",
+        "start_time": "09:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Scopri gli Slow Games a Lucca Junior!",
+        "location": "#JuniorRealCollegio",
+        "start_time": "09:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Scopri Riciclali tutti a Lucca Junior!",
+        "location": "#JuniorRealCollegio",
+        "start_time": "09:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "The Electric State: photo opportunity!",
+        "location": "#ChiesadiSanFrancesco",
+        "start_time": "09:00",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Laboratorio Creativo Sabbiarelli",
+        "location": "#JuniorRealCollegio",
+        "start_time": "09:30",
+        "end_time": "13:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Live living history di SWASHBUKLER",
+        "location": "#TheCitadel",
+        "start_time": "09:30",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Presentazione gioco From the Other Side",
+        "location": "#Si14-GrogLiveShow",
+        "start_time": "09:30",
+        "end_time": "10:10",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Hello Kitty Photoboot",
+        "location": "#JuniorRealCollegio",
+        "start_time": "09:45",
+        "end_time": "17:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Across the Spider-Verse: Raduno nazionale di Spider-man",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "10:00",
+        "end_time": "13:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Battle For Vilegis",
+        "location": "#TheCitadel",
+        "start_time": "10:00",
+        "end_time": "20:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Caccia al tesoro Lucca 24",
+        "location": "#PadiglioneIsybank",
+        "start_time": "10:00",
+        "end_time": "18:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "COLAZIONE CON GLI AUTORI IN COMPAGNIA DI CLONSI E MAICOL & MIRCO",
+        "location": "#ExMUF-Foodmetti",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Come ti spiego il rischio idraulico con i mattoncini da costruzione",
+        "location": "#JuniorRealCollegio",
+        "start_time": "10:00",
+        "end_time": "12:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Diorama giocabile castello di Gradara - Paolo, Francesca e altri non-morti.",
+        "location": "#IMTLibrary-GameScience",
+        "start_time": "10:00",
+        "end_time": "12:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "E alla fine arrivo...",
+        "location": "#Si16-Chiesettadell’Agorà",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Endless Evolution: Introdurre la Complessità dell’Evoluzione Biologica alla Scuola Primaria con un Gioco da Tavolo",
+        "location": "#IMTLibrary-GameScience",
+        "start_time": "10:00",
+        "end_time": "10:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Fai la tua scelta",
+        "location": "#JuniorRealCollegio",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Bigo",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Hazel Riley",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Laputyn",
+        "location": "#PadiglioneSanMartino",
+        "start_time": "10:00",
+        "end_time": "12:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Penn Cole PalaDediche",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie R.L. Stine PalaDediche",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Tetris Henk Rogers e Alexey Pajitnov",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Il mestiere dell’agente: come funziona un’agenzia letteraria",
+        "location": "#Si4-WorkshopGames",
+        "start_time": "10:00",
+        "end_time": "12:00",
+        "warning": "Evento su prenotazione, prenota dal 20/10/2024"
+    },
+    {
+        "date": "02/11/2024",
+        "title": "La Giungla ha molte lingue...tu le conosci tutte?",
+        "location": "#ChiesadiSanCristoforo",
+        "start_time": "10:00",
+        "end_time": "11:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "La meraviglia intorno a noi",
+        "location": "#Si15-AuditoriumdiSanRomano",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "La mia casa è biblù Letture, giochi e filastrocche intorno alla casa fantastica",
+        "location": "#ChiesadiSanCristoforo",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Laboratori Stellari",
+        "location": "#JuniorRealCollegio",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Lillo presenta la mostra nata dalla collaborazione tra Unicef e Bonelli",
+        "location": "#Si10-SalaIncontriJuniorRealCollegio",
+        "start_time": "10:00",
+        "end_time": "10:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Lucca Cosplay Academy - Quarto Workshop",
+        "location": "#Si13-CappellaGuinigi",
+        "start_time": "10:00",
+        "end_time": "12:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Parole gentili, suoni di pace.",
+        "location": "#ChiesadiSanCristoforo",
+        "start_time": "10:00",
+        "end_time": "11:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Per favore, mordimi sul collo",
+        "location": "#JuniorRealCollegio",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Raduno Parata Attacco dei giganti",
+        "location": "#PiazzaSanMichele",
+        "start_time": "10:00",
+        "end_time": "11:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Showcase: Matteo Alemanno",
+        "location": "#Si8-SalaTobinoPalazzoDucale",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Sisma VR experience",
+        "location": "#JuniorRealCollegio",
+        "start_time": "10:00",
+        "end_time": "12:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Suona tipo bene",
+        "location": "#Si5-ChiesaSanGiovanni",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "warning": "Evento su prenotazione, prenota dal 22/10/2024"
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Tetris - Meet & Greet con Alexey Pajitnov e Henk Rogers (2ᵃ sessione)",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "What If? E non solo - Disney incontra Marvel",
+        "location": "#Si7-AuditoriumSanGirolamo",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Workshop Manga: Sorrisi, Lacrime e Sguardi: Espressioni del Volto",
+        "location": "#AreaWorkshopJapan",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Good Morning Carducci",
+        "location": "#Si14-GrogLiveShow",
+        "start_time": "10:10",
+        "end_time": "10:50",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Blind Guardian",
+        "location": "#PadiglioneCarducci",
+        "start_time": "10:15",
+        "end_time": "11:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Appuntamento Firmacopie No Curves x Cyberpunk 2077",
+        "location": "#PadiglioneCarducci",
+        "start_time": "10:30",
+        "end_time": "12:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "La Guerra dell'Anello: Passato, Presente, Futuro",
+        "location": "#Si3-SalaG.Ingellis",
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "La vanità che consuma: Il ritratto di Dorian Gray di Oscar Wilde illustrato da Benjamin Lacombe",
+        "location": "#Si6-AuditoriumFondazioneBancadelMontediLucca",
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Mitologia giapponese nella cultura pop",
+        "location": "#Si11-SalaIncontriJapanPoloFiere",
+        "start_time": "10:30",
+        "end_time": "11:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Boardgame Comedy",
+        "location": "#Si14-GrogLiveShow",
+        "start_time": "10:50",
+        "end_time": "11:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Baldur's Gate 3 - Panel con Joachim Vleminckx e Jason Latino",
+        "location": "#Si1-TeatrodelGiglio",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Buon compleanno Carotina!",
+        "location": "#JuniorRealCollegio",
+        "start_time": "11:00",
+        "end_time": "18:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Alessandro Atzei, Manuele Morlacco, Lidia Bolognini",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Clonsi e Maicol & Mirco",
+        "location": "#ExMUF-Foodmetti",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Cristina Scabbia",
+        "location": "#PiazzaSanMichele",
+        "start_time": "11:00",
+        "end_time": "12:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Docteur Mystère e il tesoro di Rimini",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Hazel Riley",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Penn Cole PalaDediche",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie R.L. Stine PalaDediche",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Giuochi Sine Limes",
+        "location": "#TheCitadel",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Kanako Hime",
+        "location": "#Si12-JapanLivePoloFiere",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "PARATA COSPLAY UFFICIALE RIOT GAMES PRESENTED BY KITKAT",
+        "location": "#Piazzadell'Anfiteatro",
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Parata e Raduno Sailor Moon",
+        "location": "#FontanainPietra-ChiesadiSantaCecilia",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "PIXEL - Picture (of) the Universe: dall’idea al prototipo, alla scatola. Do's and don'ts, soprattutto per Università e Enti di Ricerca.",
+        "location": "#IMTLibrary-GameScience",
+        "start_time": "11:00",
+        "end_time": "11:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Prima Parata a tema Avengers Infinity",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Run dimostrativa GRVItalia",
+        "location": "#TheCitadel",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Scuole Padawan",
+        "location": "#JuniorRealCollegio",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Sparring e Dimostrazioni",
+        "location": "#TheCitadel",
+        "start_time": "11:00",
+        "end_time": "11:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Spazio-tempo, buchi neri e altri onanismi astrofisici",
+        "location": "#Si2-AuditoriumSanFrancesco",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Team Jay: The Butterfly effect",
+        "location": "#CinemaCentrale",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "The moon academy: la creatività incontra la magia",
+        "location": "#JuniorRealCollegio",
+        "start_time": "11:00",
+        "end_time": "11:40",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Un giorno da astronauta... con Geronimo Stilton",
+        "location": "#Si10-SalaIncontriJuniorRealCollegio",
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Workshop Manga: Character Design – Abiti",
+        "location": "#AreaWorkshopJapan",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Non il solito gioiello!",
+        "location": "#JuniorRealCollegio",
+        "start_time": "11:15",
+        "end_time": "12:15",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Origami & co. Un solo foglio fa la differenza.",
+        "location": "#JuniorRealCollegio",
+        "start_time": "11:15",
+        "end_time": "13:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Tutta un’altra Terra! Come raccontare e spiegare l’Agenda 2030 anche ai più bambini e ai ragazzi",
+        "location": "#ChiesadiSanCristoforo",
+        "start_time": "11:15",
+        "end_time": "12:15",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Basi Corso Scherma Storica",
+        "location": "#TheCitadel",
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "COOKING SHOW: PANCAKE E RISATE - LA RICETTA DI PAPERINO",
+        "location": "#ExMUF-Foodmetti",
+        "start_time": "11:30",
+        "end_time": "13:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Fai la tua scelta",
+        "location": "#JuniorRealCollegio",
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Benjamin Lacombe",
+        "location": "#FondazioneBancadelMontediLucca",
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "warning": "Evento su prenotazione, prenota dal 24/10/2024"
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Gormiti The New Era: Incontro con il regista e il cast!",
+        "location": "#Si9-AuditoriumdelSuffragio",
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Il dietro le quinte delle RIVISTE",
+        "location": "#Si16-Chiesettadell’Agorà",
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Maxi Showcase Marco Checchetto e Stefano Caselli",
+        "location": "#Si15-AuditoriumdiSanRomano",
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Meet & Greet con CKibe",
+        "location": "#PadiglioneIsybank",
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Pancake e risate: La ricetta di Paperino!",
+        "location": "#ExMUF-Foodmetti",
+        "start_time": "11:30",
+        "end_time": "13:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Showcase Baron Yoshimoto",
+        "location": "#Si8-SalaTobinoPalazzoDucale",
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Si gioca con Giochi Uniti e il pubblico",
+        "location": "#Si14-GrogLiveShow",
+        "start_time": "11:30",
+        "end_time": "12:20",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Talk Show con Kyoutarou Azuma",
+        "location": "#Si7-AuditoriumSanGirolamo",
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "warning": "Evento su prenotazione, prenota dal 20/10/2024"
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Webtoon, la nuova via coreana",
+        "location": "#Si5-ChiesaSanGiovanni",
+        "start_time": "11:30",
+        "end_time": "12:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Decidi tu la Storia: AudioGame Live con Claudio Di Biagio",
+        "location": "#Si3-SalaG.Ingellis",
+        "start_time": "11:45",
+        "end_time": "12:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Go! Go! Nihon - Vivi e Studia in Giappone",
+        "location": "#Si11-SalaIncontriJapanPoloFiere",
+        "start_time": "11:45",
+        "end_time": "12:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "The Hidden Society: da Stelle e Ottone ad Abissi e incanto",
+        "location": "#Si6-AuditoriumFondazioneBancadelMontediLucca",
+        "start_time": "11:45",
+        "end_time": "12:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Fiore Manni",
+        "location": "#PadiglioneSanMartino",
+        "start_time": "12:00",
+        "end_time": "14:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie La caduta della casa degli Usher Silvia Riccò",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "12:00",
+        "end_time": "13:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Mirka Andolfo",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "12:00",
+        "end_time": "13:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Scott Snyder",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "12:00",
+        "end_time": "13:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Stefano Rapone",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "12:00",
+        "end_time": "13:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "In viaggio di Paolo Curtaz",
+        "location": "#ChiesadiSanCristoforo",
+        "start_time": "12:00",
+        "end_time": "13:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "K-Pop Showcase",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "12:00",
+        "end_time": "13:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Parata Souls - Hidetaka Miyazaki Cosplayers Italia",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "12:00",
+        "end_time": "13:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Play4Change: Esperienze di giochi per il cambiamento sociale!",
+        "location": "#IMTLibrary-GameScience",
+        "start_time": "12:00",
+        "end_time": "13:20",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Workshop Manga: Sceneggiatura, Dal Conflitto alla Conclusione",
+        "location": "#AreaWorkshopJapan",
+        "start_time": "12:00",
+        "end_time": "13:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Barbascura",
+        "location": "#SalaSagrestia-complessodiSanFrancesco",
+        "start_time": "12:01",
+        "end_time": "13:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Gli ultimi saranno primi",
+        "location": "#Si14-GrogLiveShow",
+        "start_time": "12:10",
+        "end_time": "12:50",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Hello Kitty Lab",
+        "location": "#JuniorRealCollegio",
+        "start_time": "12:15",
+        "end_time": "13:15",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Dal Metal alla Fantasy e ritorno: il viaggio di Hansi Kursch",
+        "location": "#Si2-AuditoriumSanFrancesco",
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "warning": "Evento su prenotazione, prenota dal 22/10/2024"
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Felicia Kingsley: Una conquista fuori menù",
+        "location": "#Si1-TeatrodelGiglio",
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Flash Mob a tema Souls \"Praise The Sun\" - HMCI",
+        "location": "#Si12-JapanLivePoloFiere",
+        "start_time": "12:30",
+        "end_time": "13:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "The butterfly effect KIDS - raccontare insieme",
+        "location": "#JuniorRealCollegio",
+        "start_time": "12:30",
+        "end_time": "13:15",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Tutti vogliono la Luna - Come l’uomo è arrivato sulla Luna e perché ci vuole tornare",
+        "location": "#ChiesadiSanCristoforo",
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "INCHIOSTRI INDIPENDENTI. La potenza dell’autoproduzione a fumetti",
+        "location": "#Si16-Chiesettadell’Agorà",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Scuola di Botte – prove libere col pubblico",
+        "location": "#TheCitadel",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "A Legacy of Mana: D&D e Magic: the Gathering a confronto attraverso le Ere",
+        "location": "#Si3-SalaG.Ingellis",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Come Evangelion ha sconfitto Dragon Ball",
+        "location": "#Si11-SalaIncontriJapanPoloFiere",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Dal cassetto allo scaffale - come pubblicare il vostro gioco di ruolo",
+        "location": "#Si4-WorkshopGames",
+        "start_time": "13:00",
+        "end_time": "14:50",
+        "warning": "Evento su prenotazione, prenota dal 20/10/2024"
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Da Hosoi",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Federica di Meo",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Federico Ferniani & Elia Mazzantini",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Il fumetto e l’attualità: cosa leggiamo oggi e cosa leggeremo domani",
+        "location": "#Si9-AuditoriumdelSuffragio",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Indie Vault - Giorno 04",
+        "location": "#Si13-CappellaGuinigi",
+        "start_time": "13:00",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "La conquista della sessualità",
+        "location": "#Si7-AuditoriumSanGirolamo",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "La scienza della fantascienza",
+        "location": "#Si6-AuditoriumFondazioneBancadelMontediLucca",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Maxi Showcase: Akane Torikai",
+        "location": "#Si15-AuditoriumdiSanRomano",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Parata a Tema Dragon Ball",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Portfolio Review",
+        "location": "#AreaWorkshopJapan",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Showcase: Paco Roca e Marco Rizzo",
+        "location": "#Si8-SalaTobinoPalazzoDucale",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "So Lillo! per UNICEF",
+        "location": "#Si14-GrogLiveShow",
+        "start_time": "13:00",
+        "end_time": "13:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Stuart Turton x R.L. Stine: Horror e Thriller dall’età infantile a quella adulta",
+        "location": "#Si5-ChiesaSanGiovanni",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Music Showtime - Benvenuti al Regno di Babbo Natale",
+        "location": "#Si10-SalaIncontriJuniorRealCollegio",
+        "start_time": "13:15",
+        "end_time": "14:15",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Crea il tuo amico Mostro",
+        "location": "#JuniorRealCollegio",
+        "start_time": "13:30",
+        "end_time": "14:15",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Game4CED: giocare a scuola per uno screening del daltonismo",
+        "location": "#IMTLibrary-GameScience",
+        "start_time": "13:30",
+        "end_time": "13:50",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Ikebana: la via dei fiori",
+        "location": "#AreaWorkshopJapan",
+        "start_time": "13:30",
+        "end_time": "15:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Mettetevi comodi: si viaggia nello spazio-tempo!",
+        "location": "#JuniorRealCollegio",
+        "start_time": "13:30",
+        "end_time": "14:15",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "OrangeTeam LUG presenta: OrangeWeenie Monster Parade",
+        "location": "#JuniorRealCollegio",
+        "start_time": "13:30",
+        "end_time": "14:15",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Parata a tema Game of Thrones",
+        "location": "#PiazzaSanMichele",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Visita Guidata alla mostra \"Gateway to Adventure: 50 anni di D&D\" con la curatrice Jessica Patterson",
+        "location": "#ChiesadeiServi",
+        "start_time": "13:30",
+        "end_time": "15:30",
+        "warning": "Evento su prenotazione, prenota dal 31/10/2024"
+    },
+    {
+        "date": "02/11/2024",
+        "title": "50 anni di Dungeons & Dragons",
+        "location": "#Si14-GrogLiveShow",
+        "start_time": "13:45",
+        "end_time": "14:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "\"Caccia al Non Morto\" - Gioco a tema Souls HMCI",
+        "location": "#BaluardoSanMartino",
+        "start_time": "14:00",
+        "end_time": "16:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "\"Festival di Radahn\" - Souls Larp GDR",
+        "location": "#BaluardoSanMartino",
+        "start_time": "14:00",
+        "end_time": "16:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Alcedo Show - Scribacchino",
+        "location": "#Si12-JapanLivePoloFiere",
+        "start_time": "14:00",
+        "end_time": "15:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Colorfit ed altri giochi per la rilevazione del daltonismo",
+        "location": "#IMTLibrary-GameScience",
+        "start_time": "14:00",
+        "end_time": "14:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "CORDIALMENTE ... FOODMETTI",
+        "location": "#ExMUF-Foodmetti",
+        "start_time": "14:00",
+        "end_time": "15:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Dragon Ball: Daima",
+        "location": "#CinemaAstra",
+        "start_time": "14:00",
+        "end_time": "15:30",
+        "warning": "Evento su prenotazione, prenota dal 22/10/2024"
+    },
+    {
+        "date": "02/11/2024",
+        "title": "ECG - Extreme Cosplay Gathering - selezioni italiane",
+        "location": "#Si2-AuditoriumSanFrancesco",
+        "start_time": "14:00",
+        "end_time": "16:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Finale Gymga Live Cup 2024",
+        "location": "#JuniorRealCollegio",
+        "start_time": "14:00",
+        "end_time": "15:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie “Julian” Carlo Lucarelli, Stefano Fantelli",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "14:00",
+        "end_time": "15:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Benjamin Lacombe",
+        "location": "#FondazioneBancadelMontediLucca",
+        "start_time": "14:00",
+        "end_time": "15:30",
+        "warning": "Evento su prenotazione, prenota dal 24/10/2024"
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Calendario Lords for Fantasy - Giacomo Galligani",
+        "location": "#AreaPerformance",
+        "start_time": "14:00",
+        "end_time": "15:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Francesca Siviero",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "14:00",
+        "end_time": "15:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Gin Zarbo",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "14:00",
+        "end_time": "15:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Marika Herzog",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "14:00",
+        "end_time": "15:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Paola Barbato",
+        "location": "#PadiglioneSergioBonelliEditore",
+        "start_time": "14:00",
+        "end_time": "15:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Trono del Muori",
+        "location": "#PadiglioneSanMartino",
+        "start_time": "14:00",
+        "end_time": "15:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Il giubileo, un cammino a fumetti tra storia e attualità",
+        "location": "#ChiesadiSanCristoforo",
+        "start_time": "14:00",
+        "end_time": "15:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "IL RE DEL TERRORE INCONTRA BRUNO BARBIERI!",
+        "location": "#ExMUF-Foodmetti",
+        "start_time": "14:00",
+        "end_time": "15:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Nel labirinto delle emozioni",
+        "location": "#ChiesadiSanCristoforo",
+        "start_time": "14:00",
+        "end_time": "15:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Parata delle Legioni Star Wars",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "14:00",
+        "end_time": "15:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Run dimostrativa GRVItalia",
+        "location": "#TheCitadel",
+        "start_time": "14:00",
+        "end_time": "15:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Sergio Bonelli Editore: Uno sguardo al futuro",
+        "location": "#Si1-TeatrodelGiglio",
+        "start_time": "14:00",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Sparring e Dimostrazioni",
+        "location": "#TheCitadel",
+        "start_time": "14:00",
+        "end_time": "14:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Trials of the Tournament - Epic D&D - Adventurers League, Forgotten Realms",
+        "location": "#Pinturicchio",
+        "start_time": "14:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Rivoluzione negli Shojo Studies",
+        "location": "#Si11-SalaIncontriJapanPoloFiere",
+        "start_time": "14:10",
+        "end_time": "15:10",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Penn Cole e A.B. Poranek: la carica del fantasy romance che invade il mondo",
+        "location": "#Si6-AuditoriumFondazioneBancadelMontediLucca",
+        "start_time": "14:15",
+        "end_time": "15:15",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Premiazioni Mensa Ludo e Mensa Ludo Genesis",
+        "location": "#Si3-SalaG.Ingellis",
+        "start_time": "14:15",
+        "end_time": "15:15",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Reading Show “Lucy e il Segreto di Natalloween” + Firmacopie",
+        "location": "#JuniorRealCollegio",
+        "start_time": "14:15",
+        "end_time": "15:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Basi Corso Scherma Storica",
+        "location": "#TheCitadel",
+        "start_time": "14:30",
+        "end_time": "17:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Come stai?",
+        "location": "#Si5-ChiesaSanGiovanni",
+        "start_time": "14:30",
+        "end_time": "15:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Controculture a fumetti: dai free party ai giochi di ruolo, passando per la Nona arte",
+        "location": "#Si16-Chiesettadell’Agorà",
+        "start_time": "14:30",
+        "end_time": "15:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Cyber Punk Edgerunners",
+        "location": "#Si14-GrogLiveShow",
+        "start_time": "14:30",
+        "end_time": "15:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Diorama giocabile castello di Gradara - Paolo, Francesca e altri non-morti.",
+        "location": "#IMTLibrary-GameScience",
+        "start_time": "14:30",
+        "end_time": "17:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Dove vivono i draghi italiani?",
+        "location": "#JuniorRealCollegio",
+        "start_time": "14:30",
+        "end_time": "15:15",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Il processo dall'ideazione, la scrittura e il disegno di un fumetto... in famiglia!",
+        "location": "#Si15-AuditoriumdiSanRomano",
+        "start_time": "14:30",
+        "end_time": "15:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "K-POP CONTEST",
+        "location": "#MusicMainStage",
+        "start_time": "14:30",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Laboratorio Creativo Sabbiarelli",
+        "location": "#JuniorRealCollegio",
+        "start_time": "14:30",
+        "end_time": "18:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Non è magia... è scienza!",
+        "location": "#JuniorRealCollegio",
+        "start_time": "14:30",
+        "end_time": "15:15",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "OrangeTeam LUG presenta: OrangeWeenie Monster Parade",
+        "location": "#JuniorRealCollegio",
+        "start_time": "14:30",
+        "end_time": "15:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Pokemon Reunion",
+        "location": "#PiazzaSantaMariaForisPortam",
+        "start_time": "14:30",
+        "end_time": "15:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Raduno e Parata a tema Warhammer 40K",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "14:30",
+        "end_time": "15:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Raduno parata Warhammer 40k",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "14:30",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Samantha Shannon: The bone season",
+        "location": "#Si9-AuditoriumdelSuffragio",
+        "start_time": "14:30",
+        "end_time": "15:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Seconda Parata a tema steampunk",
+        "location": "#PiazzaSanMichele",
+        "start_time": "14:30",
+        "end_time": "15:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Showcase: Gene Luen Yang",
+        "location": "#Si8-SalaTobinoPalazzoDucale",
+        "start_time": "14:30",
+        "end_time": "15:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Tutte le novità di Crunchyroll",
+        "location": "#Si7-AuditoriumSanGirolamo",
+        "start_time": "14:30",
+        "end_time": "15:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Disegna il tuo Urone",
+        "location": "#Si10-SalaIncontriJuniorRealCollegio",
+        "start_time": "14:45",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Botte Feudali – spettacolo dimostrativo di combattimento",
+        "location": "#TheCitadel",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Come nasce un fumetto",
+        "location": "#JuniorRealCollegio",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Evolversi Male",
+        "location": "#Si14-GrogLiveShow",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie “Drawing 1985-2021” Pasquale Frisenda",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie di Matteo Bussola e Emilio Pilliu",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie: Bruno Barbieri, Tito Faraci, Giuseppe Camuncoli ed Elia Bonetti",
+        "location": "#ExMUF-Foodmetti",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Gormiti The New Era: Incontro con il regista, il cast e le mascotte!",
+        "location": "#JuniorRealCollegio",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Hobby Store e Cultura Pop: Analisi di Mercato e Dinamiche Comunitarie nel Settore del Gioco e del Fumetto",
+        "location": "#IMTLibrary-GameScience",
+        "start_time": "15:00",
+        "end_time": "15:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "La Festa del Ricordo - Multitavolo Wanderhome",
+        "location": "#LuccaGamesCafè",
+        "start_time": "15:00",
+        "end_time": "18:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Le note magiche di Maxine",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Manga Lab: Character design - corporature",
+        "location": "#AreaWorkshopJapan",
+        "start_time": "15:00",
+        "end_time": "15:50",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Manga Lab: Character design - età e capelli",
+        "location": "#AreaWorkshopJapan",
+        "start_time": "15:00",
+        "end_time": "15:50",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Princess Remix",
+        "location": "#Si12-JapanLivePoloFiere",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Raduno e Parata di Gotham Shadows",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "15:00",
+        "end_time": "16:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Raduno e Parata One Piece",
+        "location": "#FontanainPietra-ChiesadiSantaCecilia",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Raduno Good Omens",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Sfilata Majokko",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Sisma VR experience",
+        "location": "#JuniorRealCollegio",
+        "start_time": "15:00",
+        "end_time": "18:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Crescita all’interno della relazione",
+        "location": "#Si11-SalaIncontriJapanPoloFiere",
+        "start_time": "15:10",
+        "end_time": "17:10",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Che divinità sei?",
+        "location": "#JuniorRealCollegio",
+        "start_time": "15:30",
+        "end_time": "16:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Ania Poranek",
+        "location": "#PadiglioneSanMartino",
+        "start_time": "15:30",
+        "end_time": "16:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Samantha Shannon",
+        "location": "#PadiglioneSanMartino",
+        "start_time": "15:30",
+        "end_time": "17:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Il signore degli anelli ad alta voce con le letture di Massimo Popolizio",
+        "location": "#Si6-AuditoriumFondazioneBancadelMontediLucca",
+        "start_time": "15:30",
+        "end_time": "16:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Mirage Comics si presenta a Lucca con Simon Bisley, Giulio Rincione e Donald Soffritti",
+        "location": "#Si3-SalaG.Ingellis",
+        "start_time": "15:30",
+        "end_time": "16:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Raduno Avatar. The Last Airbender",
+        "location": "#Si8-SalaTobinoPalazzoDucale",
+        "start_time": "15:30",
+        "end_time": "17:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Scuole Padawan",
+        "location": "#JuniorRealCollegio",
+        "start_time": "15:30",
+        "end_time": "16:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Topolino Lab",
+        "location": "#JuniorRealCollegio",
+        "start_time": "15:30",
+        "end_time": "16:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Con Francesco",
+        "location": "#ChiesadiSanCristoforo",
+        "start_time": "15:45",
+        "end_time": "17:15",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Laboratorio rivista: Giochiamo con Giochiamo?!",
+        "location": "#ChiesadiSanCristoforo",
+        "start_time": "15:45",
+        "end_time": "17:15",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Anime fashion: la moda e il fumetto",
+        "location": "#Si16-Chiesettadell’Agorà",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Critico assoluto",
+        "location": "#PadiglioneCarducci",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Dall'Olimpiade di Parigi al mondo del fumetto - La nazionale di Atletica a LuccaC&G",
+        "location": "#Si8-SalaTobinoPalazzoDucale",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Alessandro Atzei, Manuele Morlacco, Lidia Bolognini",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Benjamin Lacombe",
+        "location": "#PadiglioneSanMartino",
+        "start_time": "16:00",
+        "end_time": "18:30",
+        "warning": "Evento su prenotazione, prenota dal 24/10/2024"
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie di Matteo Bussola e Emilio Pilliu",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Felicia Kingsley",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "16:00",
+        "end_time": "17:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie R.L. Stine PalaDediche",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "ILDB - International Larp Database, inaugurazione ufficiale della piattaforma",
+        "location": "#IMTLibrary-GameScience",
+        "start_time": "16:00",
+        "end_time": "16:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Incontro con Joachim Vleminkx: Baldur's Gate 3",
+        "location": "#Si13-CappellaGuinigi",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Kalimatuna: Takoua Ben Mohamed, Zainab Fasiki e Deena Mohamed",
+        "location": "#Si9-AuditoriumdelSuffragio",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "warning": "Evento su prenotazione, prenota dal 22/10/2024"
+    },
+    {
+        "date": "02/11/2024",
+        "title": "La caccia al tesoro dei diritti umani",
+        "location": "#JuniorRealCollegio",
+        "start_time": "16:00",
+        "end_time": "17:15",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Manga Lab: Character design - vestiti e accessori",
+        "location": "#AreaWorkshopJapan",
+        "start_time": "16:00",
+        "end_time": "16:50",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Meet & Greet: incontra i Personaggi del Regno di Babbo Natale",
+        "location": "#JuniorRealCollegio",
+        "start_time": "16:00",
+        "end_time": "16:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Raduno a tema Doctor Who",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Raduno e Parata a Tema Signore degli anelli",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "16:00",
+        "end_time": "18:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Raduno Parata My Hero Academia",
+        "location": "#BaluardoSantaCroce",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Secret Level: incontro con il creatore Tim Miller",
+        "location": "#CinemaAstra",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Showcase: Gou Tanabe e i Miti di Lovecraft",
+        "location": "#Si15-AuditoriumdiSanRomano",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "warning": "Evento su prenotazione, prenota dal 22/10/2024"
+    },
+    {
+        "date": "02/11/2024",
+        "title": "The moon academy: la creatività incontra la magia",
+        "location": "#JuniorRealCollegio",
+        "start_time": "16:00",
+        "end_time": "16:40",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Valentina è vera!",
+        "location": "#Si5-ChiesaSanGiovanni",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Stuart Turton",
+        "location": "#PadiglioneSanMartino",
+        "start_time": "16:30",
+        "end_time": "17:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Flow - Un Mondo da Salvare",
+        "location": "#CinemaCentrale",
+        "start_time": "16:30",
+        "end_time": "18:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Giuochi Sine Limes",
+        "location": "#TheCitadel",
+        "start_time": "16:30",
+        "end_time": "17:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Il mondo di Hello Jesus: albi illustrati, fumetti e non solo",
+        "location": "#ChiesadiSanCristoforo",
+        "start_time": "16:30",
+        "end_time": "17:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Juggernaut",
+        "location": "#Si7-AuditoriumSanGirolamo",
+        "start_time": "16:30",
+        "end_time": "17:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Lo scambio dei mondi; incontro con Roby polar bear",
+        "location": "#Si10-SalaIncontriJuniorRealCollegio",
+        "start_time": "16:30",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Parata EMPISA a tema Star Wars",
+        "location": "#JuniorRealCollegio",
+        "start_time": "16:30",
+        "end_time": "17:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Christopher Buehlman: Il ladro linguanera",
+        "location": "#Si6-AuditoriumFondazioneBancadelMontediLucca",
+        "start_time": "16:45",
+        "end_time": "17:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Expanding the Realms: D&D tra evoluzione culturale e nuove narrazioni”",
+        "location": "#Si3-SalaG.Ingellis",
+        "start_time": "16:45",
+        "end_time": "17:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Storie di Adolescenti. I fumetti come ci aiutano?",
+        "location": "#JuniorRealCollegio",
+        "start_time": "16:45",
+        "end_time": "17:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Manga Lab: domande e risposte",
+        "location": "#AreaWorkshopJapan",
+        "start_time": "16:50",
+        "end_time": "17:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "COOKING SHOW: DIABOLIK - SPAGHETTI ALL'ASSASSINA",
+        "location": "#ExMUF-Foodmetti",
+        "start_time": "17:00",
+        "end_time": "18:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Da fantasia a realtà",
+        "location": "#Si14-GrogLiveShow",
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Dal Gioco di ruolo al romanzo fantasy",
+        "location": "#Si4-WorkshopGames",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "warning": "Evento su prenotazione, prenota dal 20/10/2024"
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Dungeons&Deejay Puntata Speciale Live @Lucca Comics&Games",
+        "location": "#Si1-TeatrodelGiglio",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "warning": "Evento su prenotazione, prenota dal 22/10/2024"
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Düppel:3D - VO:CALS",
+        "location": "#IMTLibrary-GameScience",
+        "start_time": "17:00",
+        "end_time": "17:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Fai la tua scelta",
+        "location": "#JuniorRealCollegio",
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Athleticon",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Blind Guardian",
+        "location": "#PadiglioneCarducci",
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Calendario Lords for Fantasy - Ivan Cavini",
+        "location": "#AreaPerformance",
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie R.L. Stine PalaDediche",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Hunterwolf & Carling Chiu",
+        "location": "#Si12-JapanLivePoloFiere",
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Kiko & Niko DJ presentano: \"Musica da Nerd\"",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Meet & Greet con InnTale",
+        "location": "#PadiglioneIsybank",
+        "start_time": "17:00",
+        "end_time": "18:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Oltre il Costume: la Realtà dietro il Cosplay",
+        "location": "#Si13-CappellaGuinigi",
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Parata Monster Hunter",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Run dimostrativa GRVItalia",
+        "location": "#TheCitadel",
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Esiste ancora l’animazione giapponese?",
+        "location": "#Si11-SalaIncontriJapanPoloFiere",
+        "start_time": "17:15",
+        "end_time": "18:15",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Tetris: Film e Q&A con Henk Rogers e Alexey Pajitnov",
+        "location": "#CinemaAstra",
+        "start_time": "17:15",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Essere una stella solitaria. La solitudine dell’autore",
+        "location": "#Si16-Chiesettadell’Agorà",
+        "start_time": "17:30",
+        "end_time": "18:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Barbascura",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "17:30",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Generazione Fumetto – il documentario",
+        "location": "#Si9-AuditoriumdelSuffragio",
+        "start_time": "17:30",
+        "end_time": "19:00",
+        "warning": "Evento su prenotazione, prenota dal 22/10/2024"
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Il Raduno dei Raduni",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "17:30",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Le novità dal mondo di Dylan Dog",
+        "location": "#Si5-ChiesaSanGiovanni",
+        "start_time": "17:30",
+        "end_time": "18:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Life is strange: double exposure",
+        "location": "#Si2-AuditoriumSanFrancesco",
+        "start_time": "17:30",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Palmares: Eisner, Fauve, Yellow Kid, raccontati da chi li ha vinti",
+        "location": "#Si15-AuditoriumdiSanRomano",
+        "start_time": "17:30",
+        "end_time": "19:00",
+        "warning": "Evento su prenotazione, prenota dal 17/10/2024"
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Showcase: Tony Sandoval",
+        "location": "#Si8-SalaTobinoPalazzoDucale",
+        "start_time": "17:30",
+        "end_time": "18:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Il nostro amico… Francesco D’Assisi",
+        "location": "#ChiesadiSanCristoforo",
+        "start_time": "17:45",
+        "end_time": "18:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "A volte ritornano",
+        "location": "#Si3-SalaG.Ingellis",
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Firmacopie Christopher Buehlman",
+        "location": "#PadiglioneSanMartino",
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "FIRMACOPIE SETHU",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Hexagone Panorama",
+        "location": "#Si7-AuditoriumSanGirolamo",
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Metal e gioco da tavolo",
+        "location": "#Si14-GrogLiveShow",
+        "start_time": "18:00",
+        "end_time": "18:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "PAGURI COMICS CAFÉ",
+        "location": "#ExMUF-Foodmetti",
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Prolegomeni a una critica radicale del nerd nella società del XXI secolo",
+        "location": "#IMTLibrary-GameScience",
+        "start_time": "18:00",
+        "end_time": "18:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Reading Show “Lucy e il Segreto di Natalloween” + Firmacopie",
+        "location": "#JuniorRealCollegio",
+        "start_time": "18:00",
+        "end_time": "18:45",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Rosa opaco / Amore, nostalgia e morte nelle narrazioni contemporanee",
+        "location": "#Si6-AuditoriumFondazioneBancadelMontediLucca",
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Terza parata Florence Knights",
+        "location": "#GiardinodegliOsservanti",
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "COCKTAIL DEL VENTENNALE DI TUNUÉ",
+        "location": "#ExMUF-Foodmetti",
+        "start_time": "18:30",
+        "end_time": "20:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Annuncio finalisti Ruolimpiadi",
+        "location": "#Si14-GrogLiveShow",
+        "start_time": "18:45",
+        "end_time": "19:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Armageddon 2025 di Michael Su",
+        "location": "#CinemaCentrale",
+        "start_time": "19:00",
+        "end_time": "21:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Essen-Lucca Linea Diretta",
+        "location": "#Pinturicchio",
+        "start_time": "19:30",
+        "end_time": "00:00",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Ghostbusters",
+        "location": "#CinemaAstra",
+        "start_time": "20:30",
+        "end_time": "22:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Supereroi in cuffia",
+        "location": "#Si2-AuditoriumSanFrancesco",
+        "start_time": "20:30",
+        "end_time": "21:30",
+        "warning": null
+    },
+    {
+        "date": "02/11/2024",
+        "title": "Vent’anni e poi",
+        "location": "#MusicMainStage",
+        "start_time": "21:00",
+        "end_time": "23:59",
+        "warning": "Evento su prenotazione, prenota dal 20/10/2024"
+    }
+]
