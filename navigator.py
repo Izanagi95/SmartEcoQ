@@ -2,21 +2,34 @@ import streamlit as st
 import os
 import json
 import pandas as pd
-from geopy.distance import geodesic
 import folium
 from streamlit_folium import st_folium
 import requests
 import polyline
 from dotenv import load_dotenv
 import os
+import geocoder
+from geopy.geocoders import Nominatim
 
 load_dotenv()
 
-def page1():
-    st.title("🌍 Navigator")
+def get_current_coordinates_using_IP():
+    g = geocoder.ip('me')  # Detects your current IP
+    if g.latlng:
+        return g.latlng  # Returns [latitude, longitude]
+    else:
+        return "Could not determine location"
 
-    # Sidebar per la selezione del dataset
-    st.sidebar.title("Filters")
+def get_street_from_coordinates(coordinates):
+    geolocator = Nominatim(user_agent="SmartEcoQ")  # Replace with a descriptive app name
+    location = geolocator.reverse((coordinates[0], coordinates[1]), language='en', timeout=10)
+    if location:
+        return location.address
+    else:
+        return ""
+
+def page1():
+
     dataset_options = {
         "Ecopoint": {
             "dataset": "ecopunti_lucca.geojson",
@@ -69,7 +82,10 @@ def page1():
     filtered_df = df[df["properties"].apply(lambda x: x.get("amenity", "Sconosciuto") in selected_amenities)]
 
     # Impostiamo start a una posizione specifica
-    st.session_state.start = (43.843, 10.508)
+    if st.session_state.selected_starting_point_mode == "Simulation: Lucca":
+        st.session_state.start = (43.843, 10.508)
+    else:
+        st.session_state.start = get_current_coordinates_using_IP()
 
     # Crea la mappa con Folium
     map_center = [df["latitude"].mean(), df["longitude"].mean()]
@@ -100,8 +116,23 @@ def page1():
 
 
 def page2():
+    col1, col2 = st.columns([1, 5])
+    with col1:
+        # Back button for navigation
+        if st.button("Go Back"):
+            st.session_state["page"] = 1
+            st.rerun()
+
+    with col2:
+        if st.button("Refresh"):
+            st.rerun()
+
     # Set start location
-    st.session_state.start = (43.843, 10.508)
+    if st.session_state.selected_starting_point_mode == "Simulation: Lucca":
+        st.session_state.start = (43.843, 10.508)
+    else:
+        st.session_state.start = get_current_coordinates_using_IP()
+
 
     # Retrieve last clicked object on the map
     last_object = st.session_state.map_html.get("last_object_clicked", {})
@@ -142,11 +173,12 @@ def page2():
 
         # Use GraphHopper API to calculate the route
         graphhopper_api_key = os.getenv("GRAPHHOPPER_API_KEY")
+
         url = (
             f'https://graphhopper.com/api/1/route?'
             f'point={st.session_state.start[0]},{st.session_state.start[1]}&'
             f'point={st.session_state.end[0]},{st.session_state.end[1]}&'
-            f'type=json&locale=en&vehicle=foot&key={graphhopper_api_key}'
+            f'type=json&locale=en&vehicle={st.session_state.selected_travel_mode.lower()}&key={graphhopper_api_key}'
         )
 
         try:
@@ -170,7 +202,8 @@ def page2():
             st_folium(m, width=700)
 
             # Display selected point information
-            st.write(f"Destination: {st.session_state.end}")
+            st.write(f"Starting point: {get_street_from_coordinates(st.session_state.start)} {st.session_state.start}")
+            st.write(f"Destination point: {get_street_from_coordinates(st.session_state.end)} {st.session_state.end}")
 
             # Mostrare le istruzioni
             instructions = data['paths'][0].get('instructions', [])
@@ -199,13 +232,25 @@ def page2():
     else:
         st.warning("Please click on the map to select a destination.")
 
-    # Back button for navigation
-    if st.button("Back to map"):
-        st.session_state["page"] = 1
-        st.rerun()
 
 
 def main():
+
+    st.title("🌍 Navigator")
+
+    # Sidebar per la selezione del dataset
+    st.sidebar.title("Filters")
+
+    st.session_state.selected_starting_point_mode = st.sidebar.selectbox(
+        "Select starting point",
+        options=["Simulation: Lucca", "Use IP location"]
+    )
+
+    st.session_state.selected_travel_mode = st.sidebar.selectbox(
+        "Select travel mode",
+        options=["Foot", "Car"]
+    )
+
     if "page" not in st.session_state:
         st.session_state["page"] = 1
     if st.session_state["page"] == 1:

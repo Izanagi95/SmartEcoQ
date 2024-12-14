@@ -34,6 +34,7 @@ def analyze_image(image_data):
         Format your response as a comma-separated list. Example:
         "glass wine bottle, plastic yogurt container, banana peel, cardboard box"
         """
+
         response = requests.post(
             url = "https://eu-de.ml.cloud.ibm.com/ml/v1/text/chat?version=2023-05-29",
             headers={
@@ -221,6 +222,9 @@ def main():
     if img_file is not None:
         with st.spinner("Analyzing image..."):
             identified_items = analyze_image(img_file)
+            if identified_items == "no items found":
+                st.error("No items found in image")
+                st.stop()
 
             if not isinstance(identified_items,str) or identified_items.startswith("Error"):
                 st.error(identified_items)
@@ -241,7 +245,7 @@ def main():
 
                 for recycling_advice_item in recycling_advice_items:
                     recycling_advice = {}
-                    # print("recycling_advice_item", recycling_advice_item)
+                    print("recycling_advice_item:\n", recycling_advice_item)
                     for line in recycling_advice_item.splitlines():
                         line = line.strip()  
                         if line:  
@@ -256,7 +260,7 @@ def main():
                     except:
                         pass
                     try:
-                        if recycling_advice.get('Preparation Required') is "None":
+                        if recycling_advice.get('Preparation Required') == "None":
                             text_to_show.append(format_text(recycling_advice['Preparation Required']))
                     except:
                         pass
