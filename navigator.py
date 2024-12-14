@@ -27,6 +27,21 @@ def get_street_from_coordinates(coordinates):
         return location.address
     else:
         return ""
+    
+# def format_duration(seconds):
+#     minutes, seconds = divmod(seconds, 60)
+#     hours, minutes = divmod(minutes, 60)
+    
+#     duration = []
+    
+#     if hours:
+#         duration.append(f"{hours} hour{'s' if hours > 1 else ''}")
+#     if minutes:
+#         duration.append(f"{minutes} minute{'s' if minutes > 1 else ''}")
+#     if seconds:
+#         duration.append(f"{seconds} second{'s' if seconds > 1 else ''}")
+    
+#     return ', '.join(duration) or '0 seconds'
 
 def page1():
 
@@ -90,24 +105,25 @@ def page1():
     # Crea la mappa con Folium
     map_center = [df["latitude"].mean(), df["longitude"].mean()]
     m = folium.Map(location=map_center, zoom_start=15, control_scale=True)
+    fg = folium.FeatureGroup(name="Markers")
 
     # Aggiungi un marker per lo starting point
-    folium.Marker(
+    fg.add_child(folium.Marker(
         location=st.session_state.start,
-        popup="Tu sei qui",
-        icon=folium.Icon(color="red", icon="info-sign")
-    ).add_to(m)
+        popup="You are here",
+        icon=folium.Icon(color="red", icon="circle")
+    ))
 
     # Aggiungi marker per i punti filtrati
     for _, point in filtered_df.iterrows():
-        folium.Marker(
+        fg.add_child(folium.Marker(
             location=[point["latitude"], point["longitude"]],
             popup=point["properties"].get("amenity", "Info point"),
             icon=folium.Icon(color=dataset_options[selected_dataset]["color"], icon=dataset_options[selected_dataset]["icon"])
-        ).add_to(m)
+        ))
 
     # Mostra la mappa in Streamlit
-    st.session_state.map_html = st_folium(m, width=700)
+    st.session_state.map_html = st_folium(m, feature_group_to_add=fg, width=700)
 
     if st.session_state.map_html["last_object_clicked"] and st.button("Go ahead"):
         st.session_state["page"] = 2
@@ -116,7 +132,7 @@ def page1():
 
 
 def page2():
-    col1, col2 = st.columns([1, 5])
+    col1, col2 = st.columns([1, 6])
     with col1:
         # Back button for navigation
         if st.button("Go Back"):
@@ -159,17 +175,19 @@ def page2():
         m.fit_bounds([[min_lat, min_lon], [max_lat, max_lon]])
 
         # Add markers for the start and end points
-        folium.Marker(
+        fg = folium.FeatureGroup(name="Markers")
+
+        fg.add_child(folium.Marker(
             location=st.session_state.start,
             popup="Start",
             icon=folium.Icon(color="red", icon="circle")
-        ).add_to(m)
+        ))
 
-        folium.Marker(
+        fg.add_child(folium.Marker(
             location=st.session_state.end,
             popup="Destination",
             icon=folium.Icon(color="green", icon="flag")
-        ).add_to(m)
+        ))
 
         # Use GraphHopper API to calculate the route
         graphhopper_api_key = os.getenv("GRAPHHOPPER_API_KEY")
@@ -199,11 +217,15 @@ def page2():
             ).add_to(m)
 
             # Ricalcola la mappa con il nuovo marker
-            st_folium(m, width=700)
+            st_folium(m, feature_group_to_add=fg, width=700)
 
             # Display selected point information
-            st.write(f"Starting point: {get_street_from_coordinates(st.session_state.start)} {st.session_state.start}")
-            st.write(f"Destination point: {get_street_from_coordinates(st.session_state.end)} {st.session_state.end}")
+            if not "start_street" in st.session_state:
+                st.session_state.start_street = get_street_from_coordinates(st.session_state.start)
+            if not "end_street" in st.session_state:
+                st.session_state.end_street = get_street_from_coordinates(st.session_state.end)
+            st.write(f"Starting point: {st.session_state.start_street} {st.session_state.start}")
+            st.write(f"Destination point: {st.session_state.end_street} {st.session_state.end}")
 
             # Mostrare le istruzioni
             instructions = data['paths'][0].get('instructions', [])
