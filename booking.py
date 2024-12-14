@@ -53,16 +53,20 @@ def get_connection():
 
 def page1():
     st.title("🌍 Booking")
-    image = st.camera_input("Show QR code")
-
+    
+    # Create a live camera input using Streamlit's camera_input widget
+    image = st.camera_input("Scan QR code")  # Streamlit widget to capture live camera input
+    
     if image is not None:
+        # Process the image to extract QR code
         bytes_data = image.getvalue()
         cv2_img = cv2.imdecode(np.frombuffer(bytes_data, np.uint8), cv2.IMREAD_COLOR)
 
+        # QR code detection using OpenCV
         detector = cv2.QRCodeDetector()
         data, _, _ = detector.detectAndDecode(cv2_img)
 
-        if data:            
+        if data:
             with get_connection() as connection:
                 cursor = connection.cursor()
                 cursor.execute("SELECT id, name, queue_counter, position FROM stand WHERE id = ? LIMIT 1", (data,))
