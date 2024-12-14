@@ -23,11 +23,53 @@ def get_current_coordinates_using_IP():
 def get_street_from_coordinates(coordinates):
     geolocator = Nominatim(user_agent="SmartEcoQ")  # Replace with a descriptive app name
     location = geolocator.reverse((coordinates[0], coordinates[1]), language='en', timeout=10)
+    print(location)
     if location:
         return location.address
     else:
         return ""
     
+
+def print_format_address(address: str) -> str:
+    """
+    Format an address string into a user-friendly, labeled format.
+
+    :param address: The address string (building, street, district, city, region, postal code, state)
+    :return: A formatted address as a string
+    """
+    # Split the address into components
+    parts = address.split(", ")
+    building = None
+    # Determine if a building field is included (optional first field)
+    if len(parts) == 7:  # Includes building
+        if "via" in parts[0].lower() or "piazzale" in parts[0].lower() or "piazza" in parts[0].lower():
+            street, _, district, city, region, postal_code, state = parts
+        else:
+            building, street, district, city, region, postal_code, state = parts
+    elif len(parts) == 6: 
+        street, district, city, region, postal_code, state = parts
+    elif len(parts) == 8:  
+        if "via" in parts[0].lower() or "piazzale" in parts[0].lower() or "piazza" in parts[0].lower():
+            street, _, _, district, city, region, postal_code, state = parts
+        else:
+            building, street, _, district, city, region, postal_code, state = parts
+    else:
+        raise ValueError("Invalid address format. Must have 6 or 7 fields separated by commas.")
+    
+    # Format the address
+    formatted_address = "**Address:**  "
+    if building:
+        st.markdown(f"**Building:** {building}  ")
+    st.markdown(f"**Street:** {street}  ")
+    st.markdown(f"**District:** {district}  ")
+    st.markdown(f"**City:** {city}  ")
+    st.markdown(f"**Region:** {region}  ")
+    st.markdown(f"**Postal Code:** {postal_code}  ")
+    st.markdown(f"**State:** {state}  ")
+
+    return formatted_address
+
+
 # def format_duration(seconds):
 #     minutes, seconds = divmod(seconds, 60)
 #     hours, minutes = divmod(minutes, 60)
@@ -124,6 +166,20 @@ def page1():
 
     # Mostra la mappa in Streamlit
     st.session_state.map_html = st_folium(m, feature_group_to_add=fg, width=700)
+
+
+    
+    last_object = st.session_state.map_html.get("last_object_clicked", {})
+    last_object_clicked_popup = st.session_state.map_html.get("last_object_clicked_popup", "")
+    if last_object:
+        st.write(f"Typology clicked: {last_object_clicked_popup}")
+        destination_info = get_street_from_coordinates((last_object['lat'], last_object['lng']))
+        st.markdown(f"**Destination:** {destination_info.split(",")[0]}")
+        with st.expander("Click to view more details"):
+            print_format_address(destination_info)
+            st.markdown(f'**Coordinates:** {(last_object['lat'], last_object['lng'])}')
+    else:
+        st.write("Select a destination on the map")
 
     if st.session_state.map_html["last_object_clicked"] and st.button("Go ahead"):
         st.session_state["page"] = 2
@@ -224,8 +280,30 @@ def page2():
                 st.session_state.start_street = get_street_from_coordinates(st.session_state.start)
             if not "end_street" in st.session_state:
                 st.session_state.end_street = get_street_from_coordinates(st.session_state.end)
-            st.write(f"Starting point: {st.session_state.start_street} {st.session_state.start}")
-            st.write(f"Destination point: {st.session_state.end_street} {st.session_state.end}")
+                
+            st.markdown("**Starting point**")
+            address_parts = st.session_state.start_street.split(",")
+            # Check the length and display the appropriate element
+            if len(address_parts) == 6:
+                st.write(f"Street: {address_parts[0].strip()}")
+            else:
+                st.write(f"Street: {address_parts[1].strip()}")
+
+            with st.expander("Show more Information"):
+                print_format_address(st.session_state.start_street)
+                st.markdown(f"**Coordinates**: {st.session_state.start}")
+
+            st.markdown("**Destination point**")
+            address_parts = st.session_state.end_street.split(",")
+            if len(address_parts) == 6:
+                st.write(f"Street: {address_parts[0].strip()}")
+            else:
+                st.write(f"Street: {address_parts[1].strip()}")
+
+
+            with st.expander("Show more Information"):
+                print_format_address(st.session_state.end_street)
+                st.markdown(f"**Coordinates**: {st.session_state.end}")
 
             # Mostrare le istruzioni
             instructions = data['paths'][0].get('instructions', [])

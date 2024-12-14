@@ -260,7 +260,7 @@ def main():
                     except:
                         pass
                     try:
-                        if recycling_advice.get('Preparation Required') == "None":
+                        if "none" in recycling_advice.get('Preparation Required').lower():
                             text_to_show.append(format_text(recycling_advice['Preparation Required']))
                     except:
                         pass
