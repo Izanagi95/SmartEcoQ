@@ -228,18 +228,29 @@ def main():
 
                 for recycling_advice_item in recycling_advice_items:
                     recycling_advice = {}
-                    print("recycling_advice_item", recycling_advice_item)
+                    # print("recycling_advice_item", recycling_advice_item)
                     for line in recycling_advice_item.splitlines():
-                        line = line.strip()  # Rimuovi spazi iniziali e finali
-                        if line:  # Salta le righe vuote
-                            if ": " in line:  # Assicurati che ci sia un delimitatore valido
-                                key, value = line.split(": ", 1)  # Dividi al primo ": "
+                        line = line.strip()  
+                        if line:  
+                            if ": " in line: 
+                                key, value = line.split(": ", 1) 
                                 recycling_advice[key.lstrip("- ")] = value.strip()
                     col1, col2 = st.columns([3, 1])
+                    text_to_show = []
+
+                    if recycling_advice.get('Reason') is not None:
+                        text_to_show.append(recycling_advice['Reason'])
+
+                    if recycling_advice.get('Preparation Required') is not None:
+                        text_to_show.append(recycling_advice['Preparation Required'])
+
+                    if recycling_advice.get('Special Notes') is not None:
+                        text_to_show.append(recycling_advice['Special Notes'])
+
                     with col1:
                         card(
                         title=recycling_advice['Item Name'],
-                        text=[recycling_advice['Reason'], recycling_advice['Special Notes']],
+                        text=text_to_show,
                         styles={
                         "card": {
                             "width": "100%",
@@ -259,22 +270,6 @@ def main():
                         )
 
                     with col2:
-                        # Map waste types to their corresponding images
-                        if "unsorted waste" in recycling_advice_item.lower() or "grey" in recycling_advice_item.lower():
-                            st.image(get_bin_image("grey"), width=200)
-                        elif "organic" in recycling_advice_item.lower() or "food waste" in recycling_advice_item.lower() or "brown" in recycling_advice_item.lower():
-                            st.image(get_bin_image("brown"), width=200)
-                        elif "plastic" in recycling_advice_item.lower() or "metal" in recycling_advice_item.lower() or "yellow" in recycling_advice_item.lower():
-                            st.image(get_bin_image("yellow"), width=200)
-                        elif "paper" in recycling_advice_item.lower() or "blue" in recycling_advice_item.lower():
-                            st.image(get_bin_image("blue"), width=200)
-                        elif "collection centers" in recycling_advice_item.lower() or "electronic" in recycling_advice_item.lower() or "red" in recycling_advice_item.lower():
-                            st.image(get_bin_image("red"), width=200)
-                        elif "oil" in recycling_advice_item.lower():
-                            st.image(get_bin_image("oil_symbol"),width=200)
-                        elif "battery" in recycling_advice_item.lower():
-                            st.image(get_bin_image("battery_symbol"),width=200),
-                        elif "farmacy" in recycling_advice_item.lower():
-                            st.image(get_bin_image("farmacie"), width=200)
+                        st.image(get_bin_image(recycling_advice["Correct Bin"].lower()), width=200)
                         st.write("<p style='text-align: center;'>" + recycling_advice["Correct Bin"] + " bin</p>", unsafe_allow_html=True)
 
