@@ -7,7 +7,6 @@ from streamlit_folium import st_folium
 import requests
 import polyline
 from dotenv import load_dotenv
-import os
 import geocoder
 from geopy.geocoders import Nominatim
 
@@ -29,6 +28,15 @@ def get_street_from_coordinates(coordinates):
     else:
         return ""
     
+# Function to get latitude and longitude from a place name
+def get_lat_lon(place_name):
+    geolocator = Nominatim(user_agent="streamlit_map_app")
+    location = geolocator.geocode(place_name + ", lucca")
+    
+    if location:
+        return location.latitude, location.longitude
+    else:
+        return None, None
 
 def print_format_address(address: str) -> str:
     """
@@ -84,30 +92,14 @@ def print_format_address(address: str) -> str:
 
     return formatted_address
 
-
-# def format_duration(seconds):
-#     minutes, seconds = divmod(seconds, 60)
-#     hours, minutes = divmod(minutes, 60)
-    
-#     duration = []
-    
-#     if hours:
-#         duration.append(f"{hours} hour{'s' if hours > 1 else ''}")
-#     if minutes:
-#         duration.append(f"{minutes} minute{'s' if minutes > 1 else ''}")
-#     if seconds:
-#         duration.append(f"{seconds} second{'s' if seconds > 1 else ''}")
-    
-#     return ', '.join(duration) or '0 seconds'
-
 def page1():
     dataset_options = {
-        "Ecopoint": {
+        "Ecopoints": {
             "dataset": "ecopunti_lucca.geojson",
             "icon": "trash",
             "color": "green"
         },
-        "Restoration": {
+        "Restorations": {
             "dataset": "ristoranti_lucca.geojson",
             "icon": "cutlery",
             "color": "blue"
@@ -116,12 +108,36 @@ def page1():
             "dataset": "servizi_pubblici_lucca.geojson",
             "icon": "bath",
             "color": "yellow"
+        },
+        "Stands": {
+            
         }
     }
+
+    # Initialize the session state if not already initialized
+    if 'selected_category' not in st.session_state:
+        st.session_state.selected_category = None
+
+    # Create a selectbox and store the value in session state
     selected_dataset = st.sidebar.selectbox(
         "Select the category",
-        options=list(dataset_options.keys())
+        options=list(dataset_options.keys()),
+        index=list(dataset_options.keys()).index(st.session_state.selected_category) if st.session_state.selected_category else 0
     )
+
+    # Save the selected category in session state
+    st.session_state.selected_category = selected_dataset
+
+    if selected_dataset == "Stands":
+        # Embed the map using iframe
+        st.markdown(
+        '<iframe src="https://maps2024.luccacomicsandgames.com/" width="100%" height="800px"></iframe>',
+        unsafe_allow_html=True)
+        st.session_state.destination_name = st.text_input("Add the name of the stand")
+        if st.button("Go ahead"):
+            st.session_state["page"] = 2
+            st.rerun()
+        return
 
     # Carica il file GeoJSON selezionato
     geojson_file_path = os.path.join('data', dataset_options[selected_dataset]["dataset"])
@@ -179,12 +195,14 @@ def page1():
         ))
 
     # Mostra la mappa in Streamlit
-    st.session_state.map_html = st_folium(m, feature_group_to_add=fg, width=700)
+    map_html = st_folium(m, feature_group_to_add=fg, width=700)
 
-
+    if "last_object_clicked" not in st.session_state:
+        st.session_state.last_object_clicked = None
     
-    last_object = st.session_state.map_html.get("last_object_clicked", {})
-    last_object_clicked_popup = st.session_state.map_html.get("last_object_clicked_popup", "")
+    last_object = map_html.get("last_object_clicked", {})
+    st.session_state.last_object_clicked = last_object
+    last_object_clicked_popup = map_html.get("last_object_clicked_popup", "")
     if last_object:
         st.write(f"Typology clicked: {last_object_clicked_popup}")
         destination_info = get_street_from_coordinates((last_object['lat'], last_object['lng']))
@@ -195,7 +213,7 @@ def page1():
     else:
         st.write("Select a destination on the map")
 
-    if st.session_state.map_html["last_object_clicked"] and st.button("Go ahead"):
+    if st.session_state.last_object_clicked and st.button("Go ahead"):
         st.session_state["page"] = 2
         st.rerun()
 
@@ -206,13 +224,17 @@ def page2():
     with col1:
         # Back button for navigation
         if st.button("Go Back"):
-            st.session_state.clear()
+            st.session_state.end = None
+            st.session_state.end_street = None
+            st.session_state.destination_name = None
             st.session_state["page"] = 1
             st.rerun()
 
     with col2:
         if st.button("Refresh"):
             st.rerun()
+
+    print("st.session_state", st.session_state)
 
     # Set start location
     if st.session_state.selected_starting_point_mode == "Simulation: Lucca":
@@ -222,11 +244,21 @@ def page2():
 
 
     # Retrieve last clicked object on the map
-    last_object = st.session_state.map_html.get("last_object_clicked", {})
+    last_object = st.session_state.last_object_clicked
 
-    if 'lat' in last_object and 'lng' in last_object:
-        # Get coordinates of the selected point
-        st.session_state.end = (last_object['lat'], last_object['lng'])
+    if "destination_name" not in st.session_state:
+        st.session_state.destination_name = None
+
+    # no stand case
+    if (last_object and 'lat' in last_object and 'lng' in last_object) or st.session_state.destination_name:
+        
+        if st.session_state.destination_name:
+            print("getting end from name")
+            st.session_state.end = get_lat_lon(st.session_state.destination_name)
+        else:
+            # Get coordinates of the selected point
+            print("getting end previous page")
+            st.session_state.end = (last_object['lat'], last_object['lng'])
 
         # Calculate the map center for display
         map_center = [
@@ -295,12 +327,13 @@ def page2():
             st_folium(m, feature_group_to_add=fg, width=700)
 
             # Display selected point information
-            if not "start_street" in st.session_state:
+            if not "start_street" in st.session_state or st.session_state.start_street == None:
                 st.session_state.start_street = get_street_from_coordinates(st.session_state.start)
-            if not "end_street" in st.session_state:
+            if not "end_street" in st.session_state or st.session_state.end_street == None:
+                print("getting end street from " + str(st.session_state.end))
                 st.session_state.end_street = get_street_from_coordinates(st.session_state.end)
                 
-            st.markdown("**Currante position**")
+            st.markdown("**Current position**")
             address_parts_start = st.session_state.start_street.split(",")
             # Check the length and display the appropriate element
             st.write(f"{address_parts_start[0].strip()}")
