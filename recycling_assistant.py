@@ -111,7 +111,7 @@ def get_recycling_advice(context, items):
     - Mention if items need to be clean, disassembled, or specially prepared
     - Include any relevant warnings about contamination or hazardous materials
     - If an item has multiple components, explain how to separate them
-    - Answer only with the structure described
+    - Item Name, Correct Bin, Preparation Required, Reason, Special Notes are mandatory paramters for each item
     - Please format your response clearly and concisely for each item and do not use <|eom_id|>.
     """
 
@@ -191,8 +191,21 @@ def get_bin_image(waste_type):
         "red": "images/red.png",
         "farmacie": "images/farmacie.jpg",
         "yellow_street": "images/yellow_street.png",
+        "none": "images/none.png",
+        "N/A": "images/none.png"
     }
-    return bin_images.get(waste_type.lower(), None)
+    try:
+        result = bin_images.get(waste_type.lower(), None)
+    except:
+        result = "images/none.png"
+    return result
+
+def format_text(text):
+    # Capitalize the first letter and add a period if missing
+    text = text.capitalize()
+    if not text.endswith('.'):
+        text += '.'
+    return text
 
 
 def main():
@@ -236,16 +249,21 @@ def main():
                                 key, value = line.split(": ", 1) 
                                 recycling_advice[key.lstrip("- ")] = value.strip()
                     col1, col2 = st.columns([3, 1])
+
                     text_to_show = []
-
-                    if recycling_advice.get('Reason') is not None:
-                        text_to_show.append(recycling_advice['Reason'])
-
-                    if recycling_advice.get('Preparation Required') is not None:
-                        text_to_show.append(recycling_advice['Preparation Required'])
-
-                    if recycling_advice.get('Special Notes') is not None:
-                        text_to_show.append(recycling_advice['Special Notes'])
+                    try:
+                        text_to_show.append(format_text(recycling_advice['Reason']))
+                    except:
+                        pass
+                    try:
+                        if recycling_advice.get('Preparation Required') is "None":
+                            text_to_show.append(format_text(recycling_advice['Preparation Required']))
+                    except:
+                        pass
+                    try:
+                        text_to_show.append(format_text(recycling_advice['Special Notes']))
+                    except:
+                        pass
 
                     with col1:
                         card(

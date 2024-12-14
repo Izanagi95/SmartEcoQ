@@ -267,5 +267,13 @@
             "accepted_items": [
                 "vegetable oils for cooking and food preservation"
             ]
+        },
+        "none": {
+            "name": "no disposable items",
+            "description": "no disposable items",
+            "accepted_items": [
+                "person",
+                "living being"
+            ]
         }
     }
