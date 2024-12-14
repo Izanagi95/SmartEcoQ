@@ -78,7 +78,7 @@ def print_format_address(address: str) -> str:
     if building:
         st.markdown(f"**Building:** {building}  ")
     if number:
-        st.markdown(f"**Street:** {street + ", " + number}  ")
+        st.markdown(f"**Street:** {street}, {number}  ")
     else:
         st.markdown(f"**Street:** {street}  ")
     if district2:
