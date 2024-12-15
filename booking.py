@@ -32,7 +32,7 @@ def reset_db():
         cursor.execute('''CREATE TABLE IF NOT EXISTS reservation (
             reservation_id INTEGER PRIMARY KEY AUTOINCREMENT,
             stand_id INTEGER NOT NULL,
-            unique_name TEXT NOT NULL,
+            reservation_name TEXT NOT NULL,
             reservation_datetime DATETIME NOT NULL,
             user TEXT NOT NULL,
             FOREIGN KEY(stand_id) REFERENCES stand(id)
@@ -40,9 +40,9 @@ def reset_db():
         
         # Insert initial data
         stands = [
-            ("Autografo Cristina D'Avena", 0, 50, "43.8453612,10.5052311"),
-            ("Autografo Giorgio Vanni", 0, 100, "43.8453612,10.5052311"),
-            ("Autografo ZeroCalcare", 0, 30, "43.8459697,10.5051567"),
+            ("Autografo Cristina D'Avena", 0, 50, "Via Fillungo, 110"),
+            ("Autografo Giorgio Vanni", 0, 100, "Via Fillungo, 104/a"),
+            ("Autografo ZeroCalcare", 0, 30, "P.za San Michele, 11"),
         ]
         cursor.executemany('''INSERT INTO stand (name, max_capacity, queue_counter, position) VALUES (?, ?, ?, ?)''', stands)
 
@@ -106,12 +106,12 @@ def page2():
         cursor = connection.cursor()
         
         # Fetch the stand and reservation data
-        cursor.execute('''SELECT name, queue_counter, position, reservation_name, reservation_datetime 
+        cursor.execute('''SELECT name, position, queue_counter, reservation_name, reservation_datetime 
                           FROM stand LEFT JOIN reservation ON stand.id = reservation.stand_id''')
         rows = cursor.fetchall()
 
     # Convert the result to a Pandas DataFrame for display in Streamlit
-    columns = ["Stand/Event", "Queue", "Position", "Reservation name", "Reservation timestamp"]
+    columns = ["Stand/Event", "Position", "Queue", "Reservation name", "Reservation timestamp"]
     stands_df = pd.DataFrame(rows, columns=columns)
 
     # Filter the DataFrame based on the selected filter option
@@ -147,17 +147,16 @@ def page2():
                 connection.commit()
 
         # Refresh the table after the button click
-        st.success("10 min is simulated")
+        st.success("10 min is simulated, each min a person is served, so queue counter is reduced by 10")
         st.rerun()
 
 def main():
-    if st.sidebar.button("Reset DB"):
-        reset_db()
-
     if "selected_booking_view" not in st.session_state:
         st.session_state["selected_booking_view"] = "Book now"
 
-    st.session_state.selected_booking_view = st.sidebar.radio("Select what to do", ["Book now", "Event list"])
+    st.session_state.selected_booking_view = st.sidebar.radio("Select a view", ["Book now", "Event list"])
+    if st.sidebar.button("Reset DB"):
+        reset_db()
 
     pages = {
         "Book now": page1,

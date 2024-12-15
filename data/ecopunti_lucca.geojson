@@ -9,6 +9,7 @@
       "properties": {
         "@id": "node/2333517573",
         "amenity": "waste_disposal",
+        "materials": ["hazardous", "e-waste"],
         "waste": "grey_water"
       },
       "geometry": {
@@ -24,7 +25,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/2993639021",
-        "amenity": "waste_disposal"
+        "amenity": "waste_disposal",
+        "materials": ["hazardous", "e-waste"]
       },
       "geometry": {
         "type": "Point",
@@ -40,6 +42,7 @@
       "properties": {
         "@id": "node/3571927301",
         "amenity": "recycling",
+        "materials": ["plastic", "paper", "glass", "metal", "mixed"],
         "check_date": "2021-08-14",
         "opening_hours": "24/7",
         "recycling:cans": "yes",
@@ -62,6 +65,7 @@
       "properties": {
         "@id": "node/3571927304",
         "amenity": "recycling",
+        "materials": ["plastic", "paper", "glass", "metal", "mixed"],
         "recycling:cans": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:paper": "yes",
@@ -83,6 +87,7 @@
       "properties": {
         "@id": "node/3784590818",
         "amenity": "waste_basket",
+        "materials": ["mixed"],
         "check_date": "2021-02-23"
       },
       "geometry": {
@@ -98,7 +103,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3813802841",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -113,7 +119,9 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3813802843",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
+
       },
       "geometry": {
         "type": "Point",
@@ -128,7 +136,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/3813824072",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -144,6 +153,7 @@
       "properties": {
         "@id": "node/3912504968",
         "amenity": "waste_basket",
+        "materials": ["mixed"],
         "check_date": "2022-11-08"
       },
       "geometry": {
@@ -161,6 +171,7 @@
         "@id": "node/5884451853",
         "amenity": "recycling",
         "name": "Parco Bacchettoni",
+        "materials": ["plastic", "paper", "glass", "metal", "organic", "mixed"],
         "recycling:cans": "yes",
         "recycling:cardboard": "yes",
         "recycling:glass": "yes",
@@ -189,6 +200,7 @@
       "properties": {
         "@id": "node/5918549593",
         "amenity": "recycling",
+        "materials": ["plastic", "paper", "glass", "organic", "mixed"],
         "recycling:cans": "yes",
         "recycling:cardboard": "yes",
         "recycling:glass": "yes",
@@ -216,6 +228,7 @@
       "properties": {
         "@id": "node/7677032435",
         "amenity": "waste_basket",
+        "materials": ["mixed"],
         "check_date": "2024-10-05"
       },
       "geometry": {
@@ -231,7 +244,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/7677038710",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -248,6 +262,7 @@
         "@id": "node/7677071000",
         "addr:street": "Via del Molinetto",
         "amenity": "waste_basket",
+        "materials": ["mixed"],
         "check_date": "2023-09-23"
       },
       "geometry": {
@@ -264,6 +279,7 @@
       "properties": {
         "@id": "node/8500857511",
         "amenity": "waste_basket",
+        "materials": ["mixed"],
         "waste": "trash"
       },
       "geometry": {
@@ -280,6 +296,7 @@
       "properties": {
         "@id": "node/8998365810",
         "amenity": "recycling",
+        "materials": ["mixed"],
         "recycling_type": "container"
       },
       "geometry": {
@@ -296,6 +313,7 @@
       "properties": {
         "@id": "node/8998365811",
         "amenity": "recycling",
+        "materials": ["plastic", "paper", "glass", "metal", "organic", "mixed"],
         "recycling:cans": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
@@ -319,6 +337,7 @@
       "properties": {
         "@id": "node/9132514729",
         "amenity": "waste_basket",
+        "materials": ["mixed"],
         "check_date": "2024-10-03"
       },
       "geometry": {
@@ -334,7 +353,9 @@
       "type": "Feature",
       "properties": {
         "@id": "node/9594084249",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
+
       },
       "geometry": {
         "type": "Point",
@@ -349,7 +370,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/9594084250",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -364,7 +386,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/9594084259",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -379,7 +402,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/9594084263",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -394,7 +418,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/9594084264",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -409,7 +434,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/9594084266",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -425,6 +451,7 @@
       "properties": {
         "@id": "node/9594084269",
         "amenity": "recycling",
+        "materials": ["textile", "mixed"],
         "recycling:clothes": "yes",
         "recycling_type": "container"
       },
@@ -441,7 +468,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/9594084272",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -456,7 +484,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/9594084277",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -471,7 +500,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/9594084283",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -487,6 +517,7 @@
       "properties": {
         "@id": "node/9820179456",
         "amenity": "waste_basket",
+        "materials": ["mixed"],
         "waste": "trash"
       },
       "geometry": {
@@ -503,6 +534,7 @@
       "properties": {
         "@id": "node/9820179466",
         "amenity": "recycling",
+        "materials": ["plastic", "glass", "metal", "organic", "mixed"],
         "opening_hours": "24/7",
         "recycling:PET": "yes",
         "recycling:cans": "yes",
@@ -528,6 +560,7 @@
       "properties": {
         "@id": "node/9827755146",
         "amenity": "recycling",
+        "materials": ["plastic", "paper", "glass", "metal", "organic", "mixed"],
         "opening_hours": "24/7",
         "recycling:PET": "yes",
         "recycling:cans": "yes",
@@ -554,6 +587,7 @@
       "properties": {
         "@id": "node/9827755155",
         "amenity": "recycling",
+        "materials": ["plastic", "paper", "glass", "metal", "organic", "mixed"],
         "opening_hours": "24/7",
         "recycling:PET": "yes",
         "recycling:glass_bottles": "yes",
@@ -579,6 +613,7 @@
       "properties": {
         "@id": "node/9827755162",
         "amenity": "recycling",
+        "materials": ["plastic", "paper", "glass", "metal", "organic", "mixed"],
         "opening_hours": "24/7",
         "recycling:PET": "yes",
         "recycling:cans": "yes",
@@ -606,6 +641,7 @@
       "properties": {
         "@id": "node/9827755164",
         "amenity": "recycling",
+        "materials": ["plastic", "paper", "glass", "metal", "organic", "mixed"],
         "opening_hours": "24/7",
         "recycling:PET": "yes",
         "recycling:cans": "yes",
@@ -631,7 +667,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/9864161838",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -646,7 +683,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/9864161840",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -661,7 +699,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/10142673994",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -676,7 +715,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/10142681016",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -692,6 +732,7 @@
       "properties": {
         "@id": "node/11096302704",
         "amenity": "recycling",
+        "materials": ["plastic", "paper", "glass", "metal", "organic", "mixed"],
         "opening_hours": "24/7",
         "recycling:PET": "yes",
         "recycling:cans": "yes",
@@ -719,6 +760,7 @@
       "properties": {
         "@id": "node/11096370985",
         "amenity": "recycling",
+        "materials": ["plastic", "paper", "glass", "metal", "organic", "mixed"],
         "recycling:cans": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
@@ -742,6 +784,7 @@
       "properties": {
         "@id": "node/11096390883",
         "amenity": "recycling",
+        "materials": ["plastic", "paper", "glass", "metal", "organic", "mixed"],
         "recycling:cans": "yes",
         "recycling:glass_bottles": "yes",
         "recycling:green_waste": "yes",
@@ -764,7 +807,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103892583",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -779,7 +823,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103897268",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -794,7 +839,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103901493",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -809,7 +855,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103926477",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -824,7 +871,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103926478",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -839,7 +887,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103929876",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -854,7 +903,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103941216",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -869,7 +919,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103948352",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -884,7 +935,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103951168",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -899,7 +951,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103951169",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -914,7 +967,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103951966",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -929,7 +983,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103952355",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -944,7 +999,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103955517",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -959,7 +1015,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103959801",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -974,7 +1031,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103959821",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -989,7 +1047,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103962335",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1004,7 +1063,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103962336",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1019,7 +1079,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103965277",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1034,7 +1095,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103965279",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1049,7 +1111,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103967233",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1064,7 +1127,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103972711",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1079,7 +1143,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12103981789",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1094,7 +1159,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12224145189",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1109,7 +1175,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12224155629",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1124,7 +1191,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12224158955",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1139,7 +1207,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12224207008",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1154,7 +1223,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12224222685",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1169,7 +1239,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12227856227",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1184,7 +1255,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12227865245",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1199,7 +1271,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12227884233",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1214,7 +1287,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12227908955",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1229,7 +1303,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12227919600",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1244,7 +1319,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12227938143",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1259,7 +1335,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12227951414",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1274,7 +1351,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12235895696",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1289,7 +1367,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12238402384",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1304,7 +1383,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12241047290",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1319,7 +1399,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12241074758",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1334,7 +1415,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12241095251",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1349,7 +1431,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12241102366",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",
@@ -1364,7 +1447,8 @@
       "type": "Feature",
       "properties": {
         "@id": "node/12241126140",
-        "amenity": "waste_basket"
+        "amenity": "waste_basket",
+        "materials": ["mixed"]
       },
       "geometry": {
         "type": "Point",

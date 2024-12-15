@@ -180,7 +180,6 @@ def get_recycling_advice(context, items):
 
 
 def get_bin_image(waste_type):
-    """Return the image path for a given waste type"""
     bin_images = {
         "battery_symbol": "images/battery_symbol.png",
         "blue": "images/blu.png",
@@ -280,6 +279,10 @@ def main():
                             "border": "1px solid black",
                             "padding": "10px",
                             "margin": "0px",
+                            "pointer-events": "none",  # Disables interactions
+                        },
+                        "card_hover": {
+                            "pointer-events": "auto",  # Riattiva solo il mouse hover
                         },
                         "filter": {
                             "background-color": "gray"

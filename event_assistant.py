@@ -14,7 +14,7 @@ The first question is, "What are the main programs happening at Lucca Comics thi
 Respond with concise, witty sentences that capture the essence of the event.
 Remember, your goal is to inform and entertain simultaneously.
 """
-def main():
+def main(filter_option=None):
     st.title("🤖 Chat with Event Assistant")
 
     if "messages" not in st.session_state:

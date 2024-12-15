@@ -39,12 +39,6 @@ def get_lat_lon(place_name):
         return None, None
 
 def print_format_address(address: str) -> str:
-    """
-    Format an address string into a user-friendly, labeled format.
-
-    :param address: The address string (building, street, district, city, region, postal code, state)
-    :return: A formatted address as a string
-    """
     # Split the address into components
     parts = address.split(", ")
     building = None
@@ -99,15 +93,15 @@ def page1():
             "icon": "trash",
             "color": "green"
         },
-        "Restorations": {
+        "Food Services": {
             "dataset": "ristoranti_lucca.geojson",
             "icon": "cutlery",
-            "color": "blue"
+            "color": "green"
         },
         "Public Toilets": {
             "dataset": "servizi_pubblici_lucca.geojson",
-            "icon": "bath",
-            "color": "yellow"
+            "icon": "bookmark",
+            "color": "blue"
         },
         "Stands": {
             
@@ -157,16 +151,27 @@ def page1():
 
     # Converti i dati in un DataFrame
     df = pd.DataFrame(data)
-
     amenities = df["properties"].apply(lambda x: x.get("amenity", "Sconosciuto")).unique()
     selected_amenities = st.sidebar.multiselect(
         "Select the typology",
         options=amenities,
         default=amenities
     )
-
     # Filtra i dati in base alla selezione
     filtered_df = df[df["properties"].apply(lambda x: x.get("amenity", "Sconosciuto") in selected_amenities)]
+
+    if selected_dataset == "Ecopoints":
+        # Extract unique materials
+        materials = sorted({mat for mats in filtered_df["properties"].apply(lambda x: x.get("materials")) for mat in mats})
+        # Streamlit multi-select for materials
+        selected_materials = st.sidebar.multiselect(
+            "Select materials",
+            options=materials,
+            default=materials  # Preselect all materials
+        )
+        # Filter data based on selected materials
+        filtered_df = filtered_df[filtered_df["properties"].apply(lambda x: any(mat in x.get("materials", []) for mat in selected_materials))]
+
 
     # Impostiamo start a una posizione specifica
     if st.session_state.selected_starting_point_mode == "Simulation: Lucca 1":
@@ -187,15 +192,25 @@ def page1():
     fg.add_child(folium.Marker(
         location=st.session_state.start,
         popup="You are here",
-        icon=folium.Icon(color="red", icon="circle")
+        icon=folium.Icon(color="red", icon="star")
     ))
+
+    # Define a lambda function to choose the icon
+    choose_icon = lambda dataset: folium.CustomIcon(
+        icon_image="images/toilet.png",
+        icon_size=(45, 45)
+    ) if selected_dataset == "Public Toilets" else folium.Icon(
+        color=dataset_options[selected_dataset]["color"],
+        icon=dataset_options[selected_dataset]["icon"]
+    )
 
     # Aggiungi marker per i punti filtrati
     for _, point in filtered_df.iterrows():
         fg.add_child(folium.Marker(
             location=[point["latitude"], point["longitude"]],
             popup=point["properties"].get("amenity", "Info point"),
-            icon=folium.Icon(color=dataset_options[selected_dataset]["color"], icon=dataset_options[selected_dataset]["icon"])
+            #icon=folium.Icon(color=dataset_options[selected_dataset]["color"], icon=dataset_options[selected_dataset]["icon"])
+            icon=choose_icon(selected_dataset)
         ))
 
     # Mostra la mappa in Streamlit
@@ -237,8 +252,6 @@ def page2():
     with col2:
         if st.button("Refresh"):
             st.rerun()
-
-    print("st.session_state", st.session_state)
 
     # Set start location
     if st.session_state.selected_starting_point_mode == "Simulation: Lucca 1":

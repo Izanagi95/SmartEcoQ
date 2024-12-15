@@ -12,7 +12,9 @@ def main():
     st.set_page_config(page_title="SmartEcoQ")
     st.sidebar.title("🌱 SmartEcoQ")
     page = st.sidebar.radio("Select a page:", ["Event Assistant", "Booking", "Recycling Assistant", "Navigator"])
-    setup()
+    if "setup" not in st.session_state:
+        st.session_state.setup = True
+        setup()
 
     pages = {
         "Event Assistant": event_assistant,
