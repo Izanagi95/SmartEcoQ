@@ -215,6 +215,7 @@ def main():
     recycling_data = load_recycling_data()
 
     if not recycling_data:
+        st.error("Could not load recycling data")
         st.stop()
 
     img_file = st.camera_input("Take a picture of the item")
@@ -228,15 +229,15 @@ def main():
             if not isinstance(identified_items,str) or identified_items.startswith("Error"):
                 st.error(identified_items)
             else:
-                st.write("Detected Items:", identified_items)
+                st.write(identified_items)
 
                 items = identified_items
                 context = json.dumps(recycling_data)
                 recycling_advice = get_recycling_advice(context, items)
 
                 print(recycling_advice)
+                
                 # generate a lore for the object
-
                 # animate the object
 
                 st.write("### Recycling Instructions:")

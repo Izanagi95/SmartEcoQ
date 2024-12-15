@@ -28,7 +28,6 @@ def get_street_from_coordinates(coordinates):
     else:
         return ""
     
-# Function to get latitude and longitude from a place name
 def get_lat_lon(place_name):
     geolocator = Nominatim(user_agent="streamlit_map_app")
     location = geolocator.geocode(place_name + ", lucca")
@@ -38,7 +37,7 @@ def get_lat_lon(place_name):
     else:
         return None, None
 
-def print_format_address(address: str) -> str:
+def write_formatted_address(address: str) -> str:
     # Split the address into components
     parts = address.split(", ")
     building = None
@@ -103,9 +102,7 @@ def page1():
             "icon": "bookmark",
             "color": "blue"
         },
-        "Stands": {
-            
-        }
+        "Stands": {}
     }
 
     # Initialize the session state if not already initialized
@@ -131,7 +128,8 @@ def page1():
         if st.button("Go ahead"):
             st.session_state["page"] = 2
             st.rerun()
-        return
+        st.stop()
+        #return
 
     # Carica il file GeoJSON selezionato
     geojson_file_path = os.path.join('data', dataset_options[selected_dataset]["dataset"])
@@ -227,7 +225,7 @@ def page1():
         destination_info = get_street_from_coordinates((last_object['lat'], last_object['lng']))
         st.markdown(f"**Destination:** {destination_info.split(",")[0]}")
         with st.expander("Click to view more details"):
-            print_format_address(destination_info)
+            write_formatted_address(destination_info)
             st.markdown(f'**Coordinates:** {(last_object['lat'], last_object['lng'])}')
     else:
         st.write("Select a destination on the map")
@@ -359,7 +357,7 @@ def page2():
             # Check the length and display the appropriate element
             st.write(f"{address_parts_start[0].strip()}")
             with st.expander("Show more Information"):
-                print_format_address(st.session_state.start_street)
+                write_formatted_address(st.session_state.start_street)
                 st.markdown(f"**Coordinates**: {st.session_state.start}")
 
             address_parts_end = st.session_state.end_street.split(",")
@@ -367,7 +365,7 @@ def page2():
             # st.write(st.session_state.end_street)
             st.write(f"{address_parts_end[0].strip()}")
             with st.expander("Show more Information"):
-                print_format_address(st.session_state.end_street)
+                write_formatted_address(st.session_state.end_street)
                 st.markdown(f"**Coordinates**: {st.session_state.end}")
 
             # Mostrare le istruzioni
@@ -400,17 +398,13 @@ def page2():
 
 
 def main():
-
     st.title("🌍 Navigator")
 
-    # Sidebar per la selezione del dataset
     st.sidebar.title("Filters")
-
     st.session_state.selected_starting_point_mode = st.sidebar.selectbox(
-        "Select starting point",
+        "Select starting point (simulation)",
         options=["Simulation: Lucca 1", "Simulation: Lucca 2", "Simulation: Lucca 3", "Use IP location"]
     )
-
     st.session_state.selected_travel_mode = st.sidebar.selectbox(
         "Select travel mode",
         options=["Foot", "Car"]
