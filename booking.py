@@ -82,7 +82,7 @@ def page1():
                         reservation_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                         reservation_data = (data, reservation_datetime, unique_name)
                         
-                        cursor.execute('''INSERT INTO reservation (stand_id, reservation_datetime, unique_name) VALUES (?, ?, ?)''', reservation_data)
+                        cursor.execute('''INSERT INTO reservation (stand_id, reservation_datetime, reservation_name) VALUES (?, ?, ?)''', reservation_data)
                         cursor.execute('''UPDATE stand SET queue_counter = queue_counter + 1 WHERE id = ?''', (data,))
                         connection.commit()
 
