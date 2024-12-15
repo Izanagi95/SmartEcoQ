@@ -4,14 +4,14 @@
 **Smart Crowds, Clean Cities: AI for a Sustainable Future!**
 
 ## 📖 Table of Contents
-1. [Overview](#overview)
-2. [Key Features](#key-features)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Technologies Used](#technologies-used)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
+1. [Overview](#-overview)
+2. [Architecture](#-architecture)
+3. [Key Features](#-key-features)
+4. [Installation](#-installation)
+5. [Usage](#-usage)
+6. [Technologies Used](#-technologies-used)
+7. [Resources](#-resources)
+8. [Authors](#-authors)
 
 ---
 
