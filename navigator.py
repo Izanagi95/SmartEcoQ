@@ -169,8 +169,12 @@ def page1():
     filtered_df = df[df["properties"].apply(lambda x: x.get("amenity", "Sconosciuto") in selected_amenities)]
 
     # Impostiamo start a una posizione specifica
-    if st.session_state.selected_starting_point_mode == "Simulation: Lucca":
+    if st.session_state.selected_starting_point_mode == "Simulation: Lucca 1":
+        st.session_state.start = (43.8430153,10.502204)
+    elif st.session_state.selected_starting_point_mode == "Simulation: Lucca 2":
         st.session_state.start = (43.843, 10.508)
+    elif st.session_state.selected_starting_point_mode == "Simulation: Lucca 3":
+        st.session_state.start = (43.8408387,10.4996806)
     else:
         st.session_state.start = get_current_coordinates_using_IP()
 
@@ -237,8 +241,12 @@ def page2():
     print("st.session_state", st.session_state)
 
     # Set start location
-    if st.session_state.selected_starting_point_mode == "Simulation: Lucca":
+    if st.session_state.selected_starting_point_mode == "Simulation: Lucca 1":
+        st.session_state.start = (43.8430153,10.502204)
+    elif st.session_state.selected_starting_point_mode == "Simulation: Lucca 2":
         st.session_state.start = (43.843, 10.508)
+    elif st.session_state.selected_starting_point_mode == "Simulation: Lucca 3":
+        st.session_state.start = (43.8408387,10.4996806)
     else:
         st.session_state.start = get_current_coordinates_using_IP()
 
@@ -387,7 +395,7 @@ def main():
 
     st.session_state.selected_starting_point_mode = st.sidebar.selectbox(
         "Select starting point",
-        options=["Simulation: Lucca", "Use IP location"]
+        options=["Simulation: Lucca 1", "Simulation: Lucca 2", "Simulation: Lucca 3", "Use IP location"]
     )
 
     st.session_state.selected_travel_mode = st.sidebar.selectbox(
