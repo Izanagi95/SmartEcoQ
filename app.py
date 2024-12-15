@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from event_assistant import main as event_assistant
 from recycling_assistant import main as recycling_assistant
 from navigator import main as navigator
-from booking import main as booking
+# from booking import main as booking
 from utils import setup
 
 # Streamlit UI
@@ -20,7 +20,7 @@ def main():
         "Event Assistant": event_assistant,
         "Recycling Assistant": recycling_assistant,
         "Navigator": navigator,
-        "Booking": booking
+        # "Booking": booking
     }
 
     # Execute the selected page's function
