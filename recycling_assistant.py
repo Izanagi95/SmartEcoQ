@@ -112,7 +112,7 @@ def get_recycling_advice(context, items):
     - Mention if items need to be clean, disassembled, or specially prepared
     - Include any relevant warnings about contamination or hazardous materials
     - If an item has multiple components, explain how to separate them
-    - Item Name, Correct Bin, Preparation Required, Reason, Special Notes are mandatory paramters for each item
+    - Item Name, Correct Bin, Preparation Required, Reason, Special Notes are mandatory parameters for each item
     - Please format your response clearly and concisely for each item and do not use <|eom_id|>.
     """
 
@@ -240,7 +240,7 @@ def main():
                 # generate a lore for the object
                 # animate the object
 
-                st.write("### Recycling Instructions:")
+                st.write("### Recycling instructions")
                 recycling_advice_items = recycling_advice.split('---------')
 
                 for recycling_advice_item in recycling_advice_items:
@@ -256,16 +256,16 @@ def main():
 
                     text_to_show = []
                     try:
-                        text_to_show.append("Description:" + format_text(recycling_advice['Reason']))
+                        text_to_show.append("Description: " + format_text(recycling_advice['Reason']))
                     except:
                         pass
                     try:
                         if "none" not in recycling_advice.get('Preparation Required').lower():
-                            text_to_show.append("Preparation Required:" + format_text(recycling_advice['Preparation Required']))
+                            text_to_show.append("Preparation Required: " + format_text(recycling_advice['Preparation Required']))
                     except:
                         pass
                     try:
-                        text_to_show.append("Notes:" + format_text(recycling_advice['Special Notes']))
+                        text_to_show.append("Notes: " + format_text(recycling_advice['Special Notes']))
                     except:
                         pass
 
@@ -281,7 +281,7 @@ def main():
                             "height": "300px",
                             "padding": "10px",
                             "margin": "0px",
-                            "border": "1px solid " + recycling_advice["Correct Bin"].lower(),
+                            "border": "3px solid " + recycling_advice["Correct Bin"].lower(),
                             "pointer-events": "none",  # Disables interactions
                         },
                         "card_hover": {
