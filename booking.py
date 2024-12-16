@@ -5,6 +5,7 @@ import os
 import sqlite3
 import pandas as pd
 import namesgenerator
+import time
 from datetime import datetime
 
 
@@ -34,7 +35,7 @@ def reset_db():
             stand_id INTEGER NOT NULL,
             reservation_name TEXT NOT NULL,
             reservation_datetime DATETIME NOT NULL,
-            user TEXT NOT NULL,
+            user TEXT,
             FOREIGN KEY(stand_id) REFERENCES stand(id)
         )''')
         
@@ -87,8 +88,8 @@ def page1():
                         connection.commit()
 
                         st.success(f"Reservation successful with the name: {unique_name}")
-                        if st.button("Go to booked list"):
-                            st.session_state.selected_booking_view = "Event list"
+                        st.success(f"Go to event list to see your reservation!")
+
                 else:
                     st.write("No valid QR code found")
         else:
@@ -148,6 +149,7 @@ def page2():
 
         # Refresh the table after the button click
         st.success("10 min is simulated, each min a person is served, so queue counter is reduced by 10")
+        time.sleep(3)
         st.rerun()
 
 def main():

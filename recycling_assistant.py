@@ -236,7 +236,7 @@ def main():
                 recycling_advice = get_recycling_advice(context, items)
 
                 print(recycling_advice)
-                
+
                 # generate a lore for the object
                 # animate the object
 
@@ -256,20 +256,22 @@ def main():
 
                     text_to_show = []
                     try:
-                        text_to_show.append(format_text(recycling_advice['Reason']))
+                        text_to_show.append("Description:" + format_text(recycling_advice['Reason']))
                     except:
                         pass
                     try:
                         if "none" not in recycling_advice.get('Preparation Required').lower():
-                            text_to_show.append(format_text(recycling_advice['Preparation Required']))
+                            text_to_show.append("Preparation Required:" + format_text(recycling_advice['Preparation Required']))
                     except:
                         pass
                     try:
-                        text_to_show.append(format_text(recycling_advice['Special Notes']))
+                        text_to_show.append("Notes:" + format_text(recycling_advice['Special Notes']))
                     except:
                         pass
 
                     with col1:
+
+
                         card(
                         title=recycling_advice['Item Name'],
                         text=text_to_show,
@@ -277,9 +279,9 @@ def main():
                         "card": {
                             "width": "100%",
                             "height": "300px",
-                            "border": "1px solid black",
                             "padding": "10px",
                             "margin": "0px",
+                            "border": "1px solid " + recycling_advice["Correct Bin"].lower(),
                             "pointer-events": "none",  # Disables interactions
                         },
                         "card_hover": {

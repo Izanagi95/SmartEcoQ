@@ -35,7 +35,7 @@ def get_lat_lon(place_name):
     if location:
         return location.latitude, location.longitude
     else:
-        return None, None
+        return None
 
 def write_formatted_address(address: str) -> str:
     # Split the address into components
@@ -124,8 +124,8 @@ def page1():
         st.markdown(
         '<iframe src="https://maps2024.luccacomicsandgames.com/" width="100%" height="800px"></iframe>',
         unsafe_allow_html=True)
-        st.session_state.destination_name = st.text_input("Add the name of the stand")
-        if st.button("Go ahead"):
+        st.session_state.destination_name = st.text_input("Add the address of the stand")
+        if st.button("Let's go!"):
             st.session_state["page"] = 2
             st.rerun()
         st.stop()
@@ -207,7 +207,6 @@ def page1():
         fg.add_child(folium.Marker(
             location=[point["latitude"], point["longitude"]],
             popup=point["properties"].get("amenity", "Info point"),
-            #icon=folium.Icon(color=dataset_options[selected_dataset]["color"], icon=dataset_options[selected_dataset]["icon"])
             icon=choose_icon(selected_dataset)
         ))
 
@@ -279,6 +278,12 @@ def page2():
             print("getting end previous page")
             st.session_state.end = (last_object['lat'], last_object['lng'])
 
+        if st.session_state.end is None:
+            st.error("Destination is not correctly parsed. Please try again.")
+            st.stop()
+
+        print(f"End coordinates: {st.session_state.end}")
+
         # Calculate the map center for display
         map_center = [
             (st.session_state.start[0] + st.session_state.end[0]) / 2,
@@ -313,12 +318,15 @@ def page2():
 
         # Use GraphHopper API to calculate the route
         graphhopper_api_key = os.getenv("GRAPHHOPPER_API_KEY")
-
+        if st.session_state.selected_travel_mode.lower() == "walk":
+            vehicle = "foot"
+        else:
+            vehicle = st.session_state.selected_travel_mode.lower()
         url = (
             f'https://graphhopper.com/api/1/route?'
             f'point={st.session_state.start[0]},{st.session_state.start[1]}&'
             f'point={st.session_state.end[0]},{st.session_state.end[1]}&'
-            f'type=json&locale=en&vehicle={st.session_state.selected_travel_mode.lower()}&key={graphhopper_api_key}'
+            f'type=json&locale=en&vehicle={vehicle}&key={graphhopper_api_key}'
         )
 
         try:
@@ -387,11 +395,9 @@ def page2():
             st.write(f"Total Distance: {round(total_distance, 2)} km")
             st.write(f"Estimated Total Time: {round(total_duration, 2)} minutes")
         except requests.exceptions.RequestException as e:
-            st.error(f"Failed to retrieve route data: {e}")
+            st.error(f"Failed to retrieve route data: check the route start and destination points: {st.session_state.start_street} and {st.session_state.end_street}")
         except KeyError:
             st.error("Unexpected response structure from the API.")
-
-
     else:
         st.warning("Please click on the map to select a destination.")
 
@@ -407,7 +413,7 @@ def main():
     )
     st.session_state.selected_travel_mode = st.sidebar.selectbox(
         "Select travel mode",
-        options=["Foot", "Car"]
+        options=["Walk", "Car", "Bike", "Scooter"]
     )
 
     if "page" not in st.session_state:
