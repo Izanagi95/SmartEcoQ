@@ -4,20 +4,9 @@ import sqlite3
 import pandas as pd
 import namesgenerator
 import time
+import cv2
+import numpy as np
 from datetime import datetime
-from PIL import Image
-from pyzbar.pyzbar import decode
-
-def process_qr_code(image):
-    # Convert Streamlit image to PIL Image
-    pil_img = Image.open(image)
-    # Decode QR codes from the image
-    qr_data = decode(pil_img)
-    # Extract the data from the QR code (if any)
-    if qr_data:
-        return qr_data[0].data.decode('utf-8')  # Return the first QR code data
-    else:
-        return None
 
 
 def reset_db():
@@ -71,7 +60,13 @@ def page1():
     
     if image is not None:
 
-        data = process_qr_code(image)
+        # Process the image to extract QR code
+        bytes_data = image.getvalue()
+        cv2_img = cv2.imdecode(np.frombuffer(bytes_data, np.uint8), cv2.IMREAD_COLOR)
+
+        # QR code detection using OpenCV
+        detector = cv2.QRCodeDetector()
+        data, _, _ = detector.detectAndDecode(cv2_img)
 
         if data:
             with get_connection() as connection:
