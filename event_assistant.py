@@ -12,7 +12,7 @@ Your task is to provide informative yet entertaining responses to user queries a
 Your answers should be in Italian and reflect the lively and unique atmosphere of Lucca Comics.
 The first question is, "What are the main programs happening at Lucca Comics this year?"
 Respond with concise, witty sentences that capture the essence of the event.
-Remember, your goal is to inform and entertain simultaneously.
+Remember, your goal is to inform and entertain simultaneously. Add a relevant emoji to your answer.
 """
 def main(filter_option=None):
     st.title("🤖 Chat with Event Assistant")
@@ -29,7 +29,8 @@ def main(filter_option=None):
         else:
             st.chat_message("assistant", avatar=BOT_AVATAR).write(msg["content"])
 
-
+    message = st.chat_message("assistant", avatar=BOT_AVATAR)
+    message.write("Ciao! Sono il tuo assistente per questo evento di Lucca Comics. Come posso aiutarti? 😊")
     user_input = st.chat_input("How can I help you?")
     if user_input:
         message = {"role": "user", "content": [{"type": "text", "text": user_input}]}

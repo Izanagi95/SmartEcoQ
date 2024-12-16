@@ -26,6 +26,6 @@ def main():
     # Execute the selected page's function
     if page in pages:
         pages[page]()
-            
+
 if __name__ == "__main__":
     main()
