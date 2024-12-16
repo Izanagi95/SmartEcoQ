@@ -236,19 +236,13 @@ def page1():
 
 
 def page2():
-    col1, col2 = st.columns([1, 6])
-    with col1:
-        # Back button for navigation
-        if st.button("Go Back"):
-            st.session_state.end = None
-            st.session_state.end_street = None
-            st.session_state.destination_name = None
-            st.session_state["page"] = 1
-            st.rerun()
 
-    with col2:
-        if st.button("Refresh"):
-            st.rerun()
+    if st.button("Go Back"):
+        st.session_state.end = None
+        st.session_state.end_street = None
+        st.session_state.destination_name = None
+        st.session_state["page"] = 1
+        st.rerun()
 
     # Set start location
     if st.session_state.selected_starting_point_mode == "Simulation: Lucca 1":
