@@ -210,16 +210,17 @@ def format_text(text):
 def get_background_gradient(color_key):
     # Dictionary mapping text color keys to gradients
     gradients = {
-        "blue": "linear-gradient(to right, #2196F3, #4CAF50)",   # Blue to green
-        "brown": "linear-gradient(to right, #D2B48C, #8B4513)",  # Beige to brown
-        "yellow": "linear-gradient(to right, #FFEB3B, #FF9800)", # Yellow to orange
-        "cyan": "linear-gradient(to right, #00BCD4, #00695C)",   # Cyan to teal
-        "wheat": "linear-gradient(to right, #F5DEB3, #B0BEC5)",  # Wheat to gray
-        "red": "linear-gradient(to right, #FF5252, #212121)",    # Red to dark gray
-        "silver": "linear-gradient(to right, #C0C0C0, #607D8B)", # Silver to blue-gray
-        "gray": "linear-gradient(to right, #9E9E9E, #212121)",    # Gray to dark gray
-        "grey": "linear-gradient(to right, #9E9E9E, #212121)",    # Grey to dark grey
-        "green": "linear-gradient(to right, #4CAF50, #8BC34A)"   # Green shades
+        "brown": "linear-gradient(to right, #8B4513, #D2B48C)",  # Organic waste: beige to brown
+        "green": "linear-gradient(to right, #4CAF50, #8BC34A)",  # Glass: shades of green
+        "yellow": "linear-gradient(to right, #FFC107, #F1C232)", # Plastic & metal: bright yellow tones
+        "blue": "linear-gradient(to right, #2196F3, #64B5F6)",   # Paper: light to darker blue
+        "grey": "linear-gradient(to right, #616161, #9E9E9E)",   # Unsorted waste: shades of gray
+        "white_with_green_cross": "linear-gradient(to right, #57E9BB, #B2DFDB)", # Pharmacy: pale green to teal
+        "yellow_street": "linear-gradient(to left, #FDD835, #FFA000)", # Textile: yellow tones for street containers
+        "battery_symbol": "linear-gradient(to left, #FF5722, #BF360C)", # Batteries: dark orange tones
+        "red": "linear-gradient(to left, #FF5252, #D32F2F)",     # Collection centers: bright to dark red
+        "oil_symbol": "linear-gradient(to left, #FFB300, #FF6F00)", # Vegetable oil: orange-gold tones
+        "none": "linear-gradient(to right, #CFCFCF, #CFD8DC)"     # No disposables: neutral gray-blue
     }
 
     # Convert input to lowercase to ensure case-insensitivity
