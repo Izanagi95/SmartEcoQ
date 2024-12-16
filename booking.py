@@ -75,9 +75,9 @@ def page1():
                 row = cursor.fetchone()
                 
                 if row:
-                    st.write(f"Name: {row[1]}")
-                    st.write(f"Queue Counter: {row[2]}")
-                    st.write(f"Position: {row[3]}")
+                    st.write(f"🎪 Name: {row[1]}")
+                    st.write(f"👥 Queue Counter: {row[2]}")
+                    st.write(f"📍 Position: {row[3]}")
                     
                     if st.button("Book now"):
                         unique_name = namesgenerator.get_random_name()
@@ -113,7 +113,7 @@ def page2():
         rows = cursor.fetchall()
 
     # Convert the result to a Pandas DataFrame for display in Streamlit
-    columns = ["Stand/Event", "Position", "Queue", "Reservation name", "Reservation timestamp"]
+    columns = ["🎪 Stand/Event", "📍 Position", "👥 Queue", "🎫 Reservation name", "⌚ Reservation timestamp"]
     stands_df = pd.DataFrame(rows, columns=columns)
 
     # Filter the DataFrame based on the selected filter option
