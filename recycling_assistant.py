@@ -207,6 +207,27 @@ def format_text(text):
         text += '.'
     return text
 
+def get_background_gradient(color_key):
+    # Dictionary mapping text color keys to gradients
+    gradients = {
+        "blue": "linear-gradient(to right, #2196F3, #4CAF50)",   # Blue to green
+        "brown": "linear-gradient(to right, #D2B48C, #8B4513)",  # Beige to brown
+        "yellow": "linear-gradient(to right, #FFEB3B, #FF9800)", # Yellow to orange
+        "cyan": "linear-gradient(to right, #00BCD4, #00695C)",   # Cyan to teal
+        "wheat": "linear-gradient(to right, #F5DEB3, #B0BEC5)",  # Wheat to gray
+        "red": "linear-gradient(to right, #FF5252, #212121)",    # Red to dark gray
+        "silver": "linear-gradient(to right, #C0C0C0, #607D8B)", # Silver to blue-gray
+        "gray": "linear-gradient(to right, #9E9E9E, #212121)",    # Gray to dark gray
+        "grey": "linear-gradient(to right, #9E9E9E, #212121)",    # Grey to dark grey
+        "green": "linear-gradient(to right, #4CAF50, #8BC34A)"   # Green shades
+    }
+
+    # Convert input to lowercase to ensure case-insensitivity
+    color_key = color_key.lower()
+
+    # Return the gradient or a default if the color key is not found
+    return gradients.get(color_key, "linear-gradient(to right, #E0E0E0, #BDBDBD)")
+
 
 def main():
     st.title("♻️ Recycling Assistant")
@@ -288,7 +309,8 @@ def main():
                             "pointer-events": "auto",  # Riattiva solo il mouse hover
                         },
                         "filter": {
-                            "background-color": "gray"
+                            "background": get_background_gradient(recycling_advice["Correct Bin"]),
+                            "background-color": "transparent"
                         },
                         "text": {
                             "color": "white",
