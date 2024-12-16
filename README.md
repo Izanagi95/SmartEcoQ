@@ -91,7 +91,7 @@ TBD
 - **Frontend**: Streamlit
 - **Maps Integration**: Folium, Graphhopper
 - **Database**: SQLite3
-- **Other**: QR Code Generator, OpenCV
+- **Other**: QR Code Decoder, OpenCV
 
 ---
 
