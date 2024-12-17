@@ -2,8 +2,6 @@ import streamlit as st
 import requests
 import utils
 
-utils.setup()
-
 USER_AVATAR = "👤"
 BOT_AVATAR = "🤖"
 SYSTEM_PROMPT = """
@@ -14,14 +12,14 @@ The first question is, "What are the main programs happening at Lucca Comics thi
 Respond with concise, witty sentences that capture the essence of the event.
 Remember, your goal is to inform and entertain simultaneously. Add a relevant emoji to your answer.
 """
-def main(filter_option=None):
+def main():
     st.title("🤖 Chat with Event Assistant")
 
     if "messages" not in st.session_state:
-        st.session_state.messages = []
+        st.session_state.messages = [{"role": "assistant", "content": "Ciao! Sono il tuo assistente per questo evento di Lucca Comics. Come posso aiutarti? 😊"}]
 
     # Display chat messages
-    for msg in st.session_state.messages[1:]:
+    for msg in st.session_state.messages[0:]:
         if msg['role'] == "user":
             with st.chat_message("user", avatar=USER_AVATAR):
                 if msg['content'][0]['type'] == "text":
@@ -29,8 +27,6 @@ def main(filter_option=None):
         else:
             st.chat_message("assistant", avatar=BOT_AVATAR).write(msg["content"])
 
-    message = st.chat_message("assistant", avatar=BOT_AVATAR)
-    message.write("Ciao! Sono il tuo assistente per questo evento di Lucca Comics. Come posso aiutarti? 😊")
     user_input = st.chat_input("How can I help you?")
     if user_input:
         message = {"role": "user", "content": [{"type": "text", "text": user_input}]}
