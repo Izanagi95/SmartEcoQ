@@ -9,7 +9,7 @@ from utils import setup
 # Streamlit UI
 def main():
     # Configura il titolo della scheda
-    st.set_page_config(page_title="SmartEcoQ")
+    st.set_page_config(page_title="SmartEcoQ", page_icon="images/smartecoq-favicon/favicon-32x32.png")
     st.sidebar.title("🌱 SmartEcoQ")
     page = st.sidebar.radio("Select a page:", ["Event Assistant", "Booking", "Recycling Assistant", "Navigator"])
     if "setup" not in st.session_state:
