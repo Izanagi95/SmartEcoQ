@@ -1,0 +1,883 @@
+{
+    "type": "FeatureCollection",
+    "generator": "overpass-turbo",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+    "timestamp": "2024-12-15T10:00:00Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1431031261",
+          "amenity": "toilets",
+          "name": "Public Toilet 1",
+          "toilets:access": "public",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5035293,
+            43.8360719
+          ]
+        },
+        "id": "node/1431031261"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1431060801",
+          "amenity": "toilets",
+          "name": "Public Toilet 2",
+          "toilets:access": "customers",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "no"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5174647,
+            43.8442066
+          ]
+        },
+        "id": "node/1431060801"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1431076757",
+          "amenity": "toilets",
+          "name": "Public Toilet 3",
+          "toilets:access": "public",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5191291,
+            43.8452106
+          ]
+        },
+        "id": "node/1431076757"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1463767489",
+          "amenity": "toilets",
+          "name": "Public Toilet 4",
+          "toilets:access": "public",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "no"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5040669,
+            43.8383343
+          ]
+        },
+        "id": "node/1463767489"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1463854159",
+          "addr:city": "Lucca",
+          "addr:housenumber": "12",
+          "addr:street": "Via Buia",
+          "amenity": "toilets",
+          "check_date": "2024-12-12",
+          "toilets:access": "public",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5034661,
+            43.8438595
+          ]
+        },
+        "id": "node/1463854159"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1896816059",
+          "addr:city": "Lucca",
+          "addr:street": "Via Vittorio Emanuele secondo",
+          "amenity": "toilets",
+          "toilets:access": "customers",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "no"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5002239,
+            43.8420664
+          ]
+        },
+        "id": "node/1896816059"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1935617385",
+          "addr:city": "Lucca",
+          "addr:housenumber": "8",
+          "addr:postcode": "55100",
+          "addr:street": "Piazza San Michele",
+          "amenity": "toilets",
+          "check_date": "2024-12-01",
+          "toilets:access": "public",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "no"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5023331,
+            43.8434389
+          ]
+        },
+        "id": "node/1935617385"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1948679522",
+          "addr:city": "Lucca",
+          "addr:housenumber": "74",
+          "addr:postcode": "55100",
+          "addr:street": "Via Vittorio Veneto",
+          "amenity": "toilets",
+          "toilets:access": "customers",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "limited"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5016938,
+            43.8396284
+          ]
+        },
+        "id": "node/1948679522"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1948949391",
+          "addr:city": "Lucca",
+          "addr:country": "IT",
+          "addr:housenumber": "9",
+          "addr:postcode": "55100",
+          "addr:street": "Via Anfiteatro",
+          "amenity": "toilets",
+          "toilets:access": "customers",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "no"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5062414,
+            43.8457616
+          ]
+        },
+        "id": "node/1948949391"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1984554026",
+          "addr:city": "Lucca",
+          "addr:housenumber": "3",
+          "addr:postcode": "55100",
+          "addr:street": "Via della Cervia",
+          "amenity": "toilets",
+          "toilets:access": "public",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5015972,
+            43.8426777
+          ]
+        },
+        "id": "node/1984554026"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1987005332",
+          "addr:city": "Lucca",
+          "addr:country": "IT",
+          "addr:housenumber": "38",
+          "addr:postcode": "55100",
+          "addr:street": "Piazza Anfiteatro",
+          "amenity": "toilets",
+          "toilets:access": "public",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "no"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5064365,
+            43.8451193
+          ]
+        },
+        "id": "node/1987005332"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1987005335",
+          "amenity": "toilets",
+          "toilets:access": "public",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5108561,
+            43.8425671
+          ]
+        },
+        "id": "node/1987005335"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/1996334225",
+          "amenity": "toilets",
+          "toilets:access": "public",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "no"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5142316,
+            43.8364072
+          ]
+        },
+        "id": "node/1996334225"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2008455379",
+          "amenity": "toilets",
+          "toilets:access": "public",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5031876,
+            43.8371623
+          ]
+        },
+        "id": "node/2008455379"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2015453275",
+          "amenity": "toilets",
+          "toilets:access": "public",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "no"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5028293,
+            43.8414522
+          ]
+        },
+        "id": "node/2015453275"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2023458453",
+          "amenity": "toilets",
+          "toilets:access": "public",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5090433,
+            43.8390566
+          ]
+        },
+        "id": "node/2023458453"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2041508219",
+          "amenity": "toilets",
+          "toilets:access": "public",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5164386,
+            43.8429124
+          ]
+        },
+        "id": "node/2041508219"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2053671924",
+          "amenity": "toilets",
+          "toilets:access": "public",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "no"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5099962,
+            43.8388883
+          ]
+        },
+        "id": "node/2053671924"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2076501479",
+          "amenity": "toilets",
+          "toilets:access": "public",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated",
+          "toilets:wheelchair": "yes"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5201234,
+            43.8417223
+          ]
+        },
+        "id": "node/2076501479"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034561231",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 1"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5035293,
+            43.8360719
+          ]
+        },
+        "id": "node/2034561231"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034567892",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 2"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5174647,
+            43.8442066
+          ]
+        },
+        "id": "node/2034567892"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034578594",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 3"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5191291,
+            43.8452106
+          ]
+        },
+        "id": "node/2034578594"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034589285",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 4"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5040669,
+            43.8383343
+          ]
+        },
+        "id": "node/2034589285"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034592839",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 5"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5034661,
+            43.8438595
+          ]
+        },
+        "id": "node/2034592839"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034596248",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 6"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5002239,
+            43.8420664
+          ]
+        },
+        "id": "node/2034596248"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034600327",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 7"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5023331,
+            43.8434389
+          ]
+        },
+        "id": "node/2034600327"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034609518",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 8"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5016938,
+            43.8396284
+          ]
+        },
+        "id": "node/2034609518"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034613942",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 9"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5062414,
+            43.8457616
+          ]
+        },
+        "id": "node/2034613942"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034617655",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 10"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5015972,
+            43.8426777
+          ]
+        },
+        "id": "node/2034617655"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034621023",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 11"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5064365,
+            43.8451193
+          ]
+        },
+        "id": "node/2034621023"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034623878",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 12"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5108561,
+            43.8425671
+          ]
+        },
+        "id": "node/2034623878"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034627682",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 13"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5142316,
+            43.8364072
+          ]
+        },
+        "id": "node/2034627682"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034631483",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 14"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5031876,
+            43.8371623
+          ]
+        },
+        "id": "node/2034631483"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034633796",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 15"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5028293,
+            43.8414522
+          ]
+        },
+        "id": "node/2034633796"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034636722",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 16"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5090433,
+            43.8390566
+          ]
+        },
+        "id": "node/2034636722"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034640559",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 17"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5164386,
+            43.8429124
+          ]
+        },
+        "id": "node/2034640559"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034642855",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 18"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5099962,
+            43.8388883
+          ]
+        },
+        "id": "node/2034642855"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034645982",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 19"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5201234,
+            43.8417223
+          ]
+        },
+        "id": "node/2034645982"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034649025",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 20"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5066111,
+            43.8409287
+          ]
+        },
+        "id": "node/2034649025"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034651299",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 21"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5077889,
+            43.8419822
+          ]
+        },
+        "id": "node/2034651299"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034653602",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 22"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5112237,
+            43.8402639
+          ]
+        },
+        "id": "node/2034653602"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034655414",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 23"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5082346,
+            43.8397652
+          ]
+        },
+        "id": "node/2034655414"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034657187",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 24"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5108463,
+            43.8440793
+          ]
+        },
+        "id": "node/2034657187"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034659385",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 25"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5057813,
+            43.8413452
+          ]
+        },
+        "id": "node/2034659385"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034661264",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 26"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5046555,
+            43.8392421
+          ]
+        },
+        "id": "node/2034661264"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034663137",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 27"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5071127,
+            43.8400184
+          ]
+        },
+        "id": "node/2034663137"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034664852",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 28"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5089243,
+            43.8443716
+          ]
+        },
+        "id": "node/2034664852"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034667411",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 29"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5125925,
+            43.8431548
+          ]
+        },
+        "id": "node/2034667411"
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "@id": "node/2034669184",
+          "amenity": "event_toilet",
+          "name": "Event Toilet 30"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10.5097834,
+            43.8416875
+          ]
+        },
+        "id": "node/2034669184"
+      }
+    ]
+  }
+  

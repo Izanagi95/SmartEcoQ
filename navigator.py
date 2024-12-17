@@ -190,8 +190,10 @@ def page1():
     fg.add_child(folium.Marker(
         location=st.session_state.start,
         popup="You are here",
-        icon=folium.Icon(color="red", icon="star")
-    ))
+        icon=folium.CustomIcon(
+            icon_image="images/me-marker.png",
+            icon_size=(50, 50)
+    )))
 
     # Define a lambda function to choose the icon
     choose_icon = lambda dataset: folium.CustomIcon(
@@ -207,6 +209,7 @@ def page1():
         fg.add_child(folium.Marker(
             location=[point["latitude"], point["longitude"]],
             popup=point["properties"].get("amenity", "Info point"),
+            tooltip="queue: " + str(point["properties"].get("queue")),
             icon=choose_icon(selected_dataset)
         ))
 
@@ -219,17 +222,24 @@ def page1():
     last_object = map_html.get("last_object_clicked", {})
     st.session_state.last_object_clicked = last_object
     last_object_clicked_popup = map_html.get("last_object_clicked_popup", "")
+    last_object_clicked_tooltip = map_html.get("last_object_clicked_tooltip", "")
+    if last_object_clicked_tooltip:
+        st.session_state.last_object_clicked_tooltip = last_object_clicked_tooltip.split(": ")[1]
+    else:
+        st.session_state.last_object_clicked_tooltip = None
     if last_object:
         st.write(f"Typology clicked: {last_object_clicked_popup}")
         destination_info = get_street_from_coordinates((last_object['lat'], last_object['lng']))
         st.markdown(f"**Destination:** {destination_info.split(",")[0]}")
+        if selected_dataset == "Public Toilets":
+            st.markdown(f"**Queue:** {st.session_state.last_object_clicked_tooltip} people")
         with st.expander("Click to view more details"):
             write_formatted_address(destination_info)
             st.markdown(f'**Coordinates:** {(last_object['lat'], last_object['lng'])}')
     else:
         st.write("Select a destination on the map")
 
-    if st.session_state.last_object_clicked and st.button("Go ahead"):
+    if st.session_state.last_object_clicked and st.button("Let's go!"):
         st.session_state["page"] = 2
         st.rerun()
 
@@ -241,6 +251,7 @@ def page2():
         st.session_state.end = None
         st.session_state.end_street = None
         st.session_state.destination_name = None
+        st.session_state.last_object_clicked_tooltip = None
         st.session_state["page"] = 1
         st.rerun()
 
@@ -301,8 +312,10 @@ def page2():
         fg.add_child(folium.Marker(
             location=st.session_state.start,
             popup="Start",
-            icon=folium.Icon(color="red", icon="circle")
-        ))
+            icon=folium.Icon(color="red", icon= folium.CustomIcon(
+            icon_image="images/me-marker.png",
+            icon_size=(50, 50))
+        )))
 
         fg.add_child(folium.Marker(
             location=st.session_state.end,
@@ -387,7 +400,13 @@ def page2():
             total_duration = data['paths'][0]['time'] / 1000 / 60  # in minuti
             st.write(f"### Summary")
             st.write(f"Total Distance: {round(total_distance, 2)} km")
-            st.write(f"Estimated Total Time: {round(total_duration, 2)} minutes")
+            total_travel_time = round(total_duration, 2)
+            st.write(f"Estimated Total Travel Time: {total_travel_time} minutes")
+            if st.session_state.last_object_clicked_tooltip is not None and st.session_state.last_object_clicked_tooltip != "None":
+                st.write(f"Queue: {st.session_state.last_object_clicked_tooltip} people")
+                total_queue_time = int(st.session_state.last_object_clicked_tooltip)
+                st.write(f"Estimated Total queue time: {total_queue_time} minutes (1 person per minute)")
+                st.write(f"Estimated Total time: {total_queue_time + total_travel_time} minutes")
         except requests.exceptions.RequestException as e:
             st.error(f"Failed to retrieve route data: check the route start and destination points: {st.session_state.start_street} and {st.session_state.end_street}")
         except KeyError:
