@@ -53,7 +53,7 @@ def get_connection():
 
 
 def page1():
-    st.title("🌍 Booking")
+    st.title("🎟️ Booking")
     
     # Create a live camera input using Streamlit's camera_input widget
     image = st.camera_input("Scan QR code")  # Streamlit widget to capture live camera input
@@ -98,7 +98,7 @@ def page1():
 
 
 def page2():
-    st.title("🌍 Event list")
+    st.title("📅 Event list")
 
     # Add a filter option in the sidebar
     filter_option = st.sidebar.selectbox("Filter by Reservation", ["All", "With Reservation", "Without Reservation"])
