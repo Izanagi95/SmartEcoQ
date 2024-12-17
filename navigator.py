@@ -95,7 +95,7 @@ def page1():
         "Food Services": {
             "dataset": "ristoranti_lucca.geojson",
             "icon": "cutlery",
-            "color": "green"
+            "color": "orange"
         },
         "Public Toilets": {
             "dataset": "servizi_pubblici_lucca.geojson",
@@ -206,12 +206,19 @@ def page1():
 
     # Aggiungi marker per i punti filtrati
     for _, point in filtered_df.iterrows():
-        fg.add_child(folium.Marker(
+        if point["properties"].get("queue") is None:
+            fg.add_child(folium.Marker(
             location=[point["latitude"], point["longitude"]],
             popup=point["properties"].get("amenity", "Info point"),
-            tooltip="queue: " + str(point["properties"].get("queue")),
             icon=choose_icon(selected_dataset)
         ))
+        else:
+            fg.add_child(folium.Marker(
+                location=[point["latitude"], point["longitude"]],
+                popup=point["properties"].get("amenity", "Info point"),
+                tooltip="queue: " + str(point["properties"].get("queue")),
+                icon=choose_icon(selected_dataset)
+            ))
 
     # Mostra la mappa in Streamlit
     map_html = st_folium(m, feature_group_to_add=fg, width=700)
@@ -312,10 +319,10 @@ def page2():
         fg.add_child(folium.Marker(
             location=st.session_state.start,
             popup="Start",
-            icon=folium.Icon(color="red", icon= folium.CustomIcon(
+            icon=folium.CustomIcon(
             icon_image="images/me-marker.png",
             icon_size=(50, 50))
-        )))
+        ))
 
         fg.add_child(folium.Marker(
             location=st.session_state.end,
