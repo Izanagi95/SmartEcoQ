@@ -14,7 +14,7 @@
         "toilets:disposal": "flush",
         "toilets:position": "seated",
         "toilets:wheelchair": "yes",
-        "queue": 6
+        "queue": 1
       },
       "geometry": {
         "type": "Point",
@@ -56,7 +56,7 @@
         "toilets:disposal": "flush",
         "toilets:position": "seated",
         "toilets:wheelchair": "yes",
-        "queue": 10
+        "queue": 3
       },
       "geometry": {
         "type": "Point",
@@ -77,7 +77,7 @@
         "toilets:disposal": "flush",
         "toilets:position": "seated",
         "toilets:wheelchair": "no",
-        "queue": 7
+        "queue": 3
       },
       "geometry": {
         "type": "Point",
@@ -286,7 +286,7 @@
         "toilets:disposal": "flush",
         "toilets:position": "seated",
         "toilets:wheelchair": "no",
-        "queue": 13
+        "queue": 0
       },
       "geometry": {
         "type": "Point",
@@ -423,7 +423,7 @@
         "@id": "node/2034561231",
         "amenity": "event_toilet",
         "name": "Event Toilet 1",
-        "queue": 10
+        "queue": 2
       },
       "geometry": {
         "type": "Point",
@@ -440,7 +440,7 @@
         "@id": "node/2034567892",
         "amenity": "event_toilet",
         "name": "Event Toilet 2",
-        "queue": 16
+        "queue": 5
       },
       "geometry": {
         "type": "Point",
@@ -457,7 +457,7 @@
         "@id": "node/2034578594",
         "amenity": "event_toilet",
         "name": "Event Toilet 3",
-        "queue": 13
+        "queue": 3
       },
       "geometry": {
         "type": "Point",
@@ -474,7 +474,7 @@
         "@id": "node/2034589285",
         "amenity": "event_toilet",
         "name": "Event Toilet 4",
-        "queue": 18
+        "queue": 11
       },
       "geometry": {
         "type": "Point",
@@ -627,7 +627,7 @@
         "@id": "node/2034627682",
         "amenity": "event_toilet",
         "name": "Event Toilet 13",
-        "queue": 17
+        "queue": 1
       },
       "geometry": {
         "type": "Point",
@@ -644,7 +644,7 @@
         "@id": "node/2034631483",
         "amenity": "event_toilet",
         "name": "Event Toilet 14",
-        "queue": 19
+        "queue": 1
       },
       "geometry": {
         "type": "Point",
@@ -848,7 +848,7 @@
         "@id": "node/2034661264",
         "amenity": "event_toilet",
         "name": "Event Toilet 26",
-        "queue": 18
+        "queue": 7
       },
       "geometry": {
         "type": "Point",
