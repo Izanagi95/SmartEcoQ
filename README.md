@@ -40,8 +40,8 @@ TBD
 
 ---
 
-## 🛠️ Installation
-
+## 🛠️ Installation and Deploy
+### Python Deploy
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your-username/SmartEcoQ.git
@@ -62,19 +62,34 @@ TBD
 4. **Add API Keys**:
    - Create a `.env` file in the root directory and add your API keys:
      ```env
-     IBM_API_KEY=your_ibm_api_key
+     API_KEY=your_ibm_api_key
      IBM_PROJECT_ID=your_ibm_project_id
-     MAP_API_KEY=your_map_service_api_key
+     GRAPHHOPPER_API_KEY=your_graphhopper_map_service_api_key
      ```
+5. **Run the Application**:
+   ```bash
+   streamlit run app.py
+   ```
+### Docker Deploy
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/SmartEcoQ.git
+   cd SmartEcoQ
+   ```
+
+2. **Create image and run containerized application**:
+   ```bash
+   docker build -t smart_ecoq .
+   docker run -it --rm --name smart_eco_q  -p 8501:8501 smart_ecoq 
+   ```
 
 ---
 
 ## 🚀 Usage
 
 1. **Run the Application**:
-   ```bash
-   streamlit run app.py
-   ```
+   - Go to http://localhost:8501/
 
 2. **Try the Features**:
    - Interact with the event chatbot.
@@ -91,7 +106,7 @@ TBD
 - **Frontend**: Streamlit
 - **Maps Integration**: Folium, Graphhopper
 - **Database**: SQLite3
-- **Other**: QR Code Decoder, OpenCV
+- **Other**: QR Code Decoder, OpenCV, Docker
 
 ---
 
