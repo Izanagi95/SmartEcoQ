@@ -63,7 +63,7 @@ TBD
    - Create a `.env` file in the root directory and add your API keys:
      ```env
      API_KEY=your_ibm_api_key
-     IBM_PROJECT_ID=your_ibm_project_id
+     PROJECT_ID=your_ibm_project_id
      GRAPHHOPPER_API_KEY=your_graphhopper_map_service_api_key
      ```
 5. **Run the Application**:
