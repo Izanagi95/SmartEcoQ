@@ -23,7 +23,7 @@ This Proof of Concept (PoC) is tailored for **Lucca Comics**, leveraging existin
 
 ## 🏗️ Architecture
 
-TBD
+![SmartEcoQ Architecture](https://github.com/Gabbosaur/SmartEcoQ/blob/main/images/project/smartecoqueue-architecture-white-bg.png)
 
 ---
 
