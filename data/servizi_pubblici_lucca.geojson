@@ -148,7 +148,7 @@
         "toilets:disposal": "flush",
         "toilets:position": "seated",
         "toilets:wheelchair": "no",
-        "queue": 8
+        "queue": 1
       },
       "geometry": {
         "type": "Point",
@@ -172,7 +172,7 @@
         "toilets:disposal": "flush",
         "toilets:position": "seated",
         "toilets:wheelchair": "limited",
-        "queue": 16
+        "queue": 5
       },
       "geometry": {
         "type": "Point",
@@ -221,7 +221,7 @@
         "toilets:disposal": "flush",
         "toilets:position": "seated",
         "toilets:wheelchair": "yes",
-        "queue": 18
+        "queue": 1
       },
       "geometry": {
         "type": "Point",
@@ -306,7 +306,7 @@
         "toilets:disposal": "flush",
         "toilets:position": "seated",
         "toilets:wheelchair": "yes",
-        "queue": 20
+        "queue": 1
       },
       "geometry": {
         "type": "Point",
@@ -474,7 +474,7 @@
         "@id": "node/2034589285",
         "amenity": "event_toilet",
         "name": "Event Toilet 4",
-        "queue": 11
+        "queue": 3
       },
       "geometry": {
         "type": "Point",
@@ -576,7 +576,7 @@
         "@id": "node/2034617655",
         "amenity": "event_toilet",
         "name": "Event Toilet 10",
-        "queue": 3
+        "queue": 6
       },
       "geometry": {
         "type": "Point",
@@ -661,7 +661,7 @@
         "@id": "node/2034633796",
         "amenity": "event_toilet",
         "name": "Event Toilet 15",
-        "queue": 12
+        "queue": 5
       },
       "geometry": {
         "type": "Point",
