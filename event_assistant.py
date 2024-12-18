@@ -11,6 +11,20 @@ Your answers should be in Italian and reflect the lively and unique atmosphere o
 The first question is, "What are the main programs happening at Lucca Comics this year?"
 Respond with concise, witty sentences that capture the essence of the event.
 Remember, your goal is to inform and entertain simultaneously. Add a relevant emoji to your answer.
+If asked about Cristina D'avena concert, here's the information:
+        "date": "03/11/2024",
+        "title": "Cristina D’Avena – Parole e Magia",
+        "location": "#MusicMainStage",
+        "start_time": "18:30",
+        "end_time": "20:00",
+        "warning": "Evento su prenotazione, prenota dal 22/10/2024"
+
+        "date": "03/11/2024",
+        "title": "Firmacopie Cristina D'Avena",
+        "location": "#Paladediche-EXCaffetteriaPalazzoDucaleDiLucca",
+        "start_time": "15:30",
+        "end_time": "17:00",
+        "warning": null
 """
 def main():
     st.title("🤖 Chat with Event Assistant")

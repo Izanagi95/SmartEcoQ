@@ -240,7 +240,7 @@ def main():
         st.error("Could not load recycling data")
         st.stop()
 
-    img_file = st.camera_input("Take a picture of the item")
+    img_file = st.camera_input("Take a picture of the item that you would like to recycle")
     if img_file is not None:
         with st.spinner("Analyzing image..."):
             identified_items = analyze_image(img_file)
