@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/67629a34-37d9-46d9-8167-322ff6183113)
 # SmartEcoQ
 
 **Smart Crowds, Clean Cities: AI for a Sustainable Future!**
@@ -121,6 +121,8 @@ For the purposes of this demonstration, we have included the .env file in the re
 Video: TBD
 
 Slides: TBD
+
+Live demo: https://smartecoq.streamlit.app/
 
 ---
 
