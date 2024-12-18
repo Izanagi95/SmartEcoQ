@@ -9,8 +9,13 @@ import polyline
 from dotenv import load_dotenv
 import geocoder
 from geopy.geocoders import Nominatim
+from geopy.exc import GeopyError
+import time
+
 
 load_dotenv()
+location_cache = {}
+
 
 def get_current_coordinates_using_IP():
     g = geocoder.ip('me')  # Detects your current IP
@@ -28,14 +33,31 @@ def get_street_from_coordinates(coordinates):
     else:
         return ""
     
-def get_lat_lon(place_name):
+def get_lat_lon(place_name, max_retries=5, retry_delay=2):
     geolocator = Nominatim(user_agent="streamlit_map_app")
-    location = geolocator.geocode(place_name + ", lucca")
-    
-    if location:
-        return location.latitude, location.longitude
-    else:
-        return None
+
+    # Check if the place_name is already in the cache
+    if place_name in location_cache:
+        print(f"Using cached coordinates for {place_name}")
+        return location_cache[place_name]
+
+    location = None
+    for attempt in range(max_retries):
+        try:
+            location = geolocator.geocode(place_name + ", lucca")
+            if location:
+                # Cache the result
+                coordinates = (location.latitude, location.longitude)
+                location_cache[place_name] = coordinates
+                return coordinates
+        except GeopyError as e:
+            print(f"Attempt {attempt + 1} failed: {e}")
+        time.sleep(retry_delay)
+
+    # Cache None for places not found to avoid retrying in the future
+    location_cache[place_name] = None
+    print("Failed to retrieve location after maximum retries.")
+    return None
 
 def write_formatted_address(address: str) -> str:
     # Split the address into components
