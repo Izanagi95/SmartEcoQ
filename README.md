@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/67629a34-37d9-46d9-8167-322ff6183113)
 # SmartEcoQ
 
 **Smart Crowds, Clean Cities: AI for a Sustainable Future!**
