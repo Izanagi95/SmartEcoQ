@@ -110,9 +110,9 @@ TBD
 
 ---
 
-## ⚠️ Disclaimer (forse da cancellare)
+## ⚠️ Disclaimer
 
-For the purposes of this demonstration, we have included the .env file in the repository to simplify the setup process for the jury. We acknowledge this is a security risk and not a best practice for production environments. Sensitive configurations, such as API keys or credentials, should never be stored directly in the repository. Instead, consider using secure secret management solutions like Vault, AWS Secrets Manager, or environment variable management via CI/CD pipelines.
+For the purposes of this demonstration, we have included the .env file in the repository to simplify the setup process for the jury. We acknowledge this is a security risk and not a best practice for production environments. Sensitive configurations, such as API keys or credentials, should never be stored directly in the repository.
 
 ---
 
