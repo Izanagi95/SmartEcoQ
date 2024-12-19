@@ -87,7 +87,7 @@ This Proof of Concept (PoC) is tailored for **Lucca Comics**, leveraging existin
 
 ## 🚀 Usage
 
-1. **Run the Application**:
+1. **Access the Application**:
    - Go to http://localhost:8501/
 
 2. **Try the Features**:
