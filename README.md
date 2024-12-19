@@ -117,9 +117,9 @@ For the purposes of this demonstration, we have included the .env file in the re
 
 ## 📚 Resources
 
-Video: TBD
+Video: [here](https://www.youtube.com/watch?v=s3kstgoThhY)
 
-Slides: TBD
+Slides: [here](https://docs.google.com/presentation/d/119SGy50SXxGwsVNqhemDVZbvoizySYkYrjq2ScCaTsg/edit?usp=sharing)
 
 Live demo: https://smartecoq.streamlit.app/
 
