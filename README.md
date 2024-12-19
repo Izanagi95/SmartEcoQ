@@ -40,7 +40,7 @@ This Proof of Concept (PoC) is tailored for **Lucca Comics**, leveraging existin
 ---
 
 ## 🛠️ Installation and Deploy
-### Python Deploy
+### Python (>=3.12) Deploy
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your-username/SmartEcoQ.git
