@@ -78,7 +78,10 @@ TBD
 
 2. **Try the Features**:
    - Interact with the event chatbot.
-   - Scan QR codes at stand locations to book your turn and monitor the queues.
+   - Scan QR codes at stand locations to book your turn and monitor the queues. Use the sample QR code image present in
+   ```bash
+   images/test-images/sample_qr_code.png
+   ```
    - Sort waste with the gamified Recycling Assistant.
    - Use the navigation feature to find points of interest and find the way to reach the desired destination.
 
