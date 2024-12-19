@@ -30,7 +30,7 @@ This Proof of Concept (PoC) is tailored for **Lucca Comics**, leveraging existin
 ## ✨ Key Features
 1. **Event Chatbot**
    - Provides instant answers to event-related queries.
-2. **Queue Management**
+2. **Queue Management (Booking System)**
    - Allows attendees to book their place in queues via QR codes, monitor queue status, and plan activities effectively.
 3. **Eco-Friendly Waste Sorting (Recycling Assistant)**
    - Gamified waste disposal system that educates and engages users.
