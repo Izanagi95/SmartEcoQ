@@ -62,7 +62,7 @@ def analyze_image(image_data):
                         }]
                     }
                 ],
-                "project_id": "5fcc55d2-43bf-4bae-a2f9-5b4ce2885c77",
+                "project_id": utils.PROJECT_ID,
                 "model_id": "mistralai/pixtral-12b",
                 "max_tokens": 900,
                 "temperature": 0,
@@ -127,7 +127,7 @@ def get_recycling_advice(context, items):
             "repetition_penalty": 1
         },
         "model_id": "meta-llama/llama-3-1-70b-instruct",
-        "project_id": "2edf768f-9827-4456-8f8f-9322f75f2314",
+        "project_id": utils.PROJECT_ID,
         "moderations": {
             "hap": {
                 "input": {

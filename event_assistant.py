@@ -84,7 +84,7 @@ def main():
                     "content": SYSTEM_PROMPT
                     }, model_messages[-1]
                 ],
-                "project_id": "5fcc55d2-43bf-4bae-a2f9-5b4ce2885c77",
+                "project_id": utils.PROJECT_ID,
                 "model_id": "meta-llama/llama-3-1-70b-instruct",
                 "decoding_method": "greedy",
                 "repetition_penalty": 1,

@@ -1,4 +1,3 @@
-
 # SmartEcoQ
 
 **Smart Crowds, Clean Cities: AI for a Sustainable Future!**
@@ -24,14 +23,14 @@ This Proof of Concept (PoC) is tailored for **Lucca Comics**, leveraging existin
 
 ## 🏗️ Architecture
 
-TBD
+![SmartEcoQ Architecture](https://github.com/Gabbosaur/SmartEcoQ/blob/main/images/project/smartecoqueue-architecture-white-bg.png)
 
 ---
 
 ## ✨ Key Features
 1. **Event Chatbot**
    - Provides instant answers to event-related queries.
-2. **Queue Management**
+2. **Queue Management (Booking System)**
    - Allows attendees to book their place in queues via QR codes, monitor queue status, and plan activities effectively.
 3. **Eco-Friendly Waste Sorting (Recycling Assistant)**
    - Gamified waste disposal system that educates and engages users.
@@ -40,8 +39,8 @@ TBD
 
 ---
 
-## 🛠️ Installation
-
+## 🛠️ Installation and Deploy
+### Python (>=3.12) Deploy
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your-username/SmartEcoQ.git
@@ -62,19 +61,34 @@ TBD
 4. **Add API Keys**:
    - Create a `.env` file in the root directory and add your API keys:
      ```env
-     IBM_API_KEY=your_ibm_api_key
-     IBM_PROJECT_ID=your_ibm_project_id
-     MAP_API_KEY=your_map_service_api_key
+     API_KEY=your_ibm_api_key
+     PROJECT_ID=your_ibm_project_id
+     GRAPHHOPPER_API_KEY=your_graphhopper_map_service_api_key
      ```
+5. **Run the Application**:
+   ```bash
+   streamlit run app.py
+   ```
+### Docker Deploy
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/SmartEcoQ.git
+   cd SmartEcoQ
+   ```
+
+2. **Create image and run containerized application**:
+   ```bash
+   docker build -t smart_ecoq .
+   docker run -it --rm --name smart_eco_q  -p 8501:8501 smart_ecoq 
+   ```
 
 ---
 
 ## 🚀 Usage
 
-1. **Run the Application**:
-   ```bash
-   streamlit run app.py
-   ```
+1. **Access the Application**:
+   - Go to http://localhost:8501/
 
 2. **Try the Features**:
    - Interact with the event chatbot.
@@ -94,21 +108,23 @@ TBD
 - **Frontend**: Streamlit
 - **Maps Integration**: Folium, Graphhopper
 - **Database**: SQLite3
-- **Other**: QR Code Decoder, OpenCV
+- **Other**: QR Code Decoder, OpenCV, Docker
 
 ---
 
-## ⚠️ Disclaimer (forse da cancellare)
+## ⚠️ Disclaimer
 
-For the purposes of this demonstration, we have included the .env file in the repository to simplify the setup process for the jury. We acknowledge this is a security risk and not a best practice for production environments. Sensitive configurations, such as API keys or credentials, should never be stored directly in the repository. Instead, consider using secure secret management solutions like Vault, AWS Secrets Manager, or environment variable management via CI/CD pipelines.
+For the purposes of this demonstration, we have included the .env file in the repository to simplify the setup process for the jury. We acknowledge this is a security risk and not a best practice for production environments. Sensitive configurations, such as API keys or credentials, should never be stored directly in the repository.
 
 ---
 
 ## 📚 Resources
 
-Video: TBD
+Video: [here](https://www.youtube.com/watch?v=s3kstgoThhY)
 
-Slides: TBD
+Slides: [here](https://docs.google.com/presentation/d/119SGy50SXxGwsVNqhemDVZbvoizySYkYrjq2ScCaTsg/edit?usp=sharing)
+
+Live demo: https://smartecoq.streamlit.app/
 
 ---
 

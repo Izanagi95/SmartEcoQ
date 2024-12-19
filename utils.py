@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_TOKEN = ""
+PROJECT_ID = os.getenv('PROJECT_ID')
 
 def setup():
     global API_TOKEN  # Dichiara che stai modificando la variabile globale
