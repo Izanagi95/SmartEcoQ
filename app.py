@@ -11,7 +11,7 @@ def main():
     # Configura il titolo della scheda
     st.set_page_config(page_title="SmartEcoQ", page_icon="images/smartecoq-favicon/favicon-32x32.png")
     st.sidebar.title("🌱 SmartEcoQ")
-    page = st.sidebar.radio("Select a page:", ["Event Assistant", "Booking", "Recycling Assistant", "Navigator"])
+    page = st.sidebar.radio("Select a page:", ["Event Assistant", "Booking (Disabled)", "Recycling Assistant", "Navigator"])
     if "setup" not in st.session_state:
         st.session_state.setup = True
         setup()
@@ -20,7 +20,7 @@ def main():
         "Event Assistant": event_assistant,
         "Recycling Assistant": recycling_assistant,
         "Navigator": navigator,
-        "Booking": booking
+        #"Booking": booking
     }
 
     # Execute the selected page's function
